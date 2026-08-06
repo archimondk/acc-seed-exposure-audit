@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "description": "Frozen inputs required to reproduce the core workflow, adjudicated Claude evidence audit, and rev13 Amendments 4-5.",
+  "sha256": {
+    "data/bindex_network/bindex_edges_1304.csv": "0ac37e507e763b5d20e78571df372ac14350e95b4d19c0360d1324ed35018d63",
+    "data/bindex_network/rACC_399_fullSTRING.csv": "9c9a18d8937b83f1da79cbe8f8e6d6870c30b267ed410fbcc283edc0507c4ab8",
+    "data/bindex_network/Sactivity_124_v1.csv": "5d371ff5d8b8261f1b3a091131506be67fb0a39f39563c333a0bcbd9f5ade475",
+    "data/bindex_network/NCI60_potency_124.csv": "60e5e60e5211990b659b807181d968cb3c06e9c0889635d12d5fea15fb2bb367",
+    "data/bindex_network/S_external_curated.csv": "31b01d479ef24d51d2b92de3345ddb6050fdd7bba2756fa5fde47ded6a1f35d5",
+    "data/ACC_MIPE5_ranked_by_mean_ZAUC.csv": "8f2c8ae98be1b854b5d85dbef94329cddf5949ee871d9a6e1034d4f2d5dd8559",
+    "data/ACC_P0.5C_gene_weights_v1.csv": "a513b96cf50ee10041068ab621ba978acfdf0c89116df32f86a9fcbc043a3897",
+    "data/evidence/evidence_labels_v2.csv": "8e01712a00c5f25a5b20d1fd61e81583e8244859b79cdda36d613ac1a2c918f5",
+    "independent_review/claude_blinded_evidence_review_v1/claude_review_locked.csv": "02d9e1c0d987b7e092f901c8bb3e69be9a6cb38e9cf88b12d5f6ea8be3da2c09",
+    "independent_review/cabozantinib_b02_rerate/claude_b02_rerated.csv": "379d5ffc1992fd6896afa4d5632ce953d02d7df1d11150a586f4d3a6ff3ae588",
+    "9606.protein.info.v12.0.txt.gz": "144de4b0d98c6a7dfde6ddc2591cf88657f27b989eadff4f501450c3ed1f0f1c",
+    "9606.protein.links.v12.0.txt.gz": "3e22f32572211aa341d5b4bd08d30c32e693e294603202120936872f87719d4f",
+    "experiments/amendment4_leave_one_seed_out_protocol_v1.md": "6de390b48185acc90703b249d444586ca0680850d9180126102afeb847d753d4",
+    "experiments/amendment5_seed_excluded_scoring_protocol_v1.md": "6c124dc5ee2f3c77634623858a8afa9453bafb3b20d48bea66526b0b587354c2"
+  }
+}
