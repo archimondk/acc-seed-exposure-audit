@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<svg width="1920" height="1320" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <marker id="arrow" markerHeight="9" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="9" refY="4.5">
+   <path d="m0,0l10,4.5l-10,4.5l0,-9z" fill="#44546A" id="svg_1"/>
+  </marker>
+  <marker id="arrow_light" markerHeight="9" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="9" refY="4.5">
+   <path d="m0,0l10,4.5l-10,4.5l0,-9z" fill="#7E8B99" id="svg_2"/>
+  </marker>
+  <filter height="140%" id="shadow" width="130%" x="-15%" y="-15%">
+   <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="3"/>
+   <feOffset dx="0" dy="2" in="blur" result="offsetBlur"/>
+   <feMerge>
+    <feMergeNode in="offsetBlur"/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#FFFFFF" height="1320" width="1920" x="0" y="0" id="svg_3"/>
+  <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" text-anchor="start" x="60" y="48" id="svg_4">
+    
+   <tspan dy="0" x="60" id="svg_5">Figure 1. Study workflow and analysis chronology</tspan>
+  </text>
+  <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" text-anchor="start" x="60" y="80" id="svg_6">
+    
+   <tspan dy="0" x="60" id="svg_7">ACC network-propagation drug-ranking audit with explicit seed-exposure controls</tspan>
+  </text>
+  <line stroke="#D8E1E8" stroke-width="1.2" x1="45" x2="1875" y1="112" y2="112" id="svg_8"/>
+  <rect fill="#FFFFFF" height="34" rx="17" width="245" x="55" y="95" id="svg_9"/>
+  <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" x="177.5" y="119" id="svg_10">
+    
+   <tspan dy="0" x="177.5" id="svg_11">DATA INPUTS</tspan>
+  </text>
+  <g id="input_1">
+   <rect fill="#EEF4F8" height="145" rx="14" ry="14" stroke="#B9C9D5" stroke-width="1.5" width="342" x="45" y="138" id="svg_12"/>
+   <rect fill="#2F6B9A" height="145" rx="4" width="8" x="45" y="138" id="svg_13"/>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" x="65" y="169" id="svg_14">
+      
+    <tspan dy="0" x="65" id="svg_15">Pharmacogenomic association</tspan>
+      
+    <tspan dy="21.28" x="65" id="svg_16">map</tspan>
+    </text>
+   <circle cx="67" cy="218" fill="#2F6B9A" r="3.6" id="svg_17"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="81" y="224" id="svg_18">
+      
+    <tspan dy="0" x="81" id="svg_19">124 FDA-approved anticancer drugs</tspan>
+    </text>
+   <circle cx="67" cy="245" fill="#2F6B9A" r="3.6" id="svg_20"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="81" y="251" id="svg_21">
+      
+    <tspan dy="0" x="81" id="svg_22">399 genes; 1,304 drug–gene associations</tspan>
+    </text>
+  </g>
+  <g id="input_2">
+   <rect fill="#EEF4F8" height="145" rx="14" ry="14" stroke="#B9C9D5" stroke-width="1.5" width="342" x="411" y="138" id="svg_23"/>
+   <rect fill="#2B7A78" height="145" rx="4" width="8" x="411" y="138" id="svg_24"/>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" x="431" y="169" id="svg_25">
+      
+    <tspan dy="0" x="431" id="svg_26">ACC disease-context</tspan>
+      
+    <tspan dy="21.28" x="431" id="svg_27">module</tspan>
+    </text>
+   <circle cx="433" cy="218" fill="#2B7A78" r="3.6" id="svg_28"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="447" y="224" id="svg_29">
+      
+    <tspan dy="0" x="447" id="svg_30">50-gene module → 45 disease-only seeds</tspan>
+    </text>
+   <circle cx="433" cy="245" fill="#2B7A78" r="3.6" id="svg_31"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="447" y="251" id="svg_32">
+      
+    <tspan dy="0" x="447" id="svg_33">G/R/P/L/S weighting; therapy-response</tspan>
+      
+    <tspan dy="19.23" x="447" id="svg_34">genes excluded</tspan>
+    </text>
+  </g>
+  <g id="input_3">
+   <rect fill="#EEF4F8" height="145" rx="14" ry="14" stroke="#B9C9D5" stroke-width="1.5" width="342" x="777" y="138" id="svg_35"/>
+   <rect fill="#4C7C9E" height="145" rx="4" width="8" x="777" y="138" id="svg_36"/>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" x="797" y="169" id="svg_37">
+      
+    <tspan dy="0" x="797" id="svg_38">STRING v12.0</tspan>
+      
+    <tspan dy="21.28" x="797" id="svg_39">interactome</tspan>
+    </text>
+   <circle cx="799" cy="218" fill="#4C7C9E" r="3.6" id="svg_40"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="813" y="224" id="svg_41">
+      
+    <tspan dy="0" x="813" id="svg_42">19,701 symbols; 929,472 undirected edges</tspan>
+    </text>
+   <circle cx="799" cy="245" fill="#4C7C9E" r="3.6" id="svg_43"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="813" y="251" id="svg_44">
+      
+    <tspan dy="0" x="813" id="svg_45">Combined score ≥400</tspan>
+    </text>
+  </g>
+  <g id="input_4">
+   <rect fill="#EEF4F8" height="145" rx="14" ry="14" stroke="#B9C9D5" stroke-width="1.5" width="342" x="1143" y="138" id="svg_46"/>
+   <rect fill="#557A46" height="145" rx="4" width="8" x="1143" y="138" id="svg_47"/>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" x="1163" y="169" id="svg_48">
+      
+    <tspan dy="0" x="1163" id="svg_49">Drug-activity data</tspan>
+    </text>
+   <circle cx="1165" cy="218" fill="#557A46" r="3.6" id="svg_50"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="1179" y="224" id="svg_51">
+      
+    <tspan dy="0" x="1179" id="svg_52">NCATS MIPE ACC screen</tspan>
+    </text>
+   <circle cx="1165" cy="245" fill="#557A46" r="3.6" id="svg_53"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="1179" y="251" id="svg_54">
+      
+    <tspan dy="0" x="1179" id="svg_55">CellMiner NCI-60 pan-cancer potency</tspan>
+    </text>
+  </g>
+  <g id="input_5">
+   <rect fill="#EEF4F8" height="145" rx="14" ry="14" stroke="#B9C9D5" stroke-width="1.5" width="342" x="1509" y="138" id="svg_56"/>
+   <rect fill="#80614A" height="145" rx="4" width="8" x="1509" y="138" id="svg_57"/>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" x="1529" y="169" id="svg_58">
+      
+    <tspan dy="0" x="1529" id="svg_59">Evaluation resources</tspan>
+    </text>
+   <circle cx="1531" cy="218" fill="#80614A" r="3.6" id="svg_60"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="1545" y="224" id="svg_61">
+      
+    <tspan dy="0" x="1545" id="svg_62">ACC_CellMinerCDB and literature evidence</tspan>
+    </text>
+   <circle cx="1531" cy="245" fill="#80614A" r="3.6" id="svg_63"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="16.3" font-weight="normal" text-anchor="start" x="1545" y="251" id="svg_64">
+      
+    <tspan dy="0" x="1545" id="svg_65">TCGA/cBioPortal breast-cancer control</tspan>
+    </text>
+  </g>
+  <line stroke="#D8E1E8" stroke-width="1.2" x1="45" x2="1875" y1="325" y2="325" id="svg_66"/>
+  <rect fill="#FFFFFF" height="34" rx="17" width="245" x="55" y="308" id="svg_67"/>
+  <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" x="177.5" y="332" id="svg_68">
+    
+   <tspan dy="0" x="177.5" id="svg_69">CORE WORKFLOW</tspan>
+  </text>
+  <g id="input_connectors">
+   <path d="m216,283l0,54l-46,0l0,18" fill="none" marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" id="svg_70"/>
+   <path d="m582,283l0,54l-135,0l0,18" fill="none" marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" id="svg_71"/>
+   <path d="m948,283l0,54l-228,0l0,18" fill="none" marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" id="svg_72"/>
+   <path d="m1314,283l0,237l1,0l0,20" fill="none" marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" id="svg_73"/>
+  </g>
+  <g id="core_recovery">
+   <rect fill="#FFFFFF" filter="url(#shadow)" height="145" rx="16" ry="16" stroke="#2F6B9A" stroke-width="1.5" width="235" x="55" y="355" id="svg_74"/>
+   <g id="svg_75">
+    <rect fill="#2F6B9A" height="30" rx="15" width="102" x="71" y="369" id="svg_76"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="122" y="390" id="svg_77">
+        
+     <tspan dy="0" x="122" id="svg_78">ORIGINAL</tspan>
+      </text>
+   </g>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" x="73" y="425" id="svg_79">
+      
+    <tspan dy="0" x="73" id="svg_80">Network recovery</tspan>
+      
+    <tspan dy="25.63" x="73" id="svg_81">and quality control</tspan>
+    </text>
+   <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" x="73" y="475" id="svg_82">
+      
+    <tspan dy="0" x="73" id="svg_83">Exact edge / identifier audit</tspan>
+    </text>
+  </g>
+  <g id="core_seed">
+   <rect fill="#FFFFFF" filter="url(#shadow)" height="145" rx="16" ry="16" stroke="#2F6B9A" stroke-width="1.5" width="245" x="320" y="355" id="svg_84"/>
+   <g id="svg_85">
+    <rect fill="#2F6B9A" height="30" rx="15" width="102" x="336" y="369" id="svg_86"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="387" y="390" id="svg_87">
+        
+     <tspan dy="0" x="387" id="svg_88">ORIGINAL</tspan>
+      </text>
+   </g>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" x="338" y="425" id="svg_89" transform="matrix(1 0 0 1 -6 0)">
+      
+    <tspan dy="0" x="338" id="svg_90">ACC seed construction</tspan>
+      
+    <tspan dy="25.63" x="338" id="svg_91">45 weighted seeds</tspan>
+    </text>
+   <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" x="338" y="475" id="svg_92" transform="matrix(1 0 0 1 -8 0)">
+      
+    <tspan dy="0" x="338" id="svg_93">Disease-biology-only restart vector</tspan>
+    </text>
+  </g>
+  <g id="core_rwr">
+   <rect fill="#FFFFFF" filter="url(#shadow)" height="145" rx="16" ry="16" stroke="#2F6B9A" stroke-width="1.5" width="250" x="595" y="355" id="svg_94"/>
+   <g id="svg_95">
+    <rect fill="#2F6B9A" height="30" rx="15" width="102" x="611" y="369" id="svg_96"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="662" y="390" id="svg_97">
+        
+     <tspan dy="0" x="662" id="svg_98">ORIGINAL</tspan>
+      </text>
+   </g>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" x="613" y="425" id="svg_99" transform="matrix(1 0 0 1 -4 -1)">
+      
+    <tspan dy="0" x="613" id="svg_100">Random walk with restart</tspan>
+      
+    <tspan dy="25.63" x="613" id="svg_101">STRING; α = 0.40</tspan>
+    </text>
+   <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" x="613" y="475" id="svg_102">
+      
+    <tspan dy="0" x="613" id="svg_103">Probability-conserving steady state</tspan>
+    </text>
+  </g>
+  <g id="core_gene_relevance">
+   <rect fill="#FFFFFF" filter="url(#shadow)" height="145" rx="16" ry="16" stroke="#2F6B9A" stroke-width="1.5" width="260" x="875" y="355" id="svg_104"/>
+   <g id="svg_105">
+    <rect fill="#2F6B9A" height="30" rx="15" width="102" x="891" y="369" id="svg_106"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="942" y="390" id="svg_107">
+        
+     <tspan dy="0" x="942" id="svg_108">ORIGINAL</tspan>
+      </text>
+   </g>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" x="893" y="425" id="svg_109">
+      
+    <tspan dy="0" x="893" id="svg_110">Projection to 399 genes</tspan>
+      
+    <tspan dy="25.63" x="893" id="svg_111">ACC relevance r_ACC(g)</tspan>
+    </text>
+   <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" x="893" y="475" id="svg_112" transform="matrix(1 0 0 1 -3 0)">
+      
+    <tspan dy="0" x="893" id="svg_113">Primary: column-normalized + min–max</tspan>
+    </text>
+  </g>
+  <g id="core_context_score" transform="matrix(1.00652 0 0 0.961844 -7.59445 12.7059)">
+   <rect fill="#F7FBFF" filter="url(#shadow)" height="130" rx="16" ry="16" stroke="#2F6B9A" stroke-width="1.5" width="300" x="1165" y="333" id="svg_114"/>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="20.5" font-weight="bold" text-anchor="start" x="1183" y="366" id="svg_115">
+      
+    <tspan dy="0" x="1183" id="svg_116">Drug context score</tspan>
+      
+    <tspan dy="21.53" x="1183" id="svg_117">C_ACC(d)</tspan>
+    </text>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" x="1183" y="413" id="svg_118">
+      
+    <tspan dy="0" x="1183" id="svg_119">Shrinkage-regularized mean over each</tspan>
+      
+    <tspan dy="20.63" x="1183" id="svg_120">drug’s associated gene set (k = 3)</tspan>
+    </text>
+   <text fill="#B65050" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="start" x="1183" y="461" id="svg_121" transform="matrix(1 0 0 1 -1 -9)">
+      
+    <tspan dy="0" x="1183" id="svg_122">May include directly associated seeds</tspan>
+    </text>
+  </g>
+  <g id="core_activity_residual" transform="matrix(0.990754 0 0 0.907692 10.7719 48)">
+   <rect fill="#F8FBF5" filter="url(#shadow)" height="130" rx="16" ry="16" stroke="#557A46" stroke-width="1.5" width="300" x="1165" y="520" id="svg_123"/>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="start" x="1183" y="556" id="svg_124" transform="matrix(1 0 0 1 -8 -4)">
+      
+    <tspan dy="0" x="1183" id="svg_125">ACC-relative activity residual</tspan>
+    </text>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="start" x="1183" y="592" id="svg_126" transform="matrix(1 0 0 1 0 -10)">
+      
+    <tspan dy="0" x="1183" id="svg_127">MIPE ACC potency regressed on</tspan>
+      
+    <tspan dy="21.25" x="1183" id="svg_128">NCI-60 pan-cancer potency</tspan>
+    </text>
+   <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" x="1183" y="632" id="svg_129" transform="translate(11 -5) matrix(1 0 0 1 -14 0)">
+      
+    <tspan dy="0" x="1183" id="svg_130">Pan-cancer adjustment; not tissue selectivity</tspan>
+    </text>
+  </g>
+  <g id="core_adrs">
+   <rect fill="#F4F8FC" filter="url(#shadow)" height="190" rx="18" ry="18" stroke="#17324D" stroke-width="1.5" width="320" x="1545" y="410" id="svg_131"/>
+   <g id="svg_132">
+    <rect fill="#17324D" height="30" rx="15" width="145" x="1563" y="425" id="svg_133"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="1635.5" y="446" id="svg_134">
+        
+     <tspan dy="0" x="1635.5" id="svg_135">LOCKED PRIMARY</tspan>
+      </text>
+   </g>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" text-anchor="start" x="1565" y="477" id="svg_136">
+      
+    <tspan dy="0" x="1565" id="svg_137">ADRS_comp ranking</tspan>
+    </text>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" x="1565" y="513" id="svg_138">
+      
+    <tspan dy="0" x="1565" id="svg_139">0.50·P(C_ACC) + 0.50·P(residual)</tspan>
+      
+    <tspan dy="22.5" x="1565" id="svg_140">108 complete-case drugs</tspan>
+    </text>
+   <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="15.2" font-weight="normal" text-anchor="start" x="1565" y="572" id="svg_141">
+      
+    <tspan dy="0" x="1565" id="svg_142">16 MIPE-missing drugs: context-only list</tspan>
+    </text>
+  </g>
+  <g id="core_arrows">
+   <line marker-end="url(#arrow)" stroke="#44546A" stroke-width="2.4" x1="290" x2="320" y1="427" y2="427" id="svg_143"/>
+   <line marker-end="url(#arrow)" stroke="#44546A" stroke-width="2.4" x1="565" x2="595" y1="427" y2="427" id="svg_144"/>
+   <line marker-end="url(#arrow)" stroke="#44546A" stroke-width="2.4" x1="845" x2="875" y1="427" y2="427" id="svg_145"/>
+   <line marker-end="url(#arrow)" stroke="#44546A" stroke-width="2.4" x1="1135" x2="1165" y1="427" y2="398" id="svg_146"/>
+   <path d="m1465,398l46,0l0,75l34,0" fill="none" marker-end="url(#arrow)" stroke="#44546A" stroke-width="2.4" id="svg_147"/>
+   <path d="m1465,585l46,0l0,-40l34,0" fill="none" marker-end="url(#arrow)" stroke="#44546A" stroke-width="2.4" id="svg_148"/>
+  </g>
+  <line stroke="#D8E1E8" stroke-width="1.2" x1="45" x2="1875" y1="680" y2="680" id="svg_149"/>
+  <rect fill="#FFFFFF" height="34" rx="17" width="425.8" x="55" y="663" id="svg_150"/>
+  <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" x="267.9" y="687" id="svg_151">
+    
+   <tspan dy="0" x="267.9" id="svg_152">AUDIT BRANCHES AND ANALYSIS STATUS</tspan>
+  </text>
+  <g id="audit_spine">
+   <path d="m1705,600l0,50l-745,0l0,54" fill="none" marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="2" id="svg_153"/>
+   <line stroke="#7E8B99" stroke-width="1.8" x1="90" x2="1830" y1="704" y2="704" id="svg_154"/>
+   <line marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" x1="330" x2="330" y1="704" y2="730" id="svg_155"/>
+   <line marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" x1="960" x2="960" y1="704" y2="730" id="svg_156"/>
+   <line marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" x1="1590" x2="1590" y1="704" y2="730" id="svg_157"/>
+  </g>
+  <g id="audit_method">
+   <rect fill="#FFFFFF" height="205" rx="16" ry="16" stroke="#2F6B9A" stroke-width="1.5" width="570" x="55" y="730" id="svg_158"/>
+   <rect fill="#2F6B9A" height="44" rx="16" ry="16" width="570" x="55" y="730" id="svg_159"/>
+   <rect fill="#2F6B9A" height="22" width="570" x="55" y="752" id="svg_160"/>
+   <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19.5" font-weight="bold" text-anchor="start" x="73" y="760" id="svg_161">
+      
+    <tspan dy="0" x="73" id="svg_162">Method-strengthening analyses</tspan>
+    </text>
+   <g id="svg_163">
+    <rect fill="#FFFFFF" height="30" rx="15" width="150" x="457" y="737" id="svg_164"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="532" y="758" id="svg_165">
+        
+     <tspan dy="0" x="532" id="svg_166">ORIGINAL</tspan>
+      </text>
+   </g>
+   <rect fill="#FFFFFF" height="30" opacity="0.94" rx="15" width="150" x="457" y="737" id="svg_167"/>
+   <text fill="#2F6B9A" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="532" y="758" id="svg_168">
+      
+    <tspan dy="0" x="532" id="svg_169">ORIGINAL</tspan>
+    </text>
+   <circle cx="77" cy="802" fill="#2F6B9A" r="3.6" id="svg_170"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="91" y="808" id="svg_171">
+      
+    <tspan dy="0" x="91" id="svg_172">Topology audit: degree, strength and PageRank</tspan>
+    </text>
+   <circle cx="77" cy="831" fill="#2F6B9A" r="3.6" id="svg_173"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="91" y="837" id="svg_174">
+      
+    <tspan dy="0" x="91" id="svg_175">10,000 degree-matched random-seed nulls</tspan>
+    </text>
+   <circle cx="77" cy="860" fill="#2F6B9A" r="3.6" id="svg_176"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="91" y="866" id="svg_177">
+      
+    <tspan dy="0" x="91" id="svg_178">Four propagation / normalization constructions</tspan>
+    </text>
+   <circle cx="77" cy="889" fill="#2F6B9A" r="3.6" id="svg_179"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="91" y="895" id="svg_180">
+      
+    <tspan dy="0" x="91" id="svg_181">Shrinkage and ADRS component-weight sensitivity</tspan>
+    </text>
+  </g>
+  <g id="audit_evidence">
+   <rect fill="#FFFFFF" height="205" rx="16" ry="16" stroke="#2F6B9A" stroke-width="1.5" width="570" x="675" y="730" id="svg_182"/>
+   <rect fill="#2F6B9A" height="44" rx="16" ry="16" width="570" x="675" y="730" id="svg_183"/>
+   <rect fill="#2F6B9A" height="22" width="570" x="675" y="752" id="svg_184"/>
+   <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19.5" font-weight="bold" text-anchor="start" x="693" y="760" id="svg_185">
+      
+    <tspan dy="0" x="693" id="svg_186">Evidence and validation boundary</tspan>
+    </text>
+   <g id="svg_187">
+    <rect fill="#FFFFFF" height="30" rx="15" width="150" x="1077" y="737" id="svg_188"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="1152" y="758" id="svg_189">
+        
+     <tspan dy="0" x="1152" id="svg_190">ORIGINAL</tspan>
+      </text>
+   </g>
+   <rect fill="#FFFFFF" height="30" opacity="0.94" rx="15" width="150" x="1077" y="737" id="svg_191"/>
+   <text fill="#2F6B9A" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="1152" y="758" id="svg_192">
+      
+    <tspan dy="0" x="1152" id="svg_193">ORIGINAL</tspan>
+    </text>
+   <circle cx="697" cy="802" fill="#2F6B9A" r="3.6" id="svg_194"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="711" y="808" id="svg_195">
+      
+    <tspan dy="0" x="711" id="svg_196">External ACC literature classified by evidence type</tspan>
+    </text>
+   <circle cx="697" cy="831" fill="#2F6B9A" r="3.6" id="svg_197"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="711" y="837" id="svg_198">
+      
+    <tspan dy="0" x="711" id="svg_199">ACC_CellMinerCDB cross-platform concordance only</tspan>
+    </text>
+   <circle cx="697" cy="860" fill="#2F6B9A" r="3.6" id="svg_200"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="711" y="866" id="svg_201">
+      
+    <tspan dy="0" x="711" id="svg_202">S_B-neighbor excluded after LOMCO failure</tspan>
+    </text>
+   <circle cx="697" cy="889" fill="#2F6B9A" r="3.6" id="svg_203"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="711" y="895" id="svg_204">
+      
+    <tspan dy="0" x="711" id="svg_205">No valid clinical negative comparator; AUC / calibration not</tspan>
+      
+    <tspan dy="20.3" x="711" id="svg_206">estimable</tspan>
+    </text>
+  </g>
+  <g id="audit_control">
+   <rect fill="#FFFFFF" height="205" rx="16" ry="16" stroke="#2D8C70" stroke-width="1.5" width="570" x="1295" y="730" id="svg_207"/>
+   <rect fill="#2D8C70" height="44" rx="16" ry="16" width="570" x="1295" y="730" id="svg_208"/>
+   <rect fill="#2D8C70" height="22" width="570" x="1295" y="752" id="svg_209"/>
+   <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19.5" font-weight="bold" text-anchor="start" x="1313" y="760" id="svg_210">
+      
+    <tspan dy="0" x="1313" id="svg_211">Outcome-blind positive control</tspan>
+    </text>
+   <g id="svg_212">
+    <rect fill="#FFFFFF" height="30" rx="15" width="150" x="1697" y="737" id="svg_213"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="1772" y="758" id="svg_214">
+        
+     <tspan dy="0" x="1772" id="svg_215">FROZEN</tspan>
+      </text>
+   </g>
+   <rect fill="#FFFFFF" height="30" opacity="0.94" rx="15" width="150" x="1697" y="737" id="svg_216"/>
+   <text fill="#2D8C70" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="1772" y="758" id="svg_217">
+      
+    <tspan dy="0" x="1772" id="svg_218">FROZEN</tspan>
+    </text>
+   <circle cx="1317" cy="802" fill="#2D8C70" r="3.6" id="svg_219"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="1331" y="808" id="svg_220">
+      
+    <tspan dy="0" x="1331" id="svg_221">ER-positive / HER2-negative breast-cancer seed</tspan>
+    </text>
+   <circle cx="1317" cy="831" fill="#2D8C70" r="3.6" id="svg_222"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="1331" y="837" id="svg_223">
+      
+    <tspan dy="0" x="1331" id="svg_224">Same graph, drug universe, scoring and null design</tspan>
+    </text>
+   <circle cx="1317" cy="860" fill="#2D8C70" r="3.6" id="svg_225"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="1331" y="866" id="svg_226">
+      
+    <tspan dy="0" x="1331" id="svg_227">Prespecified CDK4/6 recovery gate</tspan>
+    </text>
+   <circle cx="1317" cy="889" fill="#2D8C70" r="3.6" id="svg_228"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="1331" y="895" id="svg_229">
+      
+    <tspan dy="0" x="1331" id="svg_230">Gate failed; later found asymmetric RB1 exposure</tspan>
+    </text>
+  </g>
+  <g id="audit_row2_connectors">
+   <line stroke="#7E8B99" stroke-width="1.8" x1="90" x2="1830" y1="945" y2="945" id="svg_231"/>
+   <line marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" x1="330" x2="330" y1="945" y2="970" id="svg_232"/>
+   <line marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" x1="960" x2="960" y1="945" y2="970" id="svg_233"/>
+   <line marker-end="url(#arrow_light)" stroke="#7E8B99" stroke-width="1.8" x1="1590" x2="1590" y1="945" y2="970" id="svg_234"/>
+   <path d="m960,935l0,10" fill="none" stroke="#7E8B99" stroke-width="1.8" id="svg_235"/>
+  </g>
+  <g id="audit_exploratory">
+   <rect fill="#FFFFFF" height="205" rx="16" ry="16" stroke="#D9902F" stroke-width="1.5" width="570" x="55" y="970" id="svg_236"/>
+   <rect fill="#D9902F" height="44" rx="16" ry="16" width="570" x="55" y="970" id="svg_237"/>
+   <rect fill="#D9902F" height="22" width="570" x="55" y="992" id="svg_238"/>
+   <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19.5" font-weight="bold" text-anchor="start" x="73" y="1000" id="svg_239">
+      
+    <tspan dy="0" x="73" id="svg_240">Direct seed-exposure diagnosis</tspan>
+    </text>
+   <g id="svg_241">
+    <rect fill="#FFFFFF" height="30" rx="15" width="150" x="457" y="977" id="svg_242"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="532" y="998" id="svg_243">
+        
+     <tspan dy="0" x="532" id="svg_244">EXPLORATORY</tspan>
+      </text>
+   </g>
+   <rect fill="#FFFFFF" height="30" opacity="0.94" rx="15" width="150" x="457" y="977" id="svg_245"/>
+   <text fill="#D9902F" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="532" y="998" id="svg_246">
+      
+    <tspan dy="0" x="532" id="svg_247">EXPLORATORY</tspan>
+    </text>
+   <circle cx="77" cy="1042" fill="#D9902F" r="3.6" id="svg_248"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="91" y="1048" id="svg_249">
+      
+    <tspan dy="0" x="91" id="svg_250">Count- and weight-based direct-overlap baselines</tspan>
+    </text>
+   <circle cx="77" cy="1071" fill="#D9902F" r="3.6" id="svg_251"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="91" y="1077" id="svg_252">
+      
+    <tspan dy="0" x="91" id="svg_253">ACC vs breast-cancer counterfactual comparison</tspan>
+    </text>
+   <circle cx="77" cy="1100" fill="#D9902F" r="3.6" id="svg_254"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="91" y="1106" id="svg_255">
+      
+    <tspan dy="0" x="91" id="svg_256">Partial correlation controlling ranked overlap</tspan>
+    </text>
+   <circle cx="77" cy="1129" fill="#D9902F" r="3.6" id="svg_257"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="91" y="1135" id="svg_258">
+      
+    <tspan dy="0" x="91" id="svg_259">Primary ACC Top-20 reproduced by weighted overlap</tspan>
+    </text>
+  </g>
+  <g id="audit_rb1">
+   <rect fill="#FFFFFF" height="205" rx="16" ry="16" stroke="#2D8C70" stroke-width="1.5" width="570" x="675" y="970" id="svg_260"/>
+   <rect fill="#2D8C70" height="44" rx="16" ry="16" width="570" x="675" y="970" id="svg_261"/>
+   <rect fill="#2D8C70" height="22" width="570" x="675" y="992" id="svg_262"/>
+   <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19.5" font-weight="bold" text-anchor="start" x="693" y="1000" id="svg_263">
+      
+    <tspan dy="0" x="693" id="svg_264">RB1 add / remove intervention</tspan>
+    </text>
+   <g id="svg_265">
+    <rect fill="#FFFFFF" height="30" rx="15" width="150" x="1077" y="977" id="svg_266"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="1152" y="998" id="svg_267">
+        
+     <tspan dy="0" x="1152" id="svg_268">FROZEN</tspan>
+      </text>
+   </g>
+   <rect fill="#FFFFFF" height="30" opacity="0.94" rx="15" width="150" x="1077" y="977" id="svg_269"/>
+   <text fill="#2D8C70" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="1152" y="998" id="svg_270">
+      
+    <tspan dy="0" x="1152" id="svg_271">FROZEN</tspan>
+    </text>
+   <circle cx="697" cy="1042" fill="#2D8C70" r="3.6" id="svg_272"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="711" y="1048" id="svg_273">
+      
+    <tspan dy="0" x="711" id="svg_274">A1 ACC vs A2 ACC−RB1; B1 breast vs B2 +RB1</tspan>
+    </text>
+   <circle cx="697" cy="1071" fill="#2D8C70" r="3.6" id="svg_275"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="711" y="1077" id="svg_276">
+      
+    <tspan dy="0" x="711" id="svg_277">Independent matched-null regeneration for every arm</tspan>
+    </text>
+   <circle cx="697" cy="1100" fill="#2D8C70" r="3.6" id="svg_278"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="711" y="1106" id="svg_279">
+      
+    <tspan dy="0" x="711" id="svg_280">Four normalizations plus exposed / unexposed controls</tspan>
+    </text>
+   <circle cx="697" cy="1129" fill="#2D8C70" r="3.6" id="svg_281"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="711" y="1135" id="svg_282">
+      
+    <tspan dy="0" x="711" id="svg_283">Complete rules passed in only 1 of 4 variants</tspan>
+    </text>
+  </g>
+  <g id="audit_posthoc">
+   <rect fill="#FFFFFF" height="205" rx="16" ry="16" stroke="#7851A9" stroke-width="1.5" width="570" x="1295" y="970" id="svg_284"/>
+   <rect fill="#7851A9" height="44" rx="16" ry="16" width="570" x="1295" y="970" id="svg_285"/>
+   <rect fill="#7851A9" height="22" width="570" x="1295" y="992" id="svg_286"/>
+   <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19.5" font-weight="bold" text-anchor="start" x="1313" y="1000" id="svg_287">
+      
+    <tspan dy="0" x="1313" id="svg_288">Amendments and direct mitigation</tspan>
+    </text>
+   <g id="svg_289">
+    <rect fill="#FFFFFF" height="30" rx="15" width="150" x="1697" y="977" id="svg_290"/>
+    <text fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" x="1772" y="998" id="svg_291">
+        
+     <tspan dy="0" x="1772" id="svg_292">POST-HOC</tspan>
+      </text>
+   </g>
+   <rect fill="#FFFFFF" height="30" opacity="0.94" rx="15" width="150" x="1697" y="977" id="svg_293"/>
+   <text fill="#7851A9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="1772" y="998" id="svg_294">
+      
+    <tspan dy="0" x="1772" id="svg_295">POST-HOC</tspan>
+    </text>
+   <circle cx="1317" cy="1042" fill="#7851A9" r="3.6" id="svg_296"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="1331" y="1048" id="svg_297">
+      
+    <tspan dy="0" x="1331" id="svg_298">Dirichlet coefficient and W1 / W2 assignment stress tests</tspan>
+    </text>
+   <circle cx="1317" cy="1071" fill="#7851A9" r="3.6" id="svg_299"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="1331" y="1077" id="svg_300">
+      
+    <tspan dy="0" x="1331" id="svg_301">Scale-free re-analysis and 45-seed leave-one-out scan</tspan>
+    </text>
+   <circle cx="1317" cy="1100" fill="#7851A9" r="3.6" id="svg_302"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="1331" y="1106" id="svg_303">
+      
+    <tspan dy="0" x="1331" id="svg_304">Seed-excluded C_ACC,nonseed and ADRS_nonseed</tspan>
+    </text>
+   <circle cx="1317" cy="1129" fill="#7851A9" r="3.6" id="svg_305"/>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="17.2" font-weight="normal" text-anchor="start" x="1331" y="1135" id="svg_306">
+      
+    <tspan dy="0" x="1331" id="svg_307">Locked vs seed-excluded Top-20 overlap: 7 / 20</tspan>
+    </text>
+  </g>
+  <g id="final_inference">
+   <rect fill="#F4F7F9" height="62" rx="14" ry="14" stroke="#17324D" stroke-width="1.5" width="1810" x="55" y="1222" id="svg_308"/>
+   <text fill="#17324D" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" x="77" y="1247" id="svg_309">
+      
+    <tspan dy="0" x="77" id="svg_310">INTERPRETATION BOUNDARY</tspan>
+    </text>
+   <text fill="#22313F" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="start" x="345" y="1247" id="svg_311">
+      
+    <tspan dy="0" x="345" id="svg_312">Report locked and seed-excluded rankings together; treat rankings as prioritization outputs, not validated ACC efficacy predictions.</tspan>
+    </text>
+   <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="start" x="345" y="1272" id="svg_313">
+      
+    <tspan dy="0" x="345" id="svg_314">Direct-overlap baselines, degree-aware nulls and normalization sensitivity precede biological interpretation.</tspan>
+    </text>
+  </g>
+  <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" text-anchor="start" x="55" y="1302" id="svg_315">
+    
+   <tspan dy="0" x="55" id="svg_316">Status:</tspan>
+  </text>
+  <circle cx="118" cy="1297" fill="#2F6B9A" r="6" id="svg_317"/>
+  <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="normal" text-anchor="start" x="130" y="1302" id="svg_318">
+    
+   <tspan dy="0" x="130" id="svg_319">Original</tspan>
+  </text>
+  <circle cx="263" cy="1297" fill="#D9902F" r="6" id="svg_320"/>
+  <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="normal" text-anchor="start" x="275" y="1302" id="svg_321">
+    
+   <tspan dy="0" x="275" id="svg_322">Exploratory</tspan>
+  </text>
+  <circle cx="408" cy="1297" fill="#2D8C70" r="6" id="svg_323"/>
+  <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="normal" text-anchor="start" x="420" y="1302" id="svg_324">
+    
+   <tspan dy="0" x="420" id="svg_325">Frozen before result</tspan>
+  </text>
+  <circle cx="598" cy="1297" fill="#7851A9" r="6" id="svg_326"/>
+  <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="normal" text-anchor="start" x="610" y="1302" id="svg_327">
+    
+   <tspan dy="0" x="610" id="svg_328">Result-known post-hoc</tspan>
+  </text>
+  <text fill="#607080" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" text-anchor="start" x="1085" y="1302" id="svg_329">
+    
+   <tspan dy="0" x="1085" id="svg_330">ACC, adrenocortical carcinoma; RWR, random walk with restart; MIPE, Mechanism Interrogation Plate.</tspan>
+  </text>
+ </g>
+</svg>

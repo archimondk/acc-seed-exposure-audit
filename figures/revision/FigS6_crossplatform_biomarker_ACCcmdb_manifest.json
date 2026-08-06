@@ -1,0 +1,62 @@
+{
+  "figure_version": "figS6-crossplatform-biomarker-v1",
+  "rendered": "frozen-input deterministic render",
+  "target_journal": "mdpi",
+  "statistics_annotated": {
+    "CU-ACC1": {
+      "n": 21,
+      "rho": 0.84,
+      "ci": [
+        0.65,
+        0.92
+      ],
+      "p": "<0.001"
+    },
+    "CU-ACC2": {
+      "n": 20,
+      "rho": 0.58,
+      "ci": [
+        0.08,
+        0.9
+      ],
+      "p": "0.008"
+    },
+    "NCI-H295R": {
+      "n": 16,
+      "rho": 0.61,
+      "ci": [
+        0.14,
+        0.88
+      ],
+      "p": "0.013"
+    }
+  },
+  "ci_method": "bootstrap percentile, 2000 drug resamples (verification only)",
+  "bootstrap_rng_seed": 42,
+  "panel_d_genes": [
+    "IGF2",
+    "NR5A1",
+    "CYP11A1",
+    "STAR",
+    "SOAT1",
+    "CDK4",
+    "RB1"
+  ],
+  "panel_d_tumors": [
+    "30_SC",
+    "31_SC",
+    "33_SC",
+    "34_SC",
+    "37_SC",
+    "38_SC"
+  ],
+  "inputs": {
+    "figure_data/Fig6abc_crossplatform_concordance.csv": "e24444267d9502abc50bbbdb76e60ae380f530c63f6ee128e750be80f00b03f2",
+    "figure_data/Fig6d_biomarker_expression.csv": "e38382109fc71cd9586867e41c18ab25fea01e64191738ec6c2f63bde0088dda"
+  },
+  "outputs": {
+    "figures/revision/FigS6_crossplatform_biomarker_ACCcmdb.png": "1c8b6c8d2f13f508cbe01086a85fdae7dfe0c12f19b664f6782b8f49532dcda3",
+    "figures/revision/FigS6_crossplatform_biomarker_ACCcmdb.pdf": "f74e5e1e8691091f617717690209c5e1d0d62d2e1849d1a49f8fc932f1750ee6",
+    "figures/revision/FigS6_crossplatform_biomarker_ACCcmdb.svg": "3a0e9d055a919bce689e1e698a3d4c4a59cf86775dab7ecc6693ad7a745da7ee"
+  }
+}

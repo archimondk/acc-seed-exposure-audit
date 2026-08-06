@@ -1,0 +1,23 @@
+{
+  "figure_version": "leakage-audit-figure-v1",
+  "target_journal": "mdpi",
+  "target_column": "full",
+  "target_width_mm": 170.0,
+  "target_height_mm": 78.0,
+  "png_dpi": 1000,
+  "inputs": {
+    "leakage_audit/observational/Ld_108.csv": "c42942efecf4e667cbb5af6180502e0d206cb61d560ba6b41d0ccd51c63386d4",
+    "leakage_audit/leakage_curve_108.csv": "62eaac82c7982a593e7f034fd3c86c170cf88e4c12edc4f493cc7ebb8228690c",
+    "leakage_audit/verdict.json": "a15afae41583f9e6ba78dd716b708213b31cad28f1c8fbb9111fef3659a212d2"
+  },
+  "figure_data": {
+    "figure_data/revision/Fig7a_seed_overlap_primary108.csv": "ccf04ed0a9f2dccb80216814a45bce39af1b1babb274c36211be4724555bb835",
+    "figure_data/revision/Fig7b_leakage_effects_variants.csv": "585041cea47a466ed717e45723e05bb2f0f1cc315442c0aba0104a313d9a53e5",
+    "figure_data/revision/Fig7c_intervention_delta_primary108.csv": "3d379847a241bf7b31cc832b9e8714c59d425d84d2d782d37f43e9c7109d7e79"
+  },
+  "outputs": {
+    "figures/revision/Fig5_seed_target_leakage_audit.pdf": "c8ff149048e36f7d9d0f83ba1c2f882ea2f6b7bf70546e9a307053eeba55f6d9",
+    "figures/revision/Fig5_seed_target_leakage_audit.svg": "307e541aaa7e634dfd03a538a87ac217867a684fff2fb1080627dee564cbff81",
+    "figures/revision/Fig5_seed_target_leakage_audit.png": "12be012505267febae073e9fb57db075bfb48da83ac7aded332c8cf313bb16ec"
+  }
+}
