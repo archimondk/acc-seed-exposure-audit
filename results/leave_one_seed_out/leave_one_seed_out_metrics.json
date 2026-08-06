@@ -1,0 +1,98 @@
+{
+  "analysis_version": "leave-one-seed-out-v1",
+  "seed_count": 45,
+  "drug_count": 108,
+  "variant_count": 4,
+  "run_count": 180,
+  "minimum_rho": 0.9167357359932169,
+  "minimum_top20_jaccard": 0.7391304347826086,
+  "zero_exposure_seed_count": 28,
+  "rb1_max_abs_shift": 57,
+  "rb1_worst_shift_rank": 1,
+  "rb1_exposed_shift_rank": 1,
+  "top_influential_seeds": [
+    {
+      "seed": "RB1",
+      "max_abs_shift": 57
+    },
+    {
+      "seed": "TERT",
+      "max_abs_shift": 54
+    },
+    {
+      "seed": "BRCA1",
+      "max_abs_shift": 51
+    },
+    {
+      "seed": "MSH6",
+      "max_abs_shift": 51
+    },
+    {
+      "seed": "CHEK2",
+      "max_abs_shift": 50
+    },
+    {
+      "seed": "MEN1",
+      "max_abs_shift": 49
+    },
+    {
+      "seed": "EGFR",
+      "max_abs_shift": 43
+    },
+    {
+      "seed": "BRCA2",
+      "max_abs_shift": 40
+    }
+  ],
+  "convergence": {
+    "column_iterations": 30,
+    "column_final_max_l1_delta": 6.996283876208851e-11,
+    "symmetric_iterations": 31,
+    "symmetric_final_max_l1_delta": 5.690172525713469e-11,
+    "uniform_iterations": 30,
+    "uniform_final_max_l1_delta": 7.118802975149773e-11
+  },
+  "environment": {
+    "python": "3.14.3",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "protocol_sha256": "6de390b48185acc90703b249d444586ca0680850d9180126102afeb847d753d4",
+  "input_sha256": {
+    "data/ACC_P0.5C_gene_weights_v1.csv": "a513b96cf50ee10041068ab621ba978acfdf0c89116df32f86a9fcbc043a3897",
+    "data/bindex_network/bindex_edges_1304.csv": "0ac37e507e763b5d20e78571df372ac14350e95b4d19c0360d1324ed35018d63",
+    "data/bindex_network/rACC_399_fullSTRING.csv": "9c9a18d8937b83f1da79cbe8f8e6d6870c30b267ed410fbcc283edc0507c4ab8",
+    "9606.protein.info.v12.0.txt.gz": "144de4b0d98c6a7dfde6ddc2591cf88657f27b989eadff4f501450c3ed1f0f1c",
+    "9606.protein.links.v12.0.txt.gz": "3e22f32572211aa341d5b4bd08d30c32e693e294603202120936872f87719d4f"
+  },
+  "variant_summary": {
+    "column_minmax": {
+      "minimum_rho": 0.9167357359932169,
+      "median_rho": 0.9997808835157717,
+      "minimum_top20_jaccard": 0.7391304347826086,
+      "largest_abs_shift": 57,
+      "seeds_with_any_shift_ge_10": 13
+    },
+    "column_gene_rank": {
+      "minimum_rho": 0.9945316146979527,
+      "median_rho": 0.9987900959349129,
+      "minimum_top20_jaccard": 0.8181818181818182,
+      "largest_abs_shift": 19,
+      "seeds_with_any_shift_ge_10": 12
+    },
+    "uniform_ratio_gene_rank": {
+      "minimum_rho": 0.9877104232758868,
+      "median_rho": 0.9981994341078625,
+      "minimum_top20_jaccard": 0.8181818181818182,
+      "largest_abs_shift": 25,
+      "seeds_with_any_shift_ge_10": 18
+    },
+    "symmetric_gene_rank": {
+      "minimum_rho": 0.9923213962483447,
+      "median_rho": 0.9985519258433603,
+      "minimum_top20_jaccard": 0.8181818181818182,
+      "largest_abs_shift": 20,
+      "seeds_with_any_shift_ge_10": 11
+    }
+  }
+}
