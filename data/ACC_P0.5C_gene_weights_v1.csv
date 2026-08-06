@@ -1,0 +1,51 @@
+﻿Gene,Module,Alteration_freq_pct,Genomic_driver,Recurrence_score,Core_pathway_score,Therapeutic_relevance,Lineage_or_biomarker,Prognostic_or_subtype,ACC_weight,Weight_tier,Evidence_summary,Evidence_class,Primary_source
+TP53,p53/Rb-cell cycle,38,1,1,1,0.4,0.2,1,0.83,A,Most frequently altered gene in 364-ACC cohort; core p53/Rb axis.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+CTNNB1,Wnt/β-catenin,28,1,1,1,0.5,0.2,1,0.845,A,Recurrent activating alteration; core Wnt pathway.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+ZNRF3,Wnt/β-catenin,17,1,0.8,1,0.5,0.2,0.9,0.8,A,Recurrent loss/deletion; key Wnt regulator.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+CDKN2A,p53/Rb-cell cycle,13,1,0.8,1,0.6,0.2,1,0.82,A,Recurrent deletion/alteration; checkpoint loss.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+RB1,p53/Rb-cell cycle,12,1,0.8,1,0.5,0.2,1,0.805,A,Recurrent tumor-suppressor alteration.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+MEN1,Chromatin remodeling,12,1,0.8,0.9,0.4,0.2,0.7,0.755,A,Recurrent chromatin/epigenetic driver.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+ATRX,Chromatin/telomere,11,1,0.8,0.9,0.4,0.2,0.7,0.755,A,Recurrent chromatin/telomere alteration.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+TERT,Telomere maintenance,10,1,0.8,0.9,0.5,0.2,0.8,0.775,A,Recurrent promoter/amplification events.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+APC,Wnt/β-catenin,10,0.8,0.8,1,0.4,0.2,0.8,0.72,B,Recurrent Wnt pathway alteration.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+NF1,RAS/MAPK,9,0.8,0.6,0.8,0.6,0.2,0.6,0.66,B,Recurrent alteration; RAS/MAPK relevance.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+LRP1B,Other recurrent genomic,8,0.6,0.6,0.5,0.3,0.1,0.4,0.475,C,Recurrent alteration; lower mechanistic specificity.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+IL7R,Immune/signaling,6,0.6,0.6,0.5,0.4,0.2,0.4,0.5,C,Recurrent alteration reported in large ACC cohort.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+FRS2,RTK signaling,4,0.6,0.4,0.7,0.6,0.1,0.4,0.52,C,Recurrent alteration; growth-factor signaling adaptor.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+PTCH1,Hedgehog,4,0.6,0.4,0.7,0.5,0.1,0.4,0.505,C,Recurrent alteration in large ACC cohort.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+KRAS,RAS/MAPK,3,0.6,0.4,0.8,0.6,0.1,0.4,0.54,C,Low-frequency recurrent alteration with pathway relevance.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+CDK4,p53/Rb-cell cycle,,1,0.6,1,0.8,0.2,1,0.81,A,TCGA driver amplification; direct cell-cycle relevance.,Core,https://gdc.cancer.gov/about-data/publications/acc_2016
+CCNE1,p53/Rb-cell cycle,,0.9,0.6,1,0.6,0.2,1,0.75,A,TCGA candidate driver; proliferation axis.,Core,https://gdc.cancer.gov/about-data/publications/acc_2016
+TERF2,Telomere maintenance,,0.9,0.6,0.9,0.5,0.2,0.8,0.705,B,TCGA amplification/candidate driver.,Core,https://gdc.cancer.gov/about-data/publications/acc_2016
+PRKAR1A,cAMP/PKA,,1,0.6,1,0.5,0.5,0.7,0.78,A,TCGA recurrent driver; PKA/adrenal biology.,Core,https://gdc.cancer.gov/about-data/publications/acc_2016
+RPL22,Translation,,0.9,0.6,0.7,0.3,0.2,0.5,0.62,B,TCGA candidate driver newly implicated in adrenal disease.,Support,https://gdc.cancer.gov/about-data/publications/acc_2016
+DAXX,Chromatin/telomere,,0.9,0.6,0.9,0.4,0.2,0.7,0.685,B,Recurrent chromatin/telomere driver.,Core,https://www.nature.com/articles/ng.2953
+MED12,Transcription/chromatin,,0.8,0.5,0.7,0.3,0.2,0.5,0.57,B,Recurrent candidate driver in integrated genomics.,Support,https://www.nature.com/articles/ng.2953
+IGF2,IGF axis,,0.8,1,0.9,0.8,0.8,0.8,0.86,A,Hallmark overexpression in most ACC; strong disease context.,Core,https://gdc.cancer.gov/about-data/publications/acc_2016
+IGF1R,IGF axis,,0.3,0.5,0.7,0.7,0.4,0.4,0.495,C,Biologically relevant IGF2 receptor axis; clinical efficacy inconsistent.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+MLH1,MMR/DDR,,0.6,0.6,0.8,0.9,0.6,0.5,0.68,B,MMR-altered subgroup; immunotherapy/repair relevance.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+MSH2,MMR/DDR,,0.6,0.6,0.8,0.9,0.6,0.5,0.68,B,MMR-altered subgroup; actionable repair phenotype.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+MSH6,MMR/DDR,,0.6,0.6,0.8,0.9,0.6,0.5,0.68,B,MMR-altered subgroup; actionable repair phenotype.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+PMS2,MMR/DDR,,0.6,0.6,0.8,0.9,0.6,0.5,0.68,B,MMR-altered subgroup; actionable repair phenotype.,Core,https://pmc.ncbi.nlm.nih.gov/articles/PMC8384129/
+BRCA1,MMR/DDR,,0.4,0.4,0.7,0.8,0.4,0.4,0.52,C,DDR relevance; not a dominant recurrent ACC driver.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+BRCA2,MMR/DDR,,0.4,0.4,0.7,0.8,0.4,0.4,0.52,C,DDR relevance; not a dominant recurrent ACC driver.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+ATM,MMR/DDR,,0.4,0.4,0.7,0.8,0.3,0.4,0.51,C,DDR sensor with therapy-response relevance.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+ATR,MMR/DDR,,0.4,0.4,0.7,0.8,0.3,0.4,0.51,C,Replication-stress/DDR sensor.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+CHEK2,MMR/DDR,,0.4,0.4,0.7,0.7,0.3,0.4,0.495,C,DDR checkpoint gene.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+MGMT,Drug response biomarker,,0.1,0.3,0.5,1,1,0.3,0.455,C,ACC treatment biomarker; temozolomide-response context.,Biomarker,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+SLFN11,Drug response biomarker,,0.1,0.3,0.5,1,1,0.3,0.455,C,ACC treatment biomarker for DNA-damaging drug response.,Biomarker,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+ABCB1,Drug resistance biomarker,,0.1,0.3,0.5,1,1,0.3,0.455,C,MDR-1/ABCB1 resistance marker highlighted in ACC_CellMinerCDB.,Biomarker,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+SOAT1,Therapeutic target,,0.2,0.4,0.6,1,1,0.4,0.53,C,ACC treatment-relevant target/marker.,Biomarker,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+NR5A1,Adrenal cortical lineage,,0.4,0.5,0.8,0.7,1,0.7,0.62,B,SF-1/adrenal cortical lineage regulator.,Lineage,https://gdc.cancer.gov/about-data/publications/acc_2016
+STAR,Steroidogenesis,,0.1,0.3,0.5,0.3,1,0.6,0.365,C,Adrenal steroidogenic lineage marker.,Lineage,https://gdc.cancer.gov/about-data/publications/acc_2016
+CYP11A1,Steroidogenesis,,0.1,0.3,0.5,0.3,1,0.6,0.365,C,Adrenal steroidogenic lineage marker.,Lineage,https://gdc.cancer.gov/about-data/publications/acc_2016
+CYP17A1,Steroidogenesis,,0.1,0.3,0.5,0.4,1,0.6,0.38,C,Steroidogenic lineage and pharmacologic context.,Lineage,https://gdc.cancer.gov/about-data/publications/acc_2016
+HSD3B2,Steroidogenesis,,0.1,0.3,0.5,0.3,1,0.6,0.365,C,Adrenal steroidogenic lineage marker.,Lineage,https://gdc.cancer.gov/about-data/publications/acc_2016
+CYP21A2,Steroidogenesis,,0.1,0.3,0.5,0.3,1,0.6,0.365,C,Adrenal steroidogenic lineage marker.,Lineage,https://gdc.cancer.gov/about-data/publications/acc_2016
+EGFR,RTK signaling,,0.2,0.3,0.6,0.7,0.3,0.4,0.395,C,Potentially druggable RTK axis; not dominant recurrent driver.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+VEGFA,Angiogenesis,,0.1,0.3,0.6,0.7,0.3,0.4,0.365,C,Angiogenesis axis with therapeutic relevance.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+KDR,Angiogenesis,,0.1,0.3,0.6,0.7,0.3,0.4,0.365,C,VEGFR2/KDR target; indirect disease-context evidence.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+PIK3CA,PI3K/AKT/mTOR,,0.3,0.4,0.7,0.7,0.2,0.4,0.455,C,Growth-survival pathway downstream of RTK/IGF signaling.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+AKT1,PI3K/AKT/mTOR,,0.2,0.3,0.7,0.7,0.2,0.4,0.405,C,Growth-survival pathway node.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+MTOR,PI3K/AKT/mTOR,,0.2,0.3,0.7,0.8,0.2,0.4,0.42,C,Pharmacologically tractable mTOR pathway.,Support,https://pmc.ncbi.nlm.nih.gov/articles/PMC11389377/
+UBA1,UPS/proteostasis vulnerability,,0,0.2,0.5,1,0.9,0.3,0.395,Vulnerability,"TAK-243/UBA1 inhibition validated in ACC cell lines, organoids and xenografts.",Vulnerability,https://pmc.ncbi.nlm.nih.gov/articles/PMC10949913/
