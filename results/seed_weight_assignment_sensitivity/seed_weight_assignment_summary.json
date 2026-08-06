@@ -1,0 +1,175 @@
+{
+  "analysis_version": "seed-weight-assignment-sensitivity-v1",
+  "protocol_id": "seed_weight_assignment_sensitivity_v1",
+  "post_hoc": true,
+  "frozen_verdict_revised": false,
+  "disease_seed_count": 45,
+  "primary_drug_count": 108,
+  "permutation_draws": 1000,
+  "rng_seed": 20260729,
+  "restart_probability": 0.4,
+  "c_acc_pseudo_count": 3.0,
+  "baseline_seed_weights": {
+    "raw_minimum": 0.26,
+    "raw_maximum": 0.77,
+    "normalized_minimum": 0.011408512505484861,
+    "normalized_maximum": 0.03378674857393593,
+    "maximum_minimum_ratio": 2.9615384615384612,
+    "unique_raw_weights": 27,
+    "normalized_weight_cv": 0.3217546419031877
+  },
+  "baseline_reproduction": {
+    "rACC_max_abs_difference": 4.995480725900753e-07,
+    "rACC_spearman": 0.9999999055427468,
+    "C_ACC_percentile_spearman": 1.0,
+    "RWR_iterations": 30,
+    "RWR_final_max_L1_delta": 5.83266047439382e-11
+  },
+  "W1_uniform": {
+    "ADRS_rank_spearman_vs_locked": 0.9915497251517144,
+    "top20_jaccard_vs_locked": 0.9047619047619048,
+    "mean_absolute_rank_change_vs_locked": 2.3703703703703702,
+    "maximum_absolute_rank_change_vs_locked": 19.0,
+    "number_of_changed_ranks": 81,
+    "number_of_top20_membership_changes": 2,
+    "CDK46_drugs": {
+      "Abemaciclib": {
+        "locked_rank": 8,
+        "uniform_rank": 10
+      },
+      "Palbociclib": {
+        "locked_rank": 26,
+        "uniform_rank": 37
+      },
+      "Ribociclib": {
+        "locked_rank": 51,
+        "uniform_rank": 50
+      }
+    }
+  },
+  "W2_permuted": {
+    "ADRS_rank_spearman_vs_locked": {
+      "minimum": 0.9621690626577877,
+      "q05": 0.9738184381758076,
+      "median": 0.9841664523135842,
+      "q95": 0.9927705850410129,
+      "maximum": 0.9974563434222184
+    },
+    "top20_jaccard_vs_locked": {
+      "minimum": 0.6,
+      "q05": 0.6666666666666666,
+      "median": 0.8181818181818182,
+      "q95": 1.0,
+      "maximum": 1.0
+    },
+    "ADRS_rank_spearman_vs_uniform": {
+      "minimum": 0.9785265845456191,
+      "q05": 0.9850805491249631,
+      "median": 0.9905160669543762,
+      "q95": 0.9942181828574695,
+      "maximum": 0.9970276372574237
+    },
+    "top20_jaccard_vs_uniform": {
+      "minimum": 0.6,
+      "q05": 0.7391304347826086,
+      "median": 0.8181818181818182,
+      "q95": 0.9047619047619048,
+      "maximum": 1.0
+    },
+    "mean_absolute_rank_change_vs_locked": {
+      "minimum": 1.4814814814814814,
+      "q05": 2.091666666666667,
+      "median": 3.1759259259259256,
+      "q95": 4.389814814814814,
+      "maximum": 5.703703703703703
+    },
+    "maximum_absolute_rank_change_vs_locked": {
+      "minimum": 9.0,
+      "q05": 18.0,
+      "median": 29.0,
+      "q95": 34.0,
+      "maximum": 38.0
+    },
+    "CDK46_drugs": {
+      "Abemaciclib": {
+        "drug": "Abemaciclib",
+        "locked_rank": 8,
+        "uniform_rank": 10,
+        "rank_median": 11.0,
+        "rank_q05": 7.0,
+        "rank_q25": 8.0,
+        "rank_q75": 13.0,
+        "rank_q95": 16.0,
+        "rank_sd": 3.1413543428125243,
+        "prob_top10": 0.479,
+        "prob_top20": 0.999
+      },
+      "Palbociclib": {
+        "drug": "Palbociclib",
+        "locked_rank": 26,
+        "uniform_rank": 37,
+        "rank_median": 38.0,
+        "rank_q05": 26.0,
+        "rank_q25": 29.0,
+        "rank_q75": 53.0,
+        "rank_q95": 59.0,
+        "rank_sd": 12.19205274554495,
+        "prob_top10": 0.0,
+        "prob_top20": 0.0
+      },
+      "Ribociclib": {
+        "drug": "Ribociclib",
+        "locked_rank": 51,
+        "uniform_rank": 50,
+        "rank_median": 49.0,
+        "rank_q05": 47.0,
+        "rank_q25": 48.0,
+        "rank_q75": 50.0,
+        "rank_q95": 51.0,
+        "rank_sd": 1.236303946223358,
+        "prob_top10": 0.0,
+        "prob_top20": 0.0
+      }
+    }
+  },
+  "comparison_with_Amendment_2": {
+    "Dirichlet_ADRS_rank_spearman_vs_locked": {
+      "minimum": 0.991549725152,
+      "q05": 0.9972939114198001,
+      "median": 0.998904417579,
+      "q95": 0.999628454657,
+      "maximum": 0.999933312374
+    },
+    "Dirichlet_top20_jaccard_vs_locked": {
+      "minimum": 0.818181818182,
+      "q05": 0.904761904762,
+      "median": 1.0,
+      "q95": 1.0,
+      "maximum": 1.0
+    },
+    "spearman_interval_comparison": {
+      "q05_q95_intervals_overlap": false,
+      "overlap_width": 0.0,
+      "union_width": 0.02581001648119241,
+      "overlap_over_union": 0.0,
+      "median_difference_W2_minus_Dirichlet": -0.014737965265415709
+    },
+    "top20_jaccard_interval_comparison": {
+      "q05_q95_intervals_overlap": true,
+      "overlap_width": 0.09523809523799998,
+      "union_width": 0.33333333333333337,
+      "overlap_over_union": 0.28571428571399987,
+      "median_difference_W2_minus_Dirichlet": -0.18181818181818177
+    }
+  },
+  "quality_control": {
+    "uniform_simplex_max_abs_error": 2.220446049250313e-16,
+    "permutation_simplex_max_abs_error": 4.440892098500626e-16,
+    "all_permutations_preserve_weights": true,
+    "all_seed_weights_positive": true,
+    "all_rank_columns_complete": true,
+    "max_RWR_iterations": 30,
+    "max_RWR_final_L1_delta": 7.7988187728407e-11
+  },
+  "runtime_seconds": 41.36020909999934
+}
