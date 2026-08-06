@@ -1,0 +1,23 @@
+{
+  "analysis_version": "positive-control-erpos-her2neg-v1",
+  "datahub_commit": "58341090c8bf0368ebe03f7aa95ec5137a8def25",
+  "patient_total": 1097,
+  "target_patients": 585,
+  "comparator_patients": 367,
+  "excluded_unknown_patients": 145,
+  "target_rppa_patients": 449,
+  "comparator_rppa_patients": 292,
+  "rppa_features_tested": 225,
+  "rppa_features_selected": 20,
+  "rppa_genes_selected": 19,
+  "target_sequenced_patients": 522,
+  "mutation_candidates": 21,
+  "mutation_genes_selected": 6,
+  "candidate_gene_rows": 41,
+  "retained_seed_genes": 24,
+  "forced_target_exclusions": [
+    "CDK4",
+    "CDK6"
+  ],
+  "outcome_blind": true
+}

@@ -1,0 +1,66 @@
+{
+  "freeze_timestamp_local": "2026-08-03T23:30:36+0800",
+  "protocol": "experiments/positive_control_protocol.md",
+  "protocol_sha256": "13608a02d584bd366c297523668fb1714e4bdb8ed3aebed32a0fe08b6f1fc538",
+  "datahub_commit": "58341090c8bf0368ebe03f7aa95ec5137a8def25",
+  "inputs": {
+    "data_clinical_patient.txt": {
+      "sha256": "973b6e03436330e0563a15989d04fb3566a2c7cdc66db9aaa3badbb32c58badc",
+      "bytes": 1703839
+    },
+    "data_clinical_sample.txt": {
+      "sha256": "32dab97607211f492afdc9fb957610fa30de23c2aca315ba07e33803e1752e66",
+      "bytes": 459870
+    },
+    "data_rppa_zscores.txt": {
+      "sha256": "07553b25973c26a1142d2f153ee83c2eb9461197170b556f92b45a33021664a9",
+      "bytes": 1432604
+    },
+    "mutations_api.json": {
+      "sha256": "f81b3623bfdfeb26c301216e23e2b6fb759108676de6f0fd076b44a06056ad5f",
+      "bytes": 46006281
+    },
+    "sequenced_sample_ids.json": {
+      "sha256": "24ddf7673413b13fa6a5e48259838b9230552a7ad4fa962388d6f3db2c94a8d5",
+      "bytes": 17677
+    },
+    "PMC3465532_fullText.xml": {
+      "sha256": "47d41acb91f9e3723c50e156c4862bf34f8ca69b5a5207662d0b831fe7392619",
+      "bytes": 148325
+    }
+  },
+  "seed_csv": {
+    "path": "positive_control_seed_frozen.csv",
+    "sha256": "a0de1628c847012e0070d52f437cc0e13227dafc22fc8b62e43ded4e397f9a70",
+    "bytes": 7001
+  },
+  "rppa_feature_audit": {
+    "path": "rppa_feature_audit.csv",
+    "sha256": "a13270ff2a747161045f5fa3f4ada8c3e7dfee4f6ac71ce6122fed6fb11bfbbb",
+    "bytes": 16402
+  },
+  "quality_metrics": {
+    "analysis_version": "positive-control-erpos-her2neg-v1",
+    "datahub_commit": "58341090c8bf0368ebe03f7aa95ec5137a8def25",
+    "patient_total": 1097,
+    "target_patients": 585,
+    "comparator_patients": 367,
+    "excluded_unknown_patients": 145,
+    "target_rppa_patients": 449,
+    "comparator_rppa_patients": 292,
+    "rppa_features_tested": 225,
+    "rppa_features_selected": 20,
+    "rppa_genes_selected": 19,
+    "target_sequenced_patients": 522,
+    "mutation_candidates": 21,
+    "mutation_genes_selected": 6,
+    "candidate_gene_rows": 41,
+    "retained_seed_genes": 24,
+    "forced_target_exclusions": [
+      "CDK4",
+      "CDK6"
+    ],
+    "outcome_blind": true
+  },
+  "drug_ranking_inspected_before_freeze": false
+}

@@ -1,0 +1,57 @@
+{
+  "analysis_version": "positive-control-erpos-her2neg-v1",
+  "command": "python -m analysis.positive_control --project-root . --n-null 10000",
+  "python": "3.14.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpu_count": 12,
+  "wall_clock_seconds": 727.0777359999997,
+  "rng_seed": 20260727,
+  "null_draws": 10000,
+  "inputs": {
+    "results/positive_control/positive_control_seed_frozen.csv": "a0de1628c847012e0070d52f437cc0e13227dafc22fc8b62e43ded4e397f9a70",
+    "data/bindex_network/bindex_edges_1304.csv": "0ac37e507e763b5d20e78571df372ac14350e95b4d19c0360d1324ed35018d63",
+    "data/bindex_network/rACC_399_fullSTRING.csv": "9c9a18d8937b83f1da79cbe8f8e6d6870c30b267ed410fbcc283edc0507c4ab8",
+    "9606.protein.info.v12.0.txt.gz": "144de4b0d98c6a7dfde6ddc2591cf88657f27b989eadff4f501450c3ed1f0f1c",
+    "9606.protein.links.v12.0.txt.gz": "3e22f32572211aa341d5b4bd08d30c32e693e294603202120936872f87719d4f",
+    "experiments/positive_control_protocol.md": "13608a02d584bd366c297523668fb1714e4bdb8ed3aebed32a0fe08b6f1fc538"
+  },
+  "outputs": {
+    "summary": {
+      "path": "positive_control_variant_summary.csv",
+      "sha256": "6dfcfaf181d1ba8c8da45b30288521656f95c9850f903c1c6abcfde32422420a",
+      "bytes": 913
+    },
+    "drugs": {
+      "path": "positive_control_drug_ranks_primary108.csv",
+      "sha256": "9ffb63783fe8ee1a11d07bf6b017f8ab144d3f9c988900b176e4cdae30ecc136",
+      "bytes": 57228
+    },
+    "group_null": {
+      "path": "positive_control_CDK46_group_null_10000.csv",
+      "sha256": "313a7ad12f1f2087cd930b53eb31735530c56b979d53ffb60aa7374fb349f75b",
+      "bytes": 1581271
+    },
+    "drug_null": {
+      "path": "positive_control_drug_null_10000.npz",
+      "sha256": "399788967ea6c2c01991498e2d58cc16cacb2edc2644f0e8a2cc058114b750b5",
+      "bytes": 5226359
+    },
+    "matched_seeds": {
+      "path": "positive_control_degree_matched_seeds.csv",
+      "sha256": "7ce307f4705f536ef606e11b80552aa48f6e711a86a0abc4f9ac85f801568ddb",
+      "bytes": 10881294
+    },
+    "metrics": {
+      "path": "positive_control_metrics.json",
+      "sha256": "80900735a792ace209a57053f9d8007c682168796781d8618dab47831605b549",
+      "bytes": 5035
+    },
+    "report": {
+      "path": "positive_control_report.md",
+      "sha256": "2b07d9b8a24667dadcd86e7d8e79ee5ecddee7cbbc04ccd0e648211a2b054a13",
+      "bytes": 822
+    }
+  }
+}
