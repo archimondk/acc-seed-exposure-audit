@@ -1,0 +1,29 @@
+ACC-PHARMA-NET seed-target leakage audit freeze record
+Protocol ID: leakage_audit_v1
+Freeze date: 2026-07-28
+Freeze scope: interventional arms A2 and B2, including B2 weight sensitivity
+
+AUTHORITATIVE FROZEN PROTOCOL
+36c9638ade80bb761f6e8481889575b1b80feb460bbd51c9d5d68617a4155e85  leakage_audit/leakage_audit_protocol_v1.md
+
+INPUTS AND PRE-FREEZE EXPLORATORY OUTPUTS
+a513b96cf50ee10041068ab621ba978acfdf0c89116df32f86a9fcbc043a3897  data/ACC_P0.5C_gene_weights_v1.csv
+a0de1628c847012e0070d52f437cc0e13227dafc22fc8b62e43ded4e397f9a70  results/positive_control/positive_control_seed_frozen.csv
+c42942efecf4e667cbb5af6180502e0d206cb61d560ba6b41d0ccd51c63386d4  leakage_audit/observational/Ld_108.csv
+de23076c1b8bd3d95b3e1bccb045c1fd16ab4d539848114dda407df9e5e2dbcc  leakage_audit/observational/O1_replacement_baseline.csv
+576d4c920b1b63646170a5a316ee6414970559b545ddd349aa924467dce1de72  leakage_audit/observational/O2_seed_adjacency_ceiling.csv
+ad88971e9fafa996d0097f90b26ce2a1c1564a0eade79ce102daa57e5eff5073  leakage_audit/observational/O3_decomposition.csv
+07fb1ca88d401f01e660e1c045e42b5ce41df788b4e47c09071b194ec585b9d3  leakage_audit/observational/O4_control_disease_Ld.csv
+cb0b70eb34b8ca24973a68e9c1828bebe4b2f1729229465060fcbdacf5623961  leakage_audit/observational/seed_set_used.json
+
+STATE AT FREEZE
+- A1 and B1 results had already been observed.
+- O1-O4 had already been evaluated and are exploratory.
+- No A2, B2, B2_lo, B2_hi, A3 or B3 result had been generated or inspected.
+- L1-L4, NC1-NC2 and F1-F2 are frozen before any interventional-arm execution.
+- L2 is fixed at >=1.5; L3 is fixed at <=2.0.
+- Every interventional arm must regenerate 10,000 degree-matched seed sets
+  independently with RNG seed 20260727.
+
+Any later protocol change requires a numbered amendment stating whether
+interventional-arm results had been observed.

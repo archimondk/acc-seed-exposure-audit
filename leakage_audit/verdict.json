@@ -1,0 +1,95 @@
+{
+  "status": "PARTIAL_OR_NOT_SUPPORTED",
+  "primary_variant": "column_minmax",
+  "criteria": {
+    "L1": {
+      "passed": true,
+      "value": 3.90739669458,
+      "threshold": 2.0
+    },
+    "L2": {
+      "passed": true,
+      "value": 1.9606691724933,
+      "threshold": 1.5
+    },
+    "L3": {
+      "passed": true,
+      "value": 1.9467275220867,
+      "threshold": 2.0
+    },
+    "L4": {
+      "passed": false,
+      "n_variants_passing": 1,
+      "threshold": 3
+    },
+    "NC1": {
+      "passed": true,
+      "delta_acc_absolute": 0.01411276919000004,
+      "delta_breast_absolute": 0.014739729849999827,
+      "threshold": 0.5
+    },
+    "F1": {
+      "passed": false,
+      "z_A2": -1.17306372477,
+      "threshold": 2.0
+    },
+    "NC2": {
+      "threshold": 0.5,
+      "unexposed_drug_n": 106,
+      "acc_n_within_threshold": 106,
+      "breast_n_within_threshold": 106,
+      "acc_max_absolute_delta": 0.3194082264100002,
+      "breast_max_absolute_delta": 0.366847556058,
+      "passed": true
+    }
+  },
+  "per_variant": {
+    "column_minmax": {
+      "delta_z_acc": 3.90739669458,
+      "delta_z_breast": 1.9606691724933,
+      "L1": true,
+      "L2": true,
+      "L3": true,
+      "same_direction": true,
+      "all_primary_rules": true
+    },
+    "column_gene_rank": {
+      "delta_z_acc": 0.7134915535690001,
+      "delta_z_breast": 0.424965717833,
+      "L1": false,
+      "L2": false,
+      "L3": true,
+      "same_direction": true,
+      "all_primary_rules": false
+    },
+    "uniform_ratio_gene_rank": {
+      "delta_z_acc": 0.7312949698539999,
+      "delta_z_breast": 1.143968649924,
+      "L1": false,
+      "L2": false,
+      "L3": true,
+      "same_direction": true,
+      "all_primary_rules": false
+    },
+    "symmetric_gene_rank": {
+      "delta_z_acc": 0.6798731769719999,
+      "delta_z_breast": 0.40542224565500007,
+      "L1": false,
+      "L2": false,
+      "L3": true,
+      "same_direction": true,
+      "all_primary_rules": false
+    }
+  },
+  "protocol": {
+    "protocol_id": "leakage_audit_v1",
+    "protocol_path": "leakage_audit/leakage_audit_protocol_v1.md",
+    "protocol_sha256": "36c9638ade80bb761f6e8481889575b1b80feb460bbd51c9d5d68617a4155e85",
+    "freeze_path": "leakage_audit/FREEZE.txt",
+    "freeze_sha256": "a820fc881edf08a56d3c0da4b719730b27c98cf828a29fe138dfd7ada07751b9",
+    "l1_threshold": 2.0,
+    "l2_threshold": 1.5,
+    "l3_threshold": 2.0,
+    "interventional_results_observed_at_freeze": false
+  }
+}

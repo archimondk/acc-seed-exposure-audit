@@ -1,0 +1,25 @@
+arm_id,variant,description,CDK46_observed_mean_percentile,CDK46_null_mean_percentile,CDK46_empirical_p_upper,direction_observed_gt_null_mean,n_drugs_q_lt_0_05,minimum_drug_q_bh_108,CDK46_q_bh_across_variants
+A1,column_minmax,Locked column-stochastic RWR with gene-level min-max scaling,0.638629283489,0.559502491748,0.278272172783,yes,2,0.010798920108,0.278272172783
+A1,column_gene_rank,Column-stochastic RWR with gene-level average-rank percentiles,0.604361370717,0.416463550786,0.00999900009999,yes,0,0.0755924407559,0.03399660034
+A1,uniform_ratio_gene_rank,"Column-stochastic RWR divided by the uniform-restart steady state, then gene-level average-rank percentiles",0.641744548287,0.422866821866,0.025497450255,yes,0,0.0971902809719,0.03399660034
+A1,symmetric_gene_rank,Symmetric D^-1/2 W D^-1/2 propagation with gene-level average-rank percentiles,0.654205607477,0.436876634976,0.02099790021,yes,1,0.043195680432,0.03399660034
+A2,column_minmax,Locked column-stochastic RWR with gene-level min-max scaling,0.221183800623,0.565603114725,0.999500049995,no,1,0.010798920108,0.999500049995
+A2,column_gene_rank,Column-stochastic RWR with gene-level average-rank percentiles,0.560747663551,0.415695793697,0.034896510349,yes,0,0.16198380162,0.101589841016
+A2,uniform_ratio_gene_rank,"Column-stochastic RWR divided by the uniform-restart steady state, then gene-level average-rank percentiles",0.579439252336,0.421455918498,0.0761923807619,yes,0,0.291570842916,0.101589841016
+A2,symmetric_gene_rank,Symmetric D^-1/2 W D^-1/2 propagation with gene-level average-rank percentiles,0.607476635514,0.43580778754,0.0545945405459,yes,0,0.151184881512,0.101589841016
+B1,column_minmax,Locked column-stochastic RWR with gene-level min-max scaling,0.588785046729,0.567830840602,0.453754624538,yes,0,0.544745525447,0.848615138486
+B1,column_gene_rank,Column-stochastic RWR with gene-level average-rank percentiles,0.367601246106,0.417493145847,0.702929707029,no,0,0.712728727127,0.848615138486
+B1,uniform_ratio_gene_rank,"Column-stochastic RWR divided by the uniform-restart steady state, then gene-level average-rank percentiles",0.311526479751,0.420984267343,0.848615138486,no,0,0.10798920108,0.848615138486
+B1,symmetric_gene_rank,Symmetric D^-1/2 W D^-1/2 propagation with gene-level average-rank percentiles,0.380062305296,0.43275965689,0.677432256774,no,0,0.367163283672,0.848615138486
+B2,column_minmax,Locked column-stochastic RWR with gene-level min-max scaling,0.725856697819,0.564704049253,0.109289071093,yes,0,0.496750324968,0.437156284372
+B2,column_gene_rank,Column-stochastic RWR with gene-level average-rank percentiles,0.395638629283,0.418788472881,0.588841115888,no,0,0.550744925507,0.588841115888
+B2,uniform_ratio_gene_rank,"Column-stochastic RWR divided by the uniform-restart steady state, then gene-level average-rank percentiles",0.411214953271,0.421839407663,0.536546345365,no,0,0.10798920108,0.588841115888
+B2,symmetric_gene_rank,Symmetric D^-1/2 W D^-1/2 propagation with gene-level average-rank percentiles,0.414330218069,0.434257787594,0.562843715628,no,0,0.579542045795,0.588841115888
+B2_lo,column_minmax,Locked column-stochastic RWR with gene-level min-max scaling,0.713395638629,0.564853893468,0.126487351265,yes,0,0.507549245075,0.505949405059
+B2_lo,column_gene_rank,Column-stochastic RWR with gene-level average-rank percentiles,0.395638629283,0.41889439204,0.590840915908,no,0,0.550744925507,0.590840915908
+B2_lo,uniform_ratio_gene_rank,"Column-stochastic RWR divided by the uniform-restart steady state, then gene-level average-rank percentiles",0.411214953271,0.422020093024,0.534346565343,no,0,0.0971902809719,0.590840915908
+B2_lo,symmetric_gene_rank,Symmetric D^-1/2 W D^-1/2 propagation with gene-level average-rank percentiles,0.411214953271,0.434300310952,0.575142485751,no,0,0.43195680432,0.590840915908
+B2_hi,column_minmax,Locked column-stochastic RWR with gene-level min-max scaling,0.725856697819,0.564565419971,0.108689131087,yes,0,0.496750324968,0.434756524348
+B2_hi,column_gene_rank,Column-stochastic RWR with gene-level average-rank percentiles,0.395638629283,0.418711681619,0.589641035896,no,0,0.529147085291,0.589641035896
+B2_hi,uniform_ratio_gene_rank,"Column-stochastic RWR divided by the uniform-restart steady state, then gene-level average-rank percentiles",0.411214953271,0.421841276674,0.535646435356,no,0,0.118788121188,0.589641035896
+B2_hi,symmetric_gene_rank,Symmetric D^-1/2 W D^-1/2 propagation with gene-level average-rank percentiles,0.423676012461,0.434173987116,0.527947205279,no,0,0.583141685831,0.589641035896

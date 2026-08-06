@@ -1,0 +1,16 @@
+{
+  "note": "Post-hoc. Frozen L1/L2 used an absolute delta-z cut calibrated on the primary variant; not scale-comparable across variants.",
+  "RB1_exposed_in_universe": [
+    "abemaciclib",
+    "palbociclib"
+  ],
+  "RB1_exposed_outside_universe": [
+    "trilaciclib"
+  ],
+  "abemaciclib_largest_shift_in_all_variants": false,
+  "direction_concordant": true,
+  "standardized_effect_range": [
+    2.0012889766816215,
+    49.43669141883596
+  ]
+}
