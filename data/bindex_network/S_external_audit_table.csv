@@ -1,0 +1,20 @@
+Drug,Evidence_type/stage,Direction,Score,Rubric_anchor,Reason,Citation_URL
+Mitotane,clinical_standard,positive,1.00,Approved ACC standard / ACC RCT positive,唯一获批 ACC 药物；标准治疗基石,https://academic.oup.com/oncolo/article/29/9/747/7717913
+Cabozantinib,clinical_phase2_positive,positive,0.90,ACC phase II positive (single-arm),首个在 ACC 证实活性的 TKI（单臂 II 期，MET/VEGFR2/AXL/RET）,https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00095-0/abstract
+Etoposide,clinical_firstline_modest,positive,0.70,"Clinical use, modest efficacy (ACC first/second line)",EDP-M 一线（FIRM-ACT III 期）；有效但缓解率仅~19-23%,https://www.nejm.org/doi/full/10.1056/NEJMoa1200966
+Doxorubicin,clinical_firstline_modest,positive,0.70,"Clinical use, modest efficacy (ACC first/second line)",EDP-M 一线（FIRM-ACT）；疗效温和,https://www.nejm.org/doi/full/10.1056/NEJMoa1200966
+Cisplatin,clinical_firstline_modest,positive,0.70,"Clinical use, modest efficacy (ACC first/second line)",EDP-M 一线（FIRM-ACT）,https://www.nejm.org/doi/full/10.1056/NEJMoa1200966
+Gemcitabine,clinical_secondline_modest,positive,0.65,Single reliable ACC preclinical/organoid positive,二线挽救（+卡培他滨/5-FU）；温和活性,https://academic.oup.com/jcem/article/102/11/4323/4162024
+Palbociclib,preclinical_positive,positive,0.65,Single reliable ACC preclinical/organoid positive,ACC 细胞系（SW-13/NCI-H295R）降活性；RB 阴性亦有效,https://pmc.ncbi.nlm.nih.gov/articles/PMC5764399/
+Carboplatin,clinical_used,positive,0.60,ACC preclinical positive,铂类，ACC 方案中替代顺铂使用,https://www.nejm.org/doi/full/10.1056/NEJMoa1200966
+Ribociclib,preclinical_positive,positive,0.60,ACC preclinical positive,ACC 细胞系（SW-13）降活性诱导衰老,https://pmc.ncbi.nlm.nih.gov/articles/PMC5764399/
+Abemaciclib,preclinical_class,positive,0.55,Class/contextual positive (limited direct ACC data),CDK4/6 类；ACC CDKN2A/CDK4/RB 轴理据,https://pmc.ncbi.nlm.nih.gov/articles/PMC5764399/
+Lenvatinib,class_rationale,positive,0.55,Class/contextual positive (limited direct ACC data),多激酶/抗血管，cabozantinib 类理据；ACC 直接数据有限,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10805963/
+Actinomycin D,pediatric_context,positive,0.55,Class/contextual positive (limited direct ACC data),儿童 ACC 新辅助化疗背景；dactinomycin 儿童肿瘤常用,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10563212/
+Everolimus,preclinical_mixed,neutral,0.50,No ACC-specific evidence (neutral),mTOR；与 IGF-1R 抑制联用体外测试，疗效温和,https://pmc.ncbi.nlm.nih.gov/articles/PMC6551351/
+Temsirolimus,preclinical_mixed,neutral,0.50,No ACC-specific evidence (neutral),mTOR 类；ACC 直接证据有限,https://pmc.ncbi.nlm.nih.gov/articles/PMC6551351/
+Sirolimus,preclinical_mixed,neutral,0.50,No ACC-specific evidence (neutral),mTOR 类；ACC 直接证据有限,https://pmc.ncbi.nlm.nih.gov/articles/PMC6551351/
+Sunitinib,clinical_disappointing,negative,0.35,Negative/disappointing ACC clinical or repeated negative,体外抑制类固醇生成，但 II 期令人失望（mitotane-CYP3A4 加速代谢）,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10805963/
+Osimertinib,class_clinical_failure,negative,0.35,Negative/disappointing ACC clinical or repeated negative,EGFR 类；ACC 单药理据弱（EGFR 单抑失败）,https://ascopubs.org/doi/10.1200/jco.2007.25.18_suppl.15527
+Afatinib,class_clinical_failure,negative,0.25,Class clinical failure (ACC monotherapy),EGFR 单药（gefitinib II 期 0% 缓解）在 ACC 无活性,https://ascopubs.org/doi/10.1200/jco.2007.25.18_suppl.15527
+Erlotinib,class_clinical_failure,negative,0.20,Clinical failure in ACC,EGFR 单药在 ACC 无临床获益,https://ascopubs.org/doi/10.1200/jco.2007.25.18_suppl.15527

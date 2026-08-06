@@ -1,0 +1,19 @@
+{
+  "alpha": 0.4,
+  "converged_iter": 47,
+  "n_nodes": 432,
+  "n_ppi_edges": 2437,
+  "seeds_in_graph": 47,
+  "uni399_in_graph": 366,
+  "lambdas": [
+    0,
+    0.5,
+    1,
+    2,
+    5
+  ],
+  "qc_max_abs_diff": 9.853229343548264e-16,
+  "qc_matched": 1337,
+  "qc_paper_pairs": 1337,
+  "qc_my_pairs": 1337
+}

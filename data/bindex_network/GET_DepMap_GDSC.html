@@ -1,0 +1,34 @@
+<!doctype html><meta charset="utf-8"><title>下载 DepMap / GDSC 验证数据</title>
+<div style="font-family:system-ui;max-width:760px;margin:28px auto;line-height:1.55">
+<h2>ACC 独立验证数据下载（DepMap + GDSC）</h2>
+<p>用于补 v2 的无湿实验验证。ACC 系只有 <b>NCI-H295R</b> 和 <b>SW-13</b> 两株。按优先级下载，放进
+<code>D:\03-SCI-ACC药物重定位</code>（原样即可，我来解压/解析）。</p>
+
+<h3>① 必下（小文件，先拿这三个就能开工）</h3>
+<ol>
+<li><b>DepMap 样本注释 Model.csv</b>（很小，定位 ACC 系 ACH ID）<br>
+去 <a href="https://depmap.org/portal/data_page/?tab=allData" target="_blank">DepMap 数据页</a> → 搜 <code>Model.csv</code> 下载；
+或 <a href="https://plus.figshare.com/articles/dataset/DepMap_24Q4_Public/27993248" target="_blank">DepMap 24Q4 Figshare</a> 里点 <code>Model.csv</code>。</li>
+<li><b>GDSC2 药敏</b> <code>GDSC2_fitted_dose_response_*.xlsx</code>（较小）<br>
+<a href="https://www.cancerrxgene.org/downloads/bulk_download" target="_blank">GDSC 批量下载页</a>（选 GDSC2 → fitted dose response），
+或直接目录 <a href="https://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/" target="_blank">Sanger current_release</a> 里最新那个 <code>GDSC2_fitted_dose_response_*.xlsx</code>。</li>
+<li><b>DepMap 突变+拷贝数</b>（验证 RB1 缺失/RB 状态生物标志）<br>
+同 Figshare/数据页，取 <code>OmicsSomaticMutations.csv</code> 与 <code>OmicsCNGene.csv</code>（较大；若嫌大可先跳过，仅做 CRISPR+药敏也够）。</li>
+</ol>
+
+<h3>② 核心验证（大文件，验证基因层最有力）</h3>
+<ol start="4">
+<li><b>DepMap CRISPR 依赖性</b> <code>CRISPRGeneEffect.csv</code>（Chronos，~400MB，较大）<br>
+<a href="https://plus.figshare.com/articles/dataset/DepMap_24Q4_Public/27993248" target="_blank">DepMap 24Q4 Figshare</a> → 点 <code>CRISPRGeneEffect.csv</code>。
+用来检验高 r_ACC / ACC-seed 基因是否在两株 ACC 系中优先必需（含 CDK4/6-RB 检验）。</li>
+</ol>
+
+<h3>③ 可选（药敏交叉验证增强）</h3>
+<ol start="5">
+<li><b>PRISM Repurposing secondary</b>（1448 药 × 499 系）<br>
+<a href="https://depmap.org/portal/data_page/?tab=allData" target="_blank">DepMap 数据页</a> 搜 <code>PRISM Repurposing</code> → secondary screen dose-response 参数文件。</li>
+</ol>
+
+<p style="color:#666;margin-top:18px">最省事路线：先下 ①（Model.csv + GDSC2 xlsx），再下 ④（CRISPRGeneEffect.csv）。
+这四个就能完成"CRISPR 基因层验证 + 跨数据集活性一致性 + RB 生物标志佐证"。下好回聊天说一声。</p>
+</div>

@@ -1,0 +1,1338 @@
+drugA,drugB,B_ACC
+Axitinib,Cabozantinib,1.000000
+Bosutinib,Lapatinib,1.000000
+Binimetinib,Trametinib,0.889328
+Cobimetinib,Trametinib,0.879310
+Cobimetinib,Selumetinib,0.858238
+Binimetinib,Cobimetinib,0.857571
+Binimetinib,Selumetinib,0.805153
+Teniposide,Valrubicin,0.755682
+Acalabrutinib,Tucatinib,0.750000
+Bosutinib,Fedratinib,0.750000
+Fedratinib,Lapatinib,0.750000
+Gilteritinib,Lorlatinib,0.750000
+Pipobroman,Trifluridine,0.750000
+Sirolimus,Temsirolimus,0.750000
+Selumetinib,Trametinib,0.742424
+Chlorambucil,Uracil mustard,0.733333
+Pralsetinib,Selpercatinib,0.725607
+Carmustine,Lomustine,0.715198
+Topotecan,Uracil mustard,0.700000
+Afatinib,Neratinib,0.694444
+Bosutinib,Sunitinib,0.666667
+Chlorambucil,Topotecan,0.666667
+Cytarabine,Pipobroman,0.666667
+Cytarabine,Triethylenemelamine,0.666667
+Lapatinib,Sunitinib,0.666667
+Melphalan,Topotecan,0.666667
+Pemetrexed,Trifluridine,0.666667
+Thiotepa,Triethylenemelamine,0.666667
+Dasatinib,Pralsetinib,0.654915
+Mercaptopurine,Tioguanine,0.646991
+Docetaxel,Paclitaxel,0.641667
+Brigatinib,Lorlatinib,0.625000
+Afatinib,Osimertinib,0.611111
+Dacomitinib,Tucatinib,0.611111
+Ribociclib,Trilaciclib,0.604167
+Dasatinib,Selpercatinib,0.603243
+Abemaciclib,Temsirolimus,0.600000
+Everolimus,Lorlatinib,0.590909
+Irinotecan,Pemetrexed,0.590909
+Ibrutinib,Zanubrutinib,0.587413
+Daunorubicin,Pemetrexed,0.583333
+Decitabine,Melphalan,0.583333
+Gemcitabine,Thiotepa,0.583333
+Ibrutinib,Tucatinib,0.576923
+Doxorubicin,Etoposide,0.571429
+Dacomitinib,Ibrutinib,0.564103
+Brigatinib,Gilteritinib,0.562500
+Decitabine,Teniposide,0.562500
+Olaparib,Teniposide,0.562500
+Pralatrexate,Tioguanine,0.562500
+Ribociclib,Romidepsin,0.562500
+Encorafenib,Vemurafenib,0.560606
+Acalabrutinib,Afatinib,0.555556
+Acalabrutinib,Dacomitinib,0.555556
+Afatinib,Dacomitinib,0.555556
+Carfilzomib,Romidepsin,0.555556
+Cytarabine,Trifluridine,0.555556
+Duvelisib,Idelalisib,0.555556
+Idelalisib,Temsirolimus,0.555556
+Methotrexate,Pipobroman,0.555556
+Mitoxantrone,Uracil mustard,0.550000
+Pemigatinib,Temsirolimus,0.550000
+Acalabrutinib,Zanubrutinib,0.545455
+Decitabine,Valrubicin,0.545455
+Doxorubicin,Idarubicin,0.545455
+Everolimus,Gilteritinib,0.545455
+Everolimus,Temsirolimus,0.545455
+Ixabepilone,Panobinostat,0.545455
+Imatinib,Nilotinib,0.542857
+Imatinib,Raloxifene,0.542857
+Actinomycin D,Doxorubicin,0.541667
+Actinomycin D,Homoharringtonine,0.541667
+Actinomycin D,Romidepsin,0.541667
+Cytarabine,Gemcitabine,0.541667
+Daunorubicin,Decitabine,0.541667
+Daunorubicin,Doxorubicin,0.541667
+Decitabine,Mitomycin,0.541667
+Doxorubicin,Mitomycin,0.541667
+Fluorouracil,Panobinostat,0.541667
+Acalabrutinib,Ibrutinib,0.538462
+Fedratinib,Palbociclib,0.538462
+Clofarabine,Methotrexate,0.537037
+Mercaptopurine,Pralatrexate,0.537037
+Methotrexate,Pemetrexed,0.537037
+Methotrexate,Pralatrexate,0.537037
+Idarubicin,Nitrogen mustard,0.536932
+Etoposide,Teniposide,0.535714
+Avapritinib,Carmustine,0.534483
+Triethylenemelamine,Uracil mustard,0.533333
+Oxaliplatin,Pralatrexate,0.532258
+Axitinib,Tioguanine,0.531250
+Bleomycin,Gilteritinib,0.531250
+Cabozantinib,Tioguanine,0.531250
+Decitabine,Nitrogen mustard,0.531250
+Axitinib,Crizotinib,0.529412
+Axitinib,Ifosfamide,0.529412
+Cabozantinib,Crizotinib,0.529412
+Cabozantinib,Ifosfamide,0.529412
+Crizotinib,Doxorubicin,0.529412
+Panobinostat,Tamoxifen,0.527778
+Panobinostat,Vorinostat,0.527778
+Dabrafenib,Selumetinib,0.527315
+Lorlatinib,Selpercatinib,0.527027
+Erdafitinib,Pralsetinib,0.526271
+Daunorubicin,Irinotecan,0.522727
+Dasatinib,Mitotane,0.520000
+Bosutinib,Palbociclib,0.519231
+Lapatinib,Palbociclib,0.519231
+Axitinib,Lomustine,0.518519
+Azacitidine,Methotrexate,0.518519
+Cabozantinib,Lomustine,0.518519
+Decitabine,Methotrexate,0.518519
+Encorafenib,Selumetinib,0.518519
+Methotrexate,Panobinostat,0.518519
+Crizotinib,Imatinib,0.517647
+Axitinib,Carmustine,0.517241
+Cabozantinib,Carmustine,0.517241
+Lorlatinib,Pralsetinib,0.516949
+Fruquintinib,Pralsetinib,0.516676
+Mitoxantrone,Valrubicin,0.515152
+Gilteritinib,Selpercatinib,0.513514
+Abiraterone,Gilteritinib,0.512821
+Dabrafenib,Vinorelbine,0.512500
+Epirubicin,Valrubicin,0.511364
+Gilteritinib,Pralsetinib,0.508475
+Erdafitinib,Selpercatinib,0.508108
+Raloxifene,Tamoxifen,0.507937
+Lenvatinib,Pralsetinib,0.507533
+Cobimetinib,Encorafenib,0.505747
+Cobimetinib,Dabrafenib,0.505603
+Dabrafenib,Encorafenib,0.504167
+Celecoxib,Talazoparib,0.500000
+Chlorambucil,Melphalan,0.500000
+Chlorambucil,Thiotepa,0.500000
+Melphalan,Thiotepa,0.500000
+Mitoxantrone,Triethylenemelamine,0.500000
+Pemetrexed,Pralatrexate,0.500000
+Thiotepa,Trifluridine,0.500000
+Triethylenemelamine,Trifluridine,0.500000
+Binimetinib,Encorafenib,0.495652
+Arsenic trioxide,Lomustine,0.494949
+Dabrafenib,Trametinib,0.493182
+Dasatinib,Erdafitinib,0.490000
+Actinomycin D,Lomustine,0.481481
+Ifosfamide,Lomustine,0.479303
+Palbociclib,Trilaciclib,0.473443
+Etoposide,Valrubicin,0.467532
+Cytarabine,Uracil mustard,0.466667
+Carboplatin,Cisplatin,0.464286
+Abiraterone,Fruquintinib,0.463193
+Crizotinib,Raloxifene,0.455882
+Fludarabine,umbralisib,0.450000
+Encorafenib,Trametinib,0.448485
+Bleomycin,Selpercatinib,0.447635
+Binimetinib,Dabrafenib,0.445109
+Carfilzomib,Vinblastine,0.444444
+Cytarabine,Thiotepa,0.444444
+Arsenic trioxide,Carmustine,0.439655
+Dexrazoxane,Idarubicin,0.439394
+Uracil mustard,Valrubicin,0.436364
+Daunorubicin,Idarubicin,0.435606
+Nilotinib,Raloxifene,0.428571
+Actinomycin D,Crizotinib,0.426471
+Brigatinib,Pralsetinib,0.425847
+Actinomycin D,Imatinib,0.425000
+Idarubicin,Thiotepa,0.424242
+Idarubicin,Triethylenemelamine,0.424242
+Irinotecan,Pipobroman,0.424242
+Triethylenemelamine,Valrubicin,0.424242
+Carfilzomib,Paclitaxel,0.422222
+Paclitaxel,Vinblastine,0.422222
+Abiraterone,Selpercatinib,0.421344
+Carmustine,Ifosfamide,0.419878
+Dacomitinib,Neratinib,0.416667
+Avapritinib,Sunitinib,0.416667
+Daunorubicin,Mitomycin,0.416667
+Daunorubicin,Pipobroman,0.416667
+Daunorubicin,Teniposide,0.416667
+Epirubicin,Mitoxantrone,0.416667
+Fedratinib,Sunitinib,0.416667
+Gemcitabine,Trifluridine,0.416667
+Mitomycin,Pipobroman,0.416667
+Mitomycin,Thiotepa,0.416667
+Pemetrexed,Pipobroman,0.416667
+Pipobroman,Pralatrexate,0.416667
+Pipobroman,Topotecan,0.416667
+Thiotepa,Topotecan,0.416667
+Topotecan,Triethylenemelamine,0.416667
+Fruquintinib,Selpercatinib,0.414996
+Dexrazoxane,Nitrogen mustard,0.413194
+Lenvatinib,Selpercatinib,0.412913
+Actinomycin D,Carmustine,0.412356
+Methotrexate,Trifluridine,0.407407
+Afatinib,Zanubrutinib,0.404040
+Dacomitinib,Zanubrutinib,0.404040
+Crizotinib,Tamoxifen,0.400327
+Encorafenib,Venetoclax,0.400000
+Bleomycin,Pralsetinib,0.397246
+Nitrogen mustard,Triethylenemelamine,0.395833
+Fruquintinib,Lenvatinib,0.395161
+Nitrogen mustard,Uracil mustard,0.393750
+Gemcitabine,Hydroxyurea,0.392857
+Crizotinib,Nilotinib,0.390756
+Actinomycin D,Carfilzomib,0.388889
+Carfilzomib,Docetaxel,0.388889
+Docetaxel,Vinblastine,0.388889
+Ifosfamide,Uracil mustard,0.388235
+Dacarbazine,Tioguanine,0.387500
+Actinomycin D,Raloxifene,0.386905
+Erlotinib,Vandetanib,0.386364
+Idarubicin,Melphalan,0.386364
+Irinotecan,Trifluridine,0.386364
+Neratinib,Zanubrutinib,0.386364
+Crizotinib,Lomustine,0.383442
+Imatinib,Tamoxifen,0.383333
+Imatinib,Vorinostat,0.383333
+Cytarabine,Hydroxyurea,0.380952
+Lomustine,Raloxifene,0.379630
+Erlotinib,Pralsetinib,0.377504
+Everolimus,Pralsetinib,0.377504
+Arsenic trioxide,Carboplatin,0.376623
+Clofarabine,Gemcitabine,0.375000
+Daunorubicin,Melphalan,0.375000
+Daunorubicin,Trifluridine,0.375000
+Gemcitabine,Pemetrexed,0.375000
+Gemcitabine,Pralatrexate,0.375000
+Melphalan,Mitomycin,0.375000
+Mitomycin,Trifluridine,0.375000
+Carmustine,Crizotinib,0.373225
+Palbociclib,Sunitinib,0.371795
+Carmustine,Raloxifene,0.370690
+Lomustine,Tamoxifen,0.370370
+Melphalan,Uracil mustard,0.366667
+Ixabepilone,Tamoxifen,0.366162
+Oxaliplatin,Pipobroman,0.365591
+Ceritinib,Palbociclib,0.365385
+Daunorubicin,Nitrogen mustard,0.364583
+Erlotinib,Zanubrutinib,0.363636
+Abiraterone,Pralsetinib,0.362017
+Daunorubicin,Methotrexate,0.361111
+Docetaxel,Lomustine,0.361111
+Methotrexate,Mitomycin,0.361111
+Binimetinib,Vemurafenib,0.355731
+Imatinib,Lomustine,0.355556
+Selumetinib,Venetoclax,0.355556
+Everolimus,Selpercatinib,0.353808
+Carmustine,Imatinib,0.351724
+Cobimetinib,Venetoclax,0.351724
+Abemaciclib,Sirolimus,0.350000
+Belinostat,Fedratinib,0.350000
+Belinostat,Pralatrexate,0.350000
+Daunorubicin,Valrubicin,0.348485
+Idarubicin,Mitomycin,0.348485
+Imatinib,Oxaliplatin,0.348387
+Actinomycin D,Tamoxifen,0.347222
+Selpercatinib,Zoledronate,0.346622
+Methotrexate,Oxaliplatin,0.346476
+Melphalan,Nitrogen mustard,0.343750
+Etoposide,Uracil mustard,0.342857
+Lomustine,Paclitaxel,0.342593
+Daunorubicin,Etoposide,0.339286
+Chlorambucil,Ifosfamide,0.338235
+Crizotinib,tepotinib,0.338235
+Dabrafenib,Ixazomib,0.337500
+Dabrafenib,Venetoclax,0.337500
+Pralsetinib,Zoledronate,0.334746
+Avapritinib,Duvelisib,0.333333
+Chlorambucil,Cisplatin,0.333333
+Chlorambucil,Mitoxantrone,0.333333
+Cisplatin,Melphalan,0.333333
+Cisplatin,Topotecan,0.333333
+Cladribine,Thiotepa,0.333333
+Cladribine,Triethylenemelamine,0.333333
+Duvelisib,Tucatinib,0.333333
+Duvelisib,Vandetanib,0.333333
+Mitoxantrone,Topotecan,0.333333
+Neratinib,Osimertinib,0.333333
+Pipobroman,Thiotepa,0.333333
+Pipobroman,Triethylenemelamine,0.333333
+Pralatrexate,Trifluridine,0.333333
+Topotecan,Trifluridine,0.333333
+Tucatinib,Vandetanib,0.333333
+Nitrogen mustard,Oxaliplatin,0.331653
+Erdafitinib,Fruquintinib,0.330645
+Brigatinib,Dasatinib,0.330000
+Selumetinib,Vemurafenib,0.329966
+Dexrazoxane,Palbociclib,0.329060
+Allopurinol,Fludarabine,0.326923
+Palbociclib,Ribociclib,0.326923
+Teniposide,Uracil mustard,0.325000
+Abiraterone,Lenvatinib,0.324786
+Pralsetinib,Zanubrutinib,0.323575
+Celecoxib,Etoposide,0.321429
+Celecoxib,Hydroxyurea,0.321429
+Estramustine,Talazoparib,0.321429
+Etoposide,Talazoparib,0.321429
+Etoposide,Topotecan,0.321429
+Hydroxyurea,Pemetrexed,0.321429
+Hydroxyurea,Pralatrexate,0.321429
+Hydroxyurea,Talazoparib,0.321429
+Irinotecan,Methotrexate,0.319865
+Cobimetinib,Vemurafenib,0.319749
+Arsenic trioxide,Cisplatin,0.318182
+Pemigatinib,Selpercatinib,0.317568
+Nilotinib,Tamoxifen,0.317460
+Dabrafenib,Vemurafenib,0.317045
+Carmustine,Tamoxifen,0.315134
+Avapritinib,Ribociclib,0.312500
+Celecoxib,Teniposide,0.312500
+Fedratinib,Ribociclib,0.312500
+Talazoparib,Teniposide,0.312500
+Teniposide,Topotecan,0.312500
+Dacarbazine,Mercaptopurine,0.311111
+Erdafitinib,Lenvatinib,0.311111
+Chlorambucil,Etoposide,0.309524
+Etoposide,Mitoxantrone,0.309524
+Hydroxyurea,Trifluridine,0.309524
+Carboplatin,Cyclophosphamide,0.308036
+Cyclophosphamide,Hydroxyurea,0.308036
+Irinotecan,Oxaliplatin,0.307918
+Cyclophosphamide,Valrubicin,0.306818
+Irinotecan,Nitrogen mustard,0.306818
+Afatinib,Tucatinib,0.305556
+Avapritinib,Idelalisib,0.305556
+Clofarabine,Cytarabine,0.305556
+Cytarabine,Pemetrexed,0.305556
+Cytarabine,Pralatrexate,0.305556
+Cytarabine,Topotecan,0.305556
+Dacomitinib,Osimertinib,0.305556
+Idelalisib,Sirolimus,0.305556
+Melphalan,Methotrexate,0.305556
+Brigatinib,Selpercatinib,0.304054
+Cytarabine,Irinotecan,0.303030
+Nitrogen mustard,Palbociclib,0.302885
+Abiraterone,Zoledronate,0.302564
+Etoposide,Ifosfamide,0.302521
+Erdafitinib,Sirolimus,0.300000
+Paclitaxel,Pemetrexed,0.300000
+Paclitaxel,Pralatrexate,0.300000
+Pemigatinib,Sirolimus,0.300000
+Carfilzomib,Lomustine,0.296296
+Cytarabine,Methotrexate,0.296296
+Lomustine,Vinblastine,0.296296
+Avapritinib,Ixabepilone,0.295455
+Celecoxib,Valrubicin,0.295455
+Erlotinib,Osimertinib,0.295455
+Everolimus,Sirolimus,0.295455
+Idarubicin,Pemetrexed,0.295455
+Idarubicin,Topotecan,0.295455
+Irinotecan,Pralatrexate,0.295455
+Irinotecan,Topotecan,0.295455
+Osimertinib,Zanubrutinib,0.295455
+Talazoparib,Valrubicin,0.295455
+Topotecan,Valrubicin,0.295455
+Tucatinib,Zanubrutinib,0.295455
+Avapritinib,Fluorouracil,0.291667
+Ceritinib,Fedratinib,0.291667
+Daunorubicin,Pralatrexate,0.291667
+Daunorubicin,Topotecan,0.291667
+Docetaxel,Pemetrexed,0.291667
+Docetaxel,Pralatrexate,0.291667
+Fluorouracil,Pemetrexed,0.291667
+Fluorouracil,Pralatrexate,0.291667
+Mitomycin,Pemetrexed,0.291667
+Mitomycin,Topotecan,0.291667
+Actinomycin D,Vinblastine,0.291667
+Chlorambucil,Teniposide,0.291667
+Cladribine,Gemcitabine,0.291667
+Cytarabine,Mitomycin,0.291667
+Fluorouracil,Nitrogen mustard,0.291667
+Gemcitabine,Pipobroman,0.291667
+Gemcitabine,Triethylenemelamine,0.291667
+Melphalan,Teniposide,0.291667
+Mitoxantrone,Teniposide,0.291667
+Idarubicin,Uracil mustard,0.290909
+Irinotecan,Uracil mustard,0.290909
+Daunorubicin,Oxaliplatin,0.288978
+Allopurinol,Pralatrexate,0.288462
+Ibrutinib,Osimertinib,0.288462
+Fruquintinib,Zoledronate,0.287903
+Gemcitabine,Methotrexate,0.287037
+Ixabepilone,Paclitaxel,0.286364
+Allopurinol,Mercaptopurine,0.284900
+Carmustine,Epirubicin,0.284483
+Actinomycin D,Ifosfamide,0.284314
+Ceritinib,Crizotinib,0.284314
+Ceritinib,Imatinib,0.283333
+Afatinib,Ibrutinib,0.282051
+Ibrutinib,Pralsetinib,0.281617
+Bleomycin,Lorlatinib,0.281250
+Bleomycin,Sirolimus,0.281250
+Celecoxib,Cyclophosphamide,0.281250
+Cyclophosphamide,Darolutamide,0.281250
+Cyclophosphamide,Fulvestrant,0.281250
+Cyclophosphamide,Pemetrexed,0.281250
+Cyclophosphamide,Pralatrexate,0.281250
+Cyclophosphamide,Talazoparib,0.281250
+Cyclophosphamide,Teniposide,0.281250
+Fedratinib,Nitrogen mustard,0.281250
+Nitrogen mustard,Pemetrexed,0.281250
+Nitrogen mustard,Topotecan,0.281250
+Pemetrexed,Tioguanine,0.281250
+Crizotinib,Fedratinib,0.279412
+Ifosfamide,Topotecan,0.279412
+Allopurinol,Tioguanine,0.278846
+Avapritinib,Vorinostat,0.277778
+Ceritinib,Dexrazoxane,0.277778
+Ceritinib,Tamoxifen,0.277778
+Chlorambucil,Cytarabine,0.277778
+Cytarabine,Mitoxantrone,0.277778
+Daunorubicin,Dexrazoxane,0.277778
+Dexrazoxane,Fedratinib,0.277778
+Dexrazoxane,Topotecan,0.277778
+Idelalisib,Vandetanib,0.277778
+Tamoxifen,Vorinostat,0.277778
+Dacarbazine,Nilotinib,0.276190
+Crizotinib,Darolutamide,0.275735
+Crizotinib,Ribociclib,0.275735
+Actinomycin D,Paclitaxel,0.275000
+Avapritinib,Zoledronate,0.275000
+Mercaptopurine,Paclitaxel,0.274074
+Avapritinib,Trilaciclib,0.273810
+Celecoxib,Trilaciclib,0.273810
+Fedratinib,Trilaciclib,0.273810
+Talazoparib,Trilaciclib,0.273810
+Nilotinib,Vinblastine,0.273810
+Arsenic trioxide,Avapritinib,0.272727
+Idarubicin,Irinotecan,0.272727
+Trametinib,Vemurafenib,0.272727
+Dasatinib,Lorlatinib,0.270000
+Hydroxyurea,Mercaptopurine,0.269841
+Avapritinib,Palbociclib,0.269231
+Palbociclib,Pemetrexed,0.269231
+Carmustine,Paclitaxel,0.268966
+Avapritinib,Methotrexate,0.268519
+Mercaptopurine,Pemetrexed,0.268519
+Methotrexate,Topotecan,0.268519
+Hydroxyurea,Teniposide,0.267857
+Asciminib,Imatinib,0.266667
+Encorafenib,Ixazomib,0.266667
+Imatinib,Selinexor,0.266667
+Pipobroman,Uracil mustard,0.266667
+Thiotepa,Uracil mustard,0.266667
+Avapritinib,Oxaliplatin,0.266129
+Celecoxib,Oxaliplatin,0.266129
+Fedratinib,Oxaliplatin,0.266129
+Oxaliplatin,Pemetrexed,0.266129
+Oxaliplatin,Topotecan,0.266129
+Carboplatin,Carmustine,0.266010
+Erdafitinib,Ibrutinib,0.265385
+Oxaliplatin,Paclitaxel,0.264516
+Lenvatinib,Zoledronate,0.263889
+Selpercatinib,Sirolimus,0.263514
+Dexrazoxane,Oxaliplatin,0.263441
+Abiraterone,Avapritinib,0.262821
+Abiraterone,Lorlatinib,0.262821
+Dasatinib,Erlotinib,0.261818
+Dasatinib,Everolimus,0.261818
+Dasatinib,Zanubrutinib,0.261818
+Ceritinib,Ixabepilone,0.261364
+Fluorouracil,Ixabepilone,0.261364
+Irinotecan,Mitomycin,0.261364
+Arsenic trioxide,Ifosfamide,0.260695
+Ifosfamide,Raloxifene,0.260504
+Cytarabine,Nitrogen mustard,0.260417
+Mercaptopurine,Methotrexate,0.259259
+Belinostat,Crizotinib,0.258824
+Pralsetinib,Sirolimus,0.258475
+Chlorambucil,Idarubicin,0.257576
+Chlorambucil,Irinotecan,0.257576
+Chlorambucil,Valrubicin,0.257576
+Erlotinib,Neratinib,0.257576
+Idarubicin,Mitoxantrone,0.257576
+Idarubicin,Trifluridine,0.257576
+Irinotecan,Mitoxantrone,0.257576
+Melphalan,Valrubicin,0.257576
+Paclitaxel,Raloxifene,0.257143
+Idarubicin,Methotrexate,0.255892
+Arsenic trioxide,Darolutamide,0.255682
+Belinostat,Vorinostat,0.255556
+Carfilzomib,Ifosfamide,0.254902
+Crizotinib,Vinblastine,0.254902
+Nilotinib,Vorinostat,0.253968
+Dasatinib,Fruquintinib,0.252903
+Carmustine,Dacarbazine,0.252874
+Erlotinib,Ibrutinib,0.251748
+Carmustine,Ixabepilone,0.250784
+Actinomycin D,Docetaxel,0.250000
+Chlorambucil,Mitomycin,0.250000
+Chlorambucil,Pipobroman,0.250000
+Chlorambucil,Triethylenemelamine,0.250000
+Cisplatin,Selinexor,0.250000
+Cisplatin,Thiotepa,0.250000
+Cladribine,Trifluridine,0.250000
+Melphalan,Pipobroman,0.250000
+Melphalan,Triethylenemelamine,0.250000
+Mitoxantrone,Pipobroman,0.250000
+Mitoxantrone,Thiotepa,0.250000
+Methotrexate,Nitrogen mustard,0.248843
+Methotrexate,Tioguanine,0.248843
+Belinostat,Trilaciclib,0.247619
+Idarubicin,Oxaliplatin,0.246334
+Ixabepilone,Oxaliplatin,0.246334
+Arsenic trioxide,Imatinib,0.245455
+Trametinib,Venetoclax,0.245455
+Vemurafenib,Venetoclax,0.245455
+Bleomycin,Erdafitinib,0.243750
+Fluorouracil,Palbociclib,0.243590
+Ibrutinib,Neratinib,0.243590
+Ixabepilone,Raloxifene,0.243506
+Binimetinib,Venetoclax,0.243478
+Fluorouracil,Methotrexate,0.240741
+Carmustine,Darolutamide,0.239224
+Carmustine,Ribociclib,0.239224
+Dasatinib,Lenvatinib,0.238889
+Belinostat,Palbociclib,0.238462
+Ifosfamide,Paclitaxel,0.238235
+Carboplatin,Selinexor,0.238095
+Cladribine,Hydroxyurea,0.238095
+Etoposide,Pipobroman,0.238095
+Etoposide,Thiotepa,0.238095
+Etoposide,Triethylenemelamine,0.238095
+Hydroxyurea,Pipobroman,0.238095
+Hydroxyurea,Thiotepa,0.238095
+Hydroxyurea,Triethylenemelamine,0.238095
+Imatinib,Mercaptopurine,0.237037
+Imatinib,Methotrexate,0.237037
+Imatinib,Selumetinib,0.237037
+Bleomycin,Fruquintinib,0.236895
+Carmustine,Docetaxel,0.235632
+Crizotinib,Ifosfamide,0.235294
+Arsenic trioxide,Carfilzomib,0.234848
+Arsenic trioxide,Vinblastine,0.234848
+Cobimetinib,Imatinib,0.234483
+Pemigatinib,Pralsetinib,0.233898
+Dasatinib,Ibrutinib,0.233846
+Arsenic trioxide,Raloxifene,0.233766
+Etoposide,Idarubicin,0.233766
+Etoposide,Irinotecan,0.233766
+Hydroxyurea,Irinotecan,0.233766
+Hydroxyurea,Valrubicin,0.233766
+Dacarbazine,tepotinib,0.233333
+Encorafenib,tepotinib,0.233333
+Lenvatinib,Pemigatinib,0.233333
+Paclitaxel,Tamoxifen,0.233333
+Abiraterone,Everolimus,0.233100
+Belinostat,Oxaliplatin,0.232258
+Oxaliplatin,umbralisib,0.232258
+Actinomycin D,Nilotinib,0.232143
+Methotrexate,Vorinostat,0.231481
+Docetaxel,Oxaliplatin,0.231183
+Fluorouracil,Oxaliplatin,0.231183
+Bleomycin,Everolimus,0.230114
+Irinotecan,Tioguanine,0.230114
+Nitrogen mustard,Valrubicin,0.230114
+Chlorambucil,Nitrogen mustard,0.229167
+Mitoxantrone,Nitrogen mustard,0.229167
+Nitrogen mustard,Trifluridine,0.229167
+Pipobroman,Teniposide,0.229167
+Ribociclib,Sunitinib,0.229167
+Teniposide,Thiotepa,0.229167
+Teniposide,Triethylenemelamine,0.229167
+Tioguanine,Trifluridine,0.229167
+Crizotinib,Vorinostat,0.228758
+Ifosfamide,Tamoxifen,0.228758
+Crizotinib,Oxaliplatin,0.227704
+Ifosfamide,Oxaliplatin,0.227704
+Daunorubicin,Hydroxyurea,0.226190
+Etoposide,Mitomycin,0.226190
+Fluorouracil,Hydroxyurea,0.226190
+Ifosfamide,Mitoxantrone,0.225490
+Bleomycin,Zoledronate,0.225000
+Epirubicin,Uracil mustard,0.225000
+Dasatinib,Zoledronate,0.225000
+Ifosfamide,Irinotecan,0.224599
+Cladribine,Cytarabine,0.222222
+Tamoxifen,tepotinib,0.222222
+Abiraterone,Bleomycin,0.220353
+Palbociclib,Raloxifene,0.219780
+Dexrazoxane,Irinotecan,0.219697
+Ixabepilone,Vorinostat,0.219697
+Oxaliplatin,Tamoxifen,0.219534
+Mitomycin,Nitrogen mustard,0.218750
+Carfilzomib,Carmustine,0.218391
+Carmustine,Vinblastine,0.218391
+Lomustine,Nilotinib,0.216931
+Mercaptopurine,Nilotinib,0.216931
+Paclitaxel,Pipobroman,0.216667
+Brigatinib,Erlotinib,0.215909
+Brigatinib,Everolimus,0.215909
+Irinotecan,Teniposide,0.215909
+Carboplatin,Nilotinib,0.214286
+Docetaxel,Ifosfamide,0.213235
+Oxaliplatin,Palbociclib,0.212159
+Asciminib,Ixabepilone,0.212121
+Idarubicin,Pipobroman,0.212121
+Irinotecan,Thiotepa,0.212121
+Irinotecan,Triethylenemelamine,0.212121
+Ixabepilone,Sunitinib,0.212121
+Pipobroman,Valrubicin,0.212121
+Thiotepa,Valrubicin,0.212121
+Vemurafenib,tepotinib,0.212121
+Carmustine,Nilotinib,0.211823
+Arsenic trioxide,Crizotinib,0.208556
+Fluorouracil,Vorinostat,0.208333
+Actinomycin D,Asciminib,0.208333
+Actinomycin D,Selinexor,0.208333
+Asciminib,Ceritinib,0.208333
+Chlorambucil,Epirubicin,0.208333
+Chlorambucil,Gemcitabine,0.208333
+Cisplatin,Gemcitabine,0.208333
+Daunorubicin,Thiotepa,0.208333
+Daunorubicin,Triethylenemelamine,0.208333
+Docetaxel,Pipobroman,0.208333
+Fluorouracil,Pipobroman,0.208333
+Fluorouracil,Sunitinib,0.208333
+Gemcitabine,Melphalan,0.208333
+Mitomycin,Teniposide,0.208333
+Mitomycin,Triethylenemelamine,0.208333
+Ibrutinib,Selpercatinib,0.207900
+Lomustine,Oxaliplatin,0.207885
+Mercaptopurine,Oxaliplatin,0.207885
+Oxaliplatin,Raloxifene,0.207373
+Methotrexate,Paclitaxel,0.205556
+Hydroxyurea,Nitrogen mustard,0.205357
+Hydroxyurea,Tioguanine,0.205357
+Allopurinol,Asciminib,0.205128
+Bleomycin,Dasatinib,0.205000
+Melphalan,Mercaptopurine,0.203704
+Mercaptopurine,Trifluridine,0.203704
+Selumetinib,tepotinib,0.203704
+Asciminib,Nilotinib,0.202381
+Asciminib,Raloxifene,0.202381
+Nilotinib,Selinexor,0.202381
+Raloxifene,Selinexor,0.202381
+Afatinib,Erlotinib,0.202020
+Cytarabine,Idarubicin,0.202020
+Cytarabine,Valrubicin,0.202020
+Dacomitinib,Erlotinib,0.202020
+Dabrafenib,Vorinostat,0.201389
+Carmustine,Mitoxantrone,0.201149
+Carmustine,tepotinib,0.201149
+Cobimetinib,tepotinib,0.201149
+Carmustine,Oxaliplatin,0.200222
+Erdafitinib,Pemigatinib,0.200000
+Imatinib,umbralisib,0.200000
+Ixazomib,Venetoclax,0.200000
+Encorafenib,Sunitinib,0.200000
+Mercaptopurine,Nitrogen mustard,0.199074
+Fruquintinib,Vandetanib,0.198925
+Melphalan,Oxaliplatin,0.198925
+Oxaliplatin,Trifluridine,0.198925
+Ibrutinib,Lenvatinib,0.198718
+Fruquintinib,Pemigatinib,0.198387
+Cyclophosphamide,Pipobroman,0.197917
+Nitrogen mustard,Pipobroman,0.197917
+Nitrogen mustard,Thiotepa,0.197917
+Pipobroman,Tioguanine,0.197917
+Abiraterone,Dasatinib,0.196923
+Carboplatin,Epirubicin,0.196429
+Darolutamide,Raloxifene,0.196429
+Epirubicin,Etoposide,0.196429
+Asciminib,Crizotinib,0.196078
+Crizotinib,Selinexor,0.196078
+Ifosfamide,Pipobroman,0.196078
+Ifosfamide,Selinexor,0.196078
+Ifosfamide,Thiotepa,0.196078
+Ifosfamide,Triethylenemelamine,0.196078
+Asciminib,Tamoxifen,0.194444
+Asciminib,Vorinostat,0.194444
+Cytarabine,Daunorubicin,0.194444
+Dexrazoxane,Pipobroman,0.194444
+Dexrazoxane,Thiotepa,0.194444
+Dexrazoxane,Triethylenemelamine,0.194444
+Sunitinib,Vorinostat,0.194444
+Carmustine,Tioguanine,0.193966
+Actinomycin D,Arsenic trioxide,0.193182
+Arsenic trioxide,Docetaxel,0.193182
+Dabrafenib,Nilotinib,0.192857
+Irinotecan,Lomustine,0.191919
+Irinotecan,Mercaptopurine,0.191919
+Ixabepilone,Lomustine,0.191919
+Ixabepilone,Mercaptopurine,0.191919
+Ixabepilone,Methotrexate,0.191919
+Crizotinib,Selumetinib,0.191721
+Dabrafenib,tepotinib,0.191667
+Erdafitinib,Erlotinib,0.190909
+Erdafitinib,Everolimus,0.190909
+Erdafitinib,Zanubrutinib,0.190909
+Everolimus,Pemigatinib,0.190909
+Raloxifene,Vorinostat,0.190476
+Sunitinib,Trilaciclib,0.190476
+Oxaliplatin,Tioguanine,0.189516
+Arsenic trioxide,Selinexor,0.189394
+Sunitinib,Trametinib,0.189394
+Binimetinib,Sunitinib,0.188406
+Crizotinib,Dacarbazine,0.188235
+Carmustine,Irinotecan,0.188088
+Bleomycin,Brigatinib,0.187500
+Brigatinib,Sotorasib,0.187500
+Epirubicin,Teniposide,0.187500
+Nitrogen mustard,Teniposide,0.187500
+Cobimetinib,Crizotinib,0.186613
+Asciminib,Lomustine,0.185185
+Asciminib,Mercaptopurine,0.185185
+Lomustine,Selinexor,0.185185
+Mercaptopurine,Pipobroman,0.185185
+Mercaptopurine,Vorinostat,0.185185
+Methotrexate,Sunitinib,0.185185
+Methotrexate,Tamoxifen,0.185185
+Methotrexate,Thiotepa,0.185185
+Methotrexate,Triethylenemelamine,0.185185
+Selumetinib,Sunitinib,0.185185
+Oxaliplatin,Valrubicin,0.184751
+Asciminib,Carmustine,0.183908
+Carmustine,Selinexor,0.183908
+Carmustine,Sunitinib,0.183908
+Cobimetinib,Sunitinib,0.183908
+Ifosfamide,Teniposide,0.183824
+Pralsetinib,Vandetanib,0.183616
+Cisplatin,Imatinib,0.183333
+Cisplatin,Uracil mustard,0.183333
+Imatinib,tepotinib,0.183333
+Ixazomib,tepotinib,0.183333
+Trifluridine,Uracil mustard,0.183333
+Venetoclax,tepotinib,0.183333
+Asciminib,Oxaliplatin,0.182796
+Oxaliplatin,Sunitinib,0.182796
+Oxaliplatin,Thiotepa,0.182796
+Oxaliplatin,Triethylenemelamine,0.182796
+Raloxifene,Vinblastine,0.182540
+Erlotinib,Everolimus,0.181818
+Idarubicin,Valrubicin,0.181818
+Irinotecan,Valrubicin,0.181818
+Actinomycin D,Mercaptopurine,0.180556
+Ceritinib,Mercaptopurine,0.180556
+Cytarabine,Epirubicin,0.180556
+Dacomitinib,Sonidegib,0.180556
+Dexrazoxane,Ribociclib,0.180556
+Carboplatin,Lomustine,0.179894
+Hydroxyurea,Methotrexate,0.179894
+Cladribine,Dabrafenib,0.179167
+Dabrafenib,Sunitinib,0.179167
+Carmustine,Mercaptopurine,0.178799
+Dacarbazine,Vinblastine,0.177778
+Bleomycin,Lenvatinib,0.177083
+Erlotinib,Selpercatinib,0.176904
+Selpercatinib,Zanubrutinib,0.176904
+Oxaliplatin,Vorinostat,0.175627
+Arsenic trioxide,Nilotinib,0.175325
+Estramustine,Fruquintinib,0.175115
+Etoposide,Oxaliplatin,0.175115
+Hydroxyurea,Oxaliplatin,0.175115
+Gemcitabine,Paclitaxel,0.175000
+Abiraterone,Zanubrutinib,0.174825
+Actinomycin D,Ixabepilone,0.174242
+Docetaxel,Irinotecan,0.174242
+Docetaxel,Ixabepilone,0.174242
+Fluorouracil,Idarubicin,0.174242
+Mitomycin,Valrubicin,0.174242
+Bleomycin,Idelalisib,0.173611
+Cytarabine,Tioguanine,0.173611
+Actinomycin D,Oxaliplatin,0.173387
+Ceritinib,Oxaliplatin,0.173387
+Teniposide,Trilaciclib,0.172619
+Crizotinib,Dexrazoxane,0.171569
+Carboplatin,Imatinib,0.171429
+Hydroxyurea,Uracil mustard,0.171429
+Erlotinib,Sotorasib,0.170455
+Gemcitabine,Idarubicin,0.170455
+Gemcitabine,Irinotecan,0.170455
+Carfilzomib,Crizotinib,0.169935
+Cytarabine,Ifosfamide,0.169935
+Ifosfamide,Vinblastine,0.169935
+Crizotinib,Dabrafenib,0.167647
+Actinomycin D,Daunorubicin,0.166667
+Carfilzomib,Dexrazoxane,0.166667
+Ceritinib,Fluorouracil,0.166667
+Chlorambucil,Trifluridine,0.166667
+Daunorubicin,Gemcitabine,0.166667
+Docetaxel,Gemcitabine,0.166667
+Epirubicin,Mitomycin,0.166667
+Fluorouracil,Gemcitabine,0.166667
+Gemcitabine,Mitomycin,0.166667
+Melphalan,Mitoxantrone,0.166667
+Melphalan,Trifluridine,0.166667
+Mitoxantrone,Trifluridine,0.166667
+Tamoxifen,Vinblastine,0.166667
+Ibrutinib,Sonidegib,0.163462
+Methotrexate,Nilotinib,0.162698
+Methotrexate,Raloxifene,0.162698
+Belinostat,Ribociclib,0.162500
+Ceritinib,Dabrafenib,0.162500
+Cyclophosphamide,Paclitaxel,0.162500
+Darolutamide,Venetoclax,0.162500
+Paclitaxel,Tioguanine,0.162500
+Ixabepilone,Nilotinib,0.162338
+Darolutamide,Lomustine,0.162037
+Methotrexate,Teniposide,0.162037
+Crizotinib,Trilaciclib,0.159664
+Crizotinib,Paclitaxel,0.158824
+Oxaliplatin,Ribociclib,0.157258
+Oxaliplatin,Teniposide,0.157258
+Bleomycin,Epirubicin,0.156250
+Cyclophosphamide,Epirubicin,0.156250
+Cyclophosphamide,Gemcitabine,0.156250
+Fludarabine,Tioguanine,0.156250
+Gemcitabine,Tioguanine,0.156250
+Abemaciclib,Idelalisib,0.155556
+Dacarbazine,Lomustine,0.155556
+Dacarbazine,Methotrexate,0.155556
+Imatinib,Vinblastine,0.155556
+Carboplatin,Mitoxantrone,0.154762
+Ceritinib,Nilotinib,0.154762
+Ceritinib,Raloxifene,0.154762
+Chlorambucil,Hydroxyurea,0.154762
+Dexrazoxane,Trilaciclib,0.154762
+Docetaxel,Raloxifene,0.154762
+Etoposide,Melphalan,0.154762
+Etoposide,Trifluridine,0.154762
+Hydroxyurea,Melphalan,0.154762
+Epirubicin,Ifosfamide,0.154412
+Bleomycin,Erlotinib,0.153409
+Dacomitinib,Dasatinib,0.151111
+Methotrexate,Palbociclib,0.150997
+Abemaciclib,Pemigatinib,0.150000
+Erdafitinib,Zoledronate,0.150000
+Imatinib,Paclitaxel,0.150000
+Pemigatinib,Zoledronate,0.150000
+Crizotinib,Ixabepilone,0.149733
+Ifosfamide,Valrubicin,0.149733
+Lomustine,Tioguanine,0.149306
+Cytarabine,Mercaptopurine,0.148148
+Lomustine,Mercaptopurine,0.148148
+Lomustine,Methotrexate,0.148148
+Mercaptopurine,Vinblastine,0.148148
+Methotrexate,Vinblastine,0.148148
+Arsenic trioxide,Sotorasib,0.147727
+Everolimus,Lenvatinib,0.146465
+Lenvatinib,Zanubrutinib,0.146465
+Crizotinib,Palbociclib,0.145928
+Ceritinib,Nitrogen mustard,0.145833
+Cyclophosphamide,Daunorubicin,0.145833
+Cyclophosphamide,Docetaxel,0.145833
+Ribociclib,tepotinib,0.145833
+Teniposide,Trifluridine,0.145833
+Carmustine,Cyclophosphamide,0.145474
+Abemaciclib,Everolimus,0.145455
+Arsenic trioxide,Paclitaxel,0.145455
+Idarubicin,umbralisib,0.145455
+Imatinib,Ixabepilone,0.145455
+Crizotinib,Mercaptopurine,0.143791
+Allopurinol,Dacarbazine,0.143590
+Fludarabine,Mercaptopurine,0.143519
+Fludarabine,Methotrexate,0.143519
+Gemcitabine,Mercaptopurine,0.143519
+Lomustine,Sotorasib,0.143519
+Methotrexate,Sotorasib,0.143519
+Carfilzomib,Oxaliplatin,0.143369
+Cytarabine,Oxaliplatin,0.143369
+Carmustine,Methotrexate,0.143040
+Etoposide,Hydroxyurea,0.142857
+Daunorubicin,Ifosfamide,0.142157
+Belinostat,Ceritinib,0.141667
+Daunorubicin,Uracil mustard,0.141667
+Fluorouracil,umbralisib,0.141667
+Mitomycin,Uracil mustard,0.141667
+Gemcitabine,Oxaliplatin,0.141129
+Oxaliplatin,Sotorasib,0.141129
+Palbociclib,Vorinostat,0.141026
+Everolimus,Zoledronate,0.140909
+Dasatinib,Pemigatinib,0.140000
+Actinomycin D,Vorinostat,0.138889
+Ceritinib,Vorinostat,0.138889
+Cytarabine,Melphalan,0.138889
+Dacomitinib,Duvelisib,0.138889
+Dacomitinib,Vandetanib,0.138889
+Dexrazoxane,Fluorouracil,0.138889
+Docetaxel,Tamoxifen,0.138889
+Lomustine,Vorinostat,0.138889
+Selumetinib,Tamoxifen,0.138889
+Vinblastine,tepotinib,0.138889
+Trilaciclib,Valrubicin,0.138528
+Epirubicin,Selpercatinib,0.138514
+Allopurinol,Belinostat,0.138462
+Allopurinol,umbralisib,0.138462
+Dacomitinib,Selpercatinib,0.138138
+Abiraterone,Sotorasib,0.137821
+Abiraterone,Idelalisib,0.136752
+Raloxifene,Venetoclax,0.135714
+Carmustine,Vorinostat,0.135057
+Cobimetinib,Tamoxifen,0.135057
+Carboplatin,Darolutamide,0.133929
+Nilotinib,Tioguanine,0.133929
+Epirubicin,Pralsetinib,0.133475
+Pralsetinib,Sotorasib,0.133475
+Dacarbazine,Imatinib,0.133333
+Paclitaxel,Trifluridine,0.133333
+Belinostat,Nitrogen mustard,0.131250
+Belinostat,Tioguanine,0.131250
+Bleomycin,Uracil mustard,0.131250
+Cyclophosphamide,Venetoclax,0.131250
+Imatinib,Tioguanine,0.131250
+Nitrogen mustard,umbralisib,0.131250
+Tioguanine,Uracil mustard,0.131250
+Tioguanine,umbralisib,0.131250
+Ceritinib,Trilaciclib,0.130952
+Fluorouracil,Trilaciclib,0.130952
+Crizotinib,Venetoclax,0.129412
+Ifosfamide,Imatinib,0.129412
+Idarubicin,Palbociclib,0.129371
+Cisplatin,Idarubicin,0.128788
+Duvelisib,Everolimus,0.128788
+Everolimus,Vandetanib,0.128788
+Irinotecan,Melphalan,0.128788
+Trifluridine,Valrubicin,0.128788
+Vandetanib,Zanubrutinib,0.128788
+Dacomitinib,Pralsetinib,0.128060
+Methotrexate,Valrubicin,0.127946
+Belinostat,Dexrazoxane,0.127778
+Belinostat,Tamoxifen,0.127778
+Dexrazoxane,Uracil mustard,0.127778
+Dexrazoxane,umbralisib,0.127778
+Cytarabine,Etoposide,0.126984
+Abiraterone,Erdafitinib,0.125641
+Abiraterone,Pemigatinib,0.125641
+Carmustine,Valrubicin,0.125392
+Actinomycin D,Cisplatin,0.125000
+Actinomycin D,Melphalan,0.125000
+Actinomycin D,tepotinib,0.125000
+Chlorambucil,Daunorubicin,0.125000
+Cisplatin,Mitomycin,0.125000
+Cyclophosphamide,Tioguanine,0.125000
+Darolutamide,Ribociclib,0.125000
+Daunorubicin,Mitoxantrone,0.125000
+Docetaxel,Trifluridine,0.125000
+Fluorouracil,Melphalan,0.125000
+Fluorouracil,Trifluridine,0.125000
+Mitomycin,Mitoxantrone,0.125000
+Abemaciclib,Trilaciclib,0.123810
+Erlotinib,Fruquintinib,0.123167
+Everolimus,Fruquintinib,0.123167
+Fruquintinib,Zanubrutinib,0.123167
+Carmustine,Trilaciclib,0.123153
+Arsenic trioxide,Ixazomib,0.122727
+Ixazomib,Trametinib,0.122727
+Ixazomib,Vemurafenib,0.122727
+Dacarbazine,Vorinostat,0.122222
+Allopurinol,Neratinib,0.121795
+Duvelisib,Ibrutinib,0.121795
+Ibrutinib,Vandetanib,0.121795
+Binimetinib,Ixazomib,0.121739
+Hydroxyurea,Paclitaxel,0.121429
+Crizotinib,Tioguanine,0.121324
+Ifosfamide,Nitrogen mustard,0.121324
+Ifosfamide,Tioguanine,0.121324
+Actinomycin D,Methotrexate,0.120370
+Ceritinib,Methotrexate,0.120370
+Ceritinib,Selumetinib,0.120370
+Daunorubicin,Lomustine,0.120370
+Daunorubicin,Mercaptopurine,0.120370
+Docetaxel,Mercaptopurine,0.120370
+Docetaxel,Methotrexate,0.120370
+Fluorouracil,Mercaptopurine,0.120370
+Abemaciclib,Palbociclib,0.119231
+Imatinib,Palbociclib,0.119231
+Palbociclib,Venetoclax,0.119231
+Palbociclib,umbralisib,0.119231
+Cisplatin,Nilotinib,0.119048
+Cisplatin,Raloxifene,0.119048
+Nilotinib,tepotinib,0.119048
+Raloxifene,Trilaciclib,0.119048
+Raloxifene,tepotinib,0.119048
+Belinostat,Lomustine,0.118519
+Belinostat,Mercaptopurine,0.118519
+Belinostat,Methotrexate,0.118519
+Ixazomib,Selumetinib,0.118519
+Mercaptopurine,Uracil mustard,0.118519
+Mercaptopurine,umbralisib,0.118519
+Methotrexate,Uracil mustard,0.118519
+Carfilzomib,Ribociclib,0.118056
+Cytarabine,Teniposide,0.118056
+Tioguanine,Vorinostat,0.118056
+Carmustine,Daunorubicin,0.117816
+Ceritinib,Cobimetinib,0.117816
+Carmustine,Uracil mustard,0.117241
+Cobimetinib,Ixazomib,0.117241
+Carboplatin,Valrubicin,0.116883
+Hydroxyurea,Idarubicin,0.116883
+Arsenic trioxide,Oxaliplatin,0.116569
+Abiraterone,Erlotinib,0.116550
+Oxaliplatin,Uracil mustard,0.116129
+Dabrafenib,Ixabepilone,0.115909
+Bleomycin,Chlorambucil,0.114583
+Bleomycin,Mitoxantrone,0.114583
+Bleomycin,Vandetanib,0.114583
+Chlorambucil,Tioguanine,0.114583
+Cyclophosphamide,Mitoxantrone,0.114583
+Cyclophosphamide,Trifluridine,0.114583
+Tioguanine,tepotinib,0.114583
+Dexrazoxane,Ifosfamide,0.114379
+Allopurinol,Methotrexate,0.113960
+Selpercatinib,Uracil mustard,0.113514
+Mercaptopurine,Palbociclib,0.113248
+Actinomycin D,Carboplatin,0.113095
+Actinomycin D,Etoposide,0.113095
+Carboplatin,Docetaxel,0.113095
+Docetaxel,Hydroxyurea,0.113095
+Cisplatin,Crizotinib,0.112745
+Cisplatin,Ifosfamide,0.112745
+Ifosfamide,Melphalan,0.112745
+Ifosfamide,Trifluridine,0.112745
+Brigatinib,Erdafitinib,0.112500
+Dabrafenib,Imatinib,0.112500
+Chlorambucil,Dexrazoxane,0.111111
+Dexrazoxane,Melphalan,0.111111
+Dexrazoxane,Mitoxantrone,0.111111
+Dexrazoxane,Trifluridine,0.111111
+Vorinostat,tepotinib,0.111111
+Cyclophosphamide,Trilaciclib,0.110119
+Nilotinib,Palbociclib,0.109890
+Fruquintinib,Ibrutinib,0.109181
+Abemaciclib,Pralsetinib,0.108475
+Pralsetinib,Uracil mustard,0.108475
+Mercaptopurine,Raloxifene,0.108466
+Nilotinib,Selumetinib,0.108466
+Raloxifene,Selumetinib,0.108466
+Dabrafenib,Fluorouracil,0.108333
+Duvelisib,Zoledronate,0.108333
+Arsenic trioxide,Cyclophosphamide,0.107955
+Brigatinib,Zanubrutinib,0.107955
+Idarubicin,Teniposide,0.107955
+Ixabepilone,Ribociclib,0.107955
+Carboplatin,Raloxifene,0.107143
+Trilaciclib,tepotinib,0.107143
+Arsenic trioxide,Duvelisib,0.106061
+Arsenic trioxide,tepotinib,0.106061
+Cobimetinib,Nilotinib,0.105911
+Cobimetinib,Raloxifene,0.105911
+Cytarabine,Paclitaxel,0.105556
+Erdafitinib,Idelalisib,0.105556
+Idelalisib,Pemigatinib,0.105556
+Binimetinib,tepotinib,0.105072
+Encorafenib,Estramustine,0.104762
+Actinomycin D,Ribociclib,0.104167
+Ceritinib,Ribociclib,0.104167
+Fluorouracil,Ribociclib,0.104167
+Nilotinib,Oxaliplatin,0.103687
+Dasatinib,Neratinib,0.103333
+Dasatinib,Vandetanib,0.103333
+Trilaciclib,Vorinostat,0.103175
+Bleomycin,Etoposide,0.102679
+Cyclophosphamide,Etoposide,0.102679
+Etoposide,Nitrogen mustard,0.102679
+Palbociclib,Trifluridine,0.102564
+Binimetinib,Crizotinib,0.102302
+Chlorambucil,Mercaptopurine,0.101852
+Chlorambucil,Methotrexate,0.101852
+Cisplatin,Lomustine,0.101852
+Lomustine,Melphalan,0.101852
+Lomustine,Mitoxantrone,0.101852
+Lomustine,tepotinib,0.101852
+Mercaptopurine,tepotinib,0.101852
+Methotrexate,Mitoxantrone,0.101852
+Methotrexate,tepotinib,0.101852
+Arsenic trioxide,Dexrazoxane,0.101010
+Arsenic trioxide,Tamoxifen,0.101010
+Carfilzomib,Irinotecan,0.101010
+Erlotinib,Idelalisib,0.101010
+Everolimus,Idelalisib,0.101010
+Allopurinol,Darolutamide,0.100962
+Brigatinib,Ibrutinib,0.100962
+Carboplatin,Crizotinib,0.100840
+Carboplatin,Ifosfamide,0.100840
+Crizotinib,Etoposide,0.100840
+Hydroxyurea,Ifosfamide,0.100840
+Carmustine,Chlorambucil,0.100575
+Carmustine,Cisplatin,0.100575
+Carmustine,Duvelisib,0.100575
+Carmustine,Melphalan,0.100575
+Cyclophosphamide,Lomustine,0.099537
+Cyclophosphamide,Mercaptopurine,0.099537
+Chlorambucil,Oxaliplatin,0.099462
+Mitoxantrone,Oxaliplatin,0.099462
+Dexrazoxane,Etoposide,0.099206
+Darolutamide,Nilotinib,0.098214
+Nilotinib,Ribociclib,0.098214
+Raloxifene,Ribociclib,0.098214
+Raloxifene,Teniposide,0.098214
+Carfilzomib,Ceritinib,0.097222
+Carfilzomib,Daunorubicin,0.097222
+Cytarabine,Docetaxel,0.097222
+Cytarabine,Fluorouracil,0.097222
+Daunorubicin,Vinblastine,0.097222
+Mitomycin,Vinblastine,0.097222
+Chlorambucil,Selpercatinib,0.096847
+Mitoxantrone,Selpercatinib,0.096847
+Neratinib,Selpercatinib,0.096847
+Dabrafenib,Raloxifene,0.096429
+Abiraterone,Duvelisib,0.096154
+Abiraterone,Vandetanib,0.096154
+Crizotinib,Methotrexate,0.095861
+Ifosfamide,Methotrexate,0.095861
+Dacarbazine,Darolutamide,0.095833
+Dacarbazine,Ribociclib,0.095833
+Irinotecan,Paclitaxel,0.095455
+Estramustine,Trilaciclib,0.095238
+Etoposide,Trilaciclib,0.095238
+Hydroxyurea,Trilaciclib,0.095238
+Arsenic trioxide,Estramustine,0.094156
+Estramustine,Trametinib,0.094156
+Estramustine,Vemurafenib,0.094156
+Afatinib,Allopurinol,0.094017
+Ibrutinib,Idelalisib,0.094017
+Palbociclib,Tamoxifen,0.094017
+Bleomycin,Teniposide,0.093750
+Darolutamide,Tioguanine,0.093750
+Nitrogen mustard,Ribociclib,0.093750
+Binimetinib,Estramustine,0.093168
+Dexrazoxane,Lomustine,0.092593
+Dexrazoxane,Mercaptopurine,0.092593
+Dexrazoxane,Methotrexate,0.092593
+Mercaptopurine,Tamoxifen,0.092593
+Selumetinib,Vorinostat,0.092593
+Darolutamide,Ifosfamide,0.091912
+Chlorambucil,Pralsetinib,0.091808
+Mitoxantrone,Pralsetinib,0.091808
+Neratinib,Pralsetinib,0.091808
+Ceritinib,Paclitaxel,0.091667
+Dabrafenib,Dacarbazine,0.091667
+Daunorubicin,Paclitaxel,0.091667
+Fluorouracil,Paclitaxel,0.091667
+Carfilzomib,Raloxifene,0.091270
+Everolimus,Zanubrutinib,0.090909
+Darolutamide,Dexrazoxane,0.090278
+Darolutamide,Tamoxifen,0.090278
+Darolutamide,Vorinostat,0.090278
+Dexrazoxane,Teniposide,0.090278
+Ribociclib,Vorinostat,0.090278
+Carmustine,Dexrazoxane,0.090038
+Cobimetinib,Vorinostat,0.090038
+Estramustine,Lomustine,0.089947
+Estramustine,Selumetinib,0.089947
+Etoposide,Lomustine,0.089947
+Etoposide,Methotrexate,0.089947
+Carmustine,Estramustine,0.088670
+Carmustine,Etoposide,0.088670
+Cobimetinib,Estramustine,0.088670
+Actinomycin D,Idarubicin,0.087121
+Fluorouracil,Irinotecan,0.087121
+Cyclophosphamide,Cytarabine,0.086806
+Tioguanine,Vinblastine,0.086806
+Darolutamide,Trilaciclib,0.086310
+Nilotinib,Paclitaxel,0.085714
+Arsenic trioxide,Ribociclib,0.085227
+Etoposide,Selpercatinib,0.084942
+Dabrafenib,Estramustine,0.083929
+Dacarbazine,Paclitaxel,0.083333
+Actinomycin D,Ceritinib,0.083333
+Actinomycin D,Mitomycin,0.083333
+Carfilzomib,Tamoxifen,0.083333
+Cytarabine,Dexrazoxane,0.083333
+Daunorubicin,Docetaxel,0.083333
+Daunorubicin,Fluorouracil,0.083333
+Docetaxel,Fluorouracil,0.083333
+Vinblastine,Vorinostat,0.083333
+Arsenic trioxide,Methotrexate,0.082492
+Darolutamide,Palbociclib,0.081731
+Palbociclib,Teniposide,0.081731
+Raloxifene,Valrubicin,0.081169
+Darolutamide,Mercaptopurine,0.081019
+Lomustine,Ribociclib,0.081019
+Methotrexate,Ribociclib,0.081019
+Dabrafenib,Tamoxifen,0.080556
+Idelalisib,Zoledronate,0.080556
+Etoposide,Pralsetinib,0.079903
+Oxaliplatin,Trilaciclib,0.079877
+Carmustine,Teniposide,0.079741
+Dacarbazine,Irinotecan,0.078788
+Dacarbazine,Ixabepilone,0.078788
+Darolutamide,Oxaliplatin,0.078629
+Arsenic trioxide,Idelalisib,0.078283
+Paclitaxel,Vorinostat,0.077778
+Bleomycin,Valrubicin,0.076705
+Cyclophosphamide,Irinotecan,0.076705
+Cyclophosphamide,Ixabepilone,0.076705
+Ixabepilone,Tioguanine,0.076705
+Selpercatinib,Teniposide,0.076014
+Afatinib,Dasatinib,0.075556
+Abiraterone,Brigatinib,0.075321
+Actinomycin D,Dacarbazine,0.075000
+Dacarbazine,Mitomycin,0.075000
+Crizotinib,Idarubicin,0.074866
+Idarubicin,Ifosfamide,0.074866
+Ifosfamide,Ixabepilone,0.074866
+Allopurinol,Nilotinib,0.074176
+Methotrexate,Selumetinib,0.074074
+Selumetinib,Vinblastine,0.074074
+Dexrazoxane,Valrubicin,0.073232
+Erlotinib,Lenvatinib,0.073232
+Carmustine,Palbociclib,0.072944
+Actinomycin D,Tioguanine,0.072917
+Ceritinib,Tioguanine,0.072917
+Cyclophosphamide,Fluorouracil,0.072917
+Daunorubicin,Tioguanine,0.072917
+Docetaxel,Tioguanine,0.072917
+Fluorouracil,Tioguanine,0.072917
+Carmustine,Idelalisib,0.072797
+Cobimetinib,Vinblastine,0.072797
+Fruquintinib,Idelalisib,0.071685
+Carmustine,Selumetinib,0.071520
+Cobimetinib,Methotrexate,0.071520
+Abiraterone,Arsenic trioxide,0.071096
+Crizotinib,Daunorubicin,0.071078
+Crizotinib,Docetaxel,0.071078
+Crizotinib,Mitomycin,0.071078
+Ifosfamide,Mitomycin,0.071078
+Pralsetinib,Teniposide,0.070975
+Erlotinib,Zoledronate,0.070455
+Allopurinol,Nitrogen mustard,0.069712
+Actinomycin D,Dexrazoxane,0.069444
+Dexrazoxane,Mitomycin,0.069444
+Fluorouracil,Tamoxifen,0.069444
+Ixabepilone,Trilaciclib,0.069264
+Paclitaxel,Palbociclib,0.069231
+Afatinib,Selpercatinib,0.069069
+Idelalisib,Selpercatinib,0.069069
+Dacarbazine,Raloxifene,0.069048
+Encorafenib,Nilotinib,0.069048
+Carmustine,Cobimetinib,0.068966
+Paclitaxel,Selumetinib,0.068519
+Arsenic trioxide,Irinotecan,0.068182
+Ixabepilone,Trametinib,0.068182
+Dabrafenib,Vinblastine,0.068056
+Cobimetinib,Paclitaxel,0.067241
+Binimetinib,Ixabepilone,0.067194
+Cyclophosphamide,Raloxifene,0.066964
+Raloxifene,Tioguanine,0.066964
+Allopurinol,Dexrazoxane,0.066239
+Allopurinol,Vorinostat,0.066239
+Ifosfamide,Nilotinib,0.065126
+Irinotecan,Palbociclib,0.064685
+Ixabepilone,Palbociclib,0.064685
+Palbociclib,Valrubicin,0.064685
+Cyclophosphamide,Dacarbazine,0.064583
+Arsenic trioxide,Daunorubicin,0.064394
+Ceritinib,Trametinib,0.064394
+Afatinib,Pralsetinib,0.064030
+Idarubicin,Mercaptopurine,0.063973
+Ixabepilone,Selumetinib,0.063973
+Dexrazoxane,Nilotinib,0.063492
+Dexrazoxane,Raloxifene,0.063492
+Binimetinib,Ceritinib,0.063406
+Crizotinib,Encorafenib,0.062745
+Cobimetinib,Ixabepilone,0.062696
+Dabrafenib,Paclitaxel,0.062500
+Nitrogen mustard,Tioguanine,0.062500
+Dabrafenib,Methotrexate,0.062037
+Dacarbazine,Tamoxifen,0.061111
+Encorafenib,Vorinostat,0.061111
+Daunorubicin,Palbociclib,0.060897
+Mitomycin,Palbociclib,0.060897
+Bleomycin,Ifosfamide,0.060662
+Crizotinib,Nitrogen mustard,0.060662
+Cyclophosphamide,Ifosfamide,0.060662
+Actinomycin D,Selumetinib,0.060185
+Ceritinib,Lomustine,0.060185
+Lomustine,Mitomycin,0.060185
+Nilotinib,Trilaciclib,0.059524
+Cyclophosphamide,Vorinostat,0.059028
+Tamoxifen,Tioguanine,0.059028
+Selpercatinib,Valrubicin,0.058968
+Actinomycin D,Cobimetinib,0.058908
+Carmustine,Ceritinib,0.058908
+Carmustine,Fluorouracil,0.058908
+Carmustine,Mitomycin,0.058908
+Nilotinib,Vemurafenib,0.058442
+Mitomycin,Oxaliplatin,0.057796
+Allopurinol,Palbociclib,0.057692
+Dabrafenib,Oxaliplatin,0.057258
+Dacarbazine,Trilaciclib,0.057143
+Arsenic trioxide,Dacarbazine,0.056061
+Nitrogen mustard,Trilaciclib,0.055060
+Allopurinol,Oxaliplatin,0.054591
+Arsenic trioxide,Tioguanine,0.053977
+Pralsetinib,Valrubicin,0.053929
+Ifosfamide,Trilaciclib,0.053221
+Crizotinib,Trametinib,0.052139
+Crizotinib,Vemurafenib,0.052139
+Dacarbazine,Selumetinib,0.051852
+Abiraterone,Ibrutinib,0.051282
+Cobimetinib,Dacarbazine,0.050575
+Arsenic trioxide,Vorinostat,0.050505
+Tamoxifen,Trametinib,0.050505
+Tamoxifen,Vemurafenib,0.050505
+Vemurafenib,Vorinostat,0.050505
+Cyclophosphamide,Palbociclib,0.050481
+Palbociclib,Tioguanine,0.050481
+Cyclophosphamide,Methotrexate,0.049769
+Selumetinib,Tioguanine,0.049769
+Binimetinib,Tamoxifen,0.049517
+Bleomycin,Carmustine,0.048491
+Cobimetinib,Tioguanine,0.048491
+Ifosfamide,Mercaptopurine,0.047930
+Arsenic trioxide,Zoledronate,0.047727
+Cyclophosphamide,Oxaliplatin,0.047379
+Arsenic trioxide,Trilaciclib,0.046537
+Abiraterone,Encorafenib,0.046154
+Ifosfamide,Selpercatinib,0.042925
+Lomustine,Trilaciclib,0.042328
+Methotrexate,Trilaciclib,0.042328
+Carmustine,Zoledronate,0.042241
+Arsenic trioxide,Palbociclib,0.041958
+Arsenic trioxide,Mercaptopurine,0.041246
+Arsenic trioxide,Selumetinib,0.041246
+Arsenic trioxide,Cobimetinib,0.039969
+Fruquintinib,Trilaciclib,0.039939
+Ifosfamide,Pralsetinib,0.037886
+Lomustine,Palbociclib,0.037749
+Palbociclib,Selumetinib,0.037749
+Lomustine,Selumetinib,0.037037
+Mercaptopurine,Selumetinib,0.037037
+Abiraterone,Trilaciclib,0.036630
+Cobimetinib,Palbociclib,0.036472
+Cobimetinib,Lomustine,0.035760
+Cobimetinib,Mercaptopurine,0.035760
+Abiraterone,Vemurafenib,0.035548
+Oxaliplatin,Selumetinib,0.034648
+Abiraterone,Binimetinib,0.034560
+Cobimetinib,Oxaliplatin,0.033370
+Dabrafenib,Palbociclib,0.031731
+Abiraterone,Selumetinib,0.031339
+Dabrafenib,Mercaptopurine,0.031019
+Carmustine,Selpercatinib,0.030755
+Abiraterone,Carmustine,0.030062
+Abiraterone,Cobimetinib,0.030062
+Carmustine,Pralsetinib,0.025716

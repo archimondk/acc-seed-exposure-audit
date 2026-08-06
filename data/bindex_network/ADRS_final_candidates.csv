@@ -1,0 +1,41 @@
+rank_v3,drug,ADRS_v3,tier,mechanism_cluster,S_external,ext_direction,n_targets,activity_known,Primary_MOA
+1,Actinomycin D,0.756,D_cytotoxic,Transcription/RNA-Pol (cytotoxic),0.55,positive,12,1,DNA-Directed RNA Polymerase Inhibitor
+2,Mitomycin,0.716,D_cytotoxic,Alkylator/platinum (cytotoxic),0.50,,12,1,DNA Alkylating Agent
+3,Mitotane,0.709,A_supported,Adrenolytic (ACC standard),1.00,positive,1,1,Antineoplastic Agent
+4,Crizotinib,0.703,B_novel,ALK/ROS1/MET,0.50,,17,1,HGFR Inhibitor
+5,Trilaciclib,0.700,B_novel,CDK4/6,0.50,,21,0,
+6,Ribociclib,0.695,A_supported,CDK4/6,0.60,positive,8,1,CDK4/6 Inhibitor
+7,Afatinib,0.692,C_contradicted,EGFR/HER,0.25,negative,9,1,EGFR Inhibitor
+8,Daunorubicin,0.689,D_cytotoxic,Topo/anthracycline (cytotoxic),0.50,,12,1,DNA Topoisomerase II Inhibitor
+9,Homoharringtonine,0.676,D_cytotoxic,Translation (cytotoxic),0.50,,1,1,Alkaloid
+10,Irinotecan,0.652,D_cytotoxic,Topo/anthracycline (cytotoxic),0.50,,11,1,DNA Topoisomerase I Inhibitor
+11,Olaparib,0.651,B_novel,PARP/DDR,0.50,,1,1,PARP Inhibitor
+12,Arsenic trioxide,0.651,B_novel,Other notable,0.50,,22,0,
+13,Cytarabine,0.651,D_cytotoxic,Antimetabolite (cytotoxic),0.50,,9,1,DNA Polymerase Inhibitor
+14,Romidepsin,0.650,B_novel,HDAC,0.50,,1,1,HDAC Inhibitor
+15,Zanubrutinib,0.649,B_novel,BTK,0.50,,11,0,
+16,Ibrutinib,0.649,B_novel,BTK,0.50,,13,1,BTK Inhibitor
+17,Cobimetinib,0.645,B_novel,MEK/MAPK,0.50,,29,1,Mek Inhibitor
+18,Docetaxel,0.645,D_cytotoxic,Tubulin (cytotoxic),0.50,,12,1,Tubulin depolymerization Inhibitor
+19,Brigatinib,0.644,B_novel,ALK/ROS1/MET,0.50,,8,1,IGF-1R Inhibitor
+20,Celecoxib,0.642,B_novel,Other notable,0.50,,2,1,Cyclooxygenase-2 Inhibitor
+21,Ceritinib,0.639,B_novel,ALK/ROS1/MET,0.50,,12,1,ALK Inhibitor
+22,Belinostat,0.634,B_novel,HDAC,0.50,,5,1,HDAC Inhibitor
+23,Ixazomib,0.634,B_novel,Proteasome/UPS,0.50,,5,1,Proteasome Inhibitor
+24,Palbociclib,0.631,A_supported,CDK4/6,0.65,positive,26,1,CDK4/6 Inhibitor
+25,Axitinib,0.624,B_novel,EGFR/HER,0.50,,1,1,VEGFR-1/2/3 Inhibitor
+26,Tucatinib,0.619,B_novel,EGFR/HER,0.50,,2,1,HER2 Inhibitor
+27,Fluorouracil,0.614,D_cytotoxic,Antimetabolite (cytotoxic),0.50,,12,1,Pyrimidine Antagonist
+28,Abemaciclib,0.612,A_supported,CDK4/6,0.55,positive,5,1,CDK4/6 Inhibitor
+29,Binimetinib,0.609,B_novel,MEK/MAPK,0.50,,23,1,Mek 1/2 Inhibitor
+30,tepotinib,0.606,B_novel,ALK/ROS1/MET,0.50,,6,0,
+31,Bosutinib,0.604,B_novel,Other,0.50,,1,1,Bcr-Abl Inhibitor
+32,Paclitaxel,0.599,D_cytotoxic,Tubulin (cytotoxic),0.50,,10,1,Tubulin depolymerization Inhibitor
+33,Carmustine,0.598,D_cytotoxic,Alkylator/platinum (cytotoxic),0.50,,29,1,DNA Alkylating Agent
+34,Osimertinib,0.595,C_contradicted,EGFR/HER,0.35,negative,2,1,EGFR (Thr790Met Mutant) Inhibitor
+35,Idarubicin,0.595,D_cytotoxic,Topo/anthracycline (cytotoxic),0.50,,11,1,DNA Topoisomerase II Inhibitor
+36,Etoposide,0.592,D_cytotoxic,Topo/anthracycline (cytotoxic),0.70,positive,7,1,DNA Topoisomerase II Inhibitor
+37,Lapatinib,0.592,B_novel,EGFR/HER,0.50,,1,1,EGFR Inhibitor
+38,Carfilzomib,0.589,B_novel,Proteasome/UPS,0.50,,9,1,Proteasome Inhibitor
+39,Pipobroman,0.585,D_cytotoxic,Alkylator/platinum (cytotoxic),0.50,,3,0,
+40,Chlorambucil,0.581,D_cytotoxic,Alkylator/platinum (cytotoxic),0.50,,6,1,DNA Alkylating Agent

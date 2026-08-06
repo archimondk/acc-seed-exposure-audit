@@ -1,0 +1,125 @@
+rank_comp,drug,ADRS_comp,C_ACC_pct,residual_pct,rank_evidence_informed,S_external,Primary_MOA
+1,Irinotecan,0.863,0.772,0.953,1,0.50,DNA Topoisomerase I Inhibitor
+2,Daunorubicin,0.830,0.838,0.822,2,0.50,DNA Topoisomerase II Inhibitor
+3,Mitomycin,0.828,0.824,0.832,3,0.50,DNA Alkylating Agent
+4,Cytarabine,0.827,0.869,0.785,4,0.50,DNA Polymerase Inhibitor
+5,Brigatinib,0.795,0.711,0.879,7,0.50,IGF-1R Inhibitor
+6,Ixazomib,0.794,0.851,0.738,8,0.50,Proteasome Inhibitor
+7,Actinomycin D,0.790,0.692,0.888,6,0.55,DNA-Directed RNA Polymerase Inhibitor
+8,Crizotinib,0.789,0.635,0.944,9,0.50,HGFR Inhibitor
+9,Docetaxel,0.788,0.782,0.794,10,0.50,Tubulin depolymerization Inhibitor
+10,Belinostat,0.786,0.805,0.766,11,0.50,HDAC Inhibitor
+11,Pipobroman,0.785,0.785,,16,0.50,
+12,Arsenic trioxide,0.772,0.772,,17,0.50,
+13,Celecoxib,0.758,0.526,0.991,13,0.50,Cyclooxygenase-2 Inhibitor
+14,Abemaciclib,0.752,0.811,0.692,12,0.55,CDK4/6 Inhibitor
+15,Olaparib,0.742,0.558,0.925,14,0.50,PARP Inhibitor
+16,Fluorouracil,0.740,0.845,0.636,15,0.50,Pyrimidine Antagonist
+17,tepotinib,0.735,0.735,,22,0.50,
+18,Trilaciclib,0.726,0.726,,26,0.50,
+19,Ibrutinib,0.722,0.595,0.85,18,0.50,BTK Inhibitor
+20,Homoharringtonine,0.720,0.523,0.916,19,0.50,Alkaloid
+21,Axitinib,0.718,0.501,0.935,20,0.50,VEGFR-1/2/3 Inhibitor
+22,Mercaptopurine,0.704,0.829,0.579,21,0.50,Purine Antagonist
+23,Mitotane,0.698,0.526,0.869,5,1.00,Antineoplastic Agent
+24,Paclitaxel,0.693,0.788,0.598,23,0.50,Tubulin depolymerization Inhibitor
+25,Romidepsin,0.690,0.52,0.86,25,0.50,HDAC Inhibitor
+26,Ceritinib,0.682,0.72,0.645,27,0.50,ALK Inhibitor
+27,Nilotinib,0.667,0.681,0.654,28,0.50,Bcr-Abl Inhibitor
+28,Idarubicin,0.664,0.703,0.626,29,0.50,DNA Topoisomerase II Inhibitor
+29,Chlorambucil,0.657,0.314,1.0,30,0.50,DNA Alkylating Agent
+30,Zanubrutinib,0.655,0.655,,34,0.50,
+31,Palbociclib,0.653,0.7,0.607,24,0.65,CDK4/6 Inhibitor
+32,Cobimetinib,0.639,0.382,0.897,31,0.50,Mek Inhibitor
+33,Bosutinib,0.635,0.512,0.757,32,0.50,Bcr-Abl Inhibitor
+34,Melphalan,0.632,0.284,0.981,33,0.50,DNA Alkylating Agent
+35,Osimertinib,0.629,0.453,0.804,43,0.35,EGFR (Thr790Met Mutant) Inhibitor
+36,Lapatinib,0.613,0.515,0.71,36,0.50,EGFR Inhibitor
+37,Tivozanib,0.613,0.496,0.729,35,0.50,
+38,Afatinib,0.610,0.257,0.963,54,0.25,EGFR Inhibitor
+39,Panobinostat,0.604,0.534,0.673,37,0.50,HDAC Inhibitor
+40,Fulvestrant,0.599,0.498,0.701,38,0.50,Estrogen Receptor Antagonist
+41,Tucatinib,0.595,0.47,0.72,41,0.50,HER2 Inhibitor
+42,Hydroxyurea,0.592,0.8,0.383,42,0.50,Ribonucleoside-Diphosphate Reductase Inhibitor
+43,Epirubicin,0.584,0.774,0.393,44,0.50,DNA Topoisomerase II Inhibitor
+44,Avapritinib,0.583,0.583,,47,0.50,
+45,Erlotinib,0.574,0.662,0.486,59,0.20,EGFR Inhibitor
+46,Carmustine,0.573,0.397,0.748,46,0.50,DNA Alkylating Agent
+47,Ribociclib,0.571,0.328,0.813,40,0.60,CDK4/6 Inhibitor
+48,Vandetanib,0.565,0.223,0.907,49,0.50,EGFR Inhibitor
+49,Allopurinol,0.562,0.75,0.374,50,0.50,Xanthine Oxidase Inhibitor
+50,Ixabepilone,0.560,0.813,0.308,51,0.50,Microtubule-Stabilizing Agents
+51,Acalabrutinib,0.552,0.542,0.561,52,0.50,BTK Inhibitor
+52,Tamoxifen,0.550,0.606,0.495,53,0.50,Selective Estrogen Receptor Modulators (SERM)
+53,Etoposide,0.546,0.737,0.355,39,0.70,DNA Topoisomerase II Inhibitor
+54,Doxorubicin,0.533,0.656,0.411,45,0.70,DNA Topoisomerase II Inhibitor
+55,Cyclophosphamide,0.530,0.742,0.318,55,0.50,Bcl-2 Expression Inhibitor
+56,Gemcitabine,0.529,0.806,0.252,48,0.65,Ribonucleotide reductase Inhibitor
+57,Selinexor,0.522,0.38,0.664,56,0.50,Exportin-1 Antagonist
+58,Binimetinib,0.509,0.047,0.972,57,0.50,Mek 1/2 Inhibitor
+59,Decitabine,0.502,0.545,0.458,58,0.50,DNA Methyltransferase (DNMT) Inhibitor
+60,Sirolimus,0.494,0.474,0.514,60,0.50,mTOR Inhibitor
+61,Carfilzomib,0.490,0.204,0.776,61,0.50,Proteasome Inhibitor
+62,Talazoparib,0.486,0.486,,62,0.50,
+63,Tioguanine,0.471,0.894,0.047,64,0.50,Purine Antagonist
+64,Selumetinib,0.469,0.405,0.533,65,0.50,
+65,Selpercatinib,0.465,0.465,,63,0.50,
+66,Lomustine,0.463,0.458,0.467,67,0.50,DNA Alkylating Agent
+67,Darolutamide,0.456,0.23,0.682,68,0.50,Androgen Receptor Antagonist
+68,Azacitidine,0.450,0.553,0.346,70,0.50,DNA Methyltransferase (DNMT) Inhibitor
+69,Trametinib,0.449,0.057,0.841,71,0.50,Mek 1/2 Inhibitor
+70,Dasatinib,0.446,0.368,0.523,72,0.50,Bcr-Abl Inhibitor
+71,Fedratinib,0.441,0.441,,69,0.50,
+72,Pemetrexed,0.441,0.742,0.14,73,0.50,Thymidylate synthase Inhibitor
+73,Estramustine,0.440,0.263,0.617,74,0.50,DNA Alkylating Agent
+74,Erdafitinib,0.435,0.693,0.178,75,0.50,FGFR 1/2/3/4 Inhibitor
+75,Trifluridine,0.435,0.814,0.056,76,0.50,thymidylate synthase Inhibitor
+76,Dabrafenib,0.430,0.767,0.093,77,0.50,Raf kinase B Inhibitor
+77,Topotecan,0.427,0.433,0.421,78,0.50,DNA Topoisomerase I Inhibitor
+78,Sunitinib,0.426,0.517,0.336,90,0.35,VEGFR-1/2/3 Inhibitor
+79,Imatinib,0.423,0.369,0.477,79,0.50,Bcr-Abl Inhibitor
+80,Encorafenib,0.420,0.626,0.215,81,0.50,Raf Kinase Inhibitor B (V600E Mutant)
+81,Methotrexate,0.418,0.837,0.0,82,0.50,Dihydrofolate Reductase (DHFR) Inhibitor
+82,Oxaliplatin,0.418,0.817,0.019,83,0.50,DNA Alkylating Agent
+83,Asciminib,0.411,0.459,0.364,84,0.50,Bcr-Abl Inhibitor
+84,Triethylenemelamine,0.405,0.405,,80,0.50,
+85,Gilteritinib,0.403,0.507,0.299,85,0.50,
+86,Everolimus,0.398,0.208,0.589,86,0.50,mTOR inhibitor
+87,Fludarabine,0.397,0.346,0.449,87,0.50,Purine Antagonist
+88,Raloxifene,0.393,0.674,0.112,88,0.50,Selective Estrogen Receptor Modulators (SERM)
+89,Lorlatinib,0.392,0.457,0.327,89,0.50,ROS1/ALK Inhibitor
+90,Pralatrexate,0.389,0.75,0.028,91,0.50,Dihydrofolate Reductase (DHFR) Inhibitors
+91,Duvelisib,0.382,0.259,0.505,93,0.50,PI3Kd/g Inhibitor
+92,Temsirolimus,0.381,0.528,0.234,94,0.50,mTOR Inhibitor
+93,Cabozantinib,0.364,0.504,0.224,66,0.90,VEGFR-2 Inhibitor
+94,Carboplatin,0.363,0.288,0.439,92,0.60,DNA Alkylating Agent
+95,Vorinostat,0.357,0.145,0.57,96,0.50,HDAC Inhibitor
+96,Dacomitinib,0.351,0.151,0.551,97,0.50,EGFR Inhibitor
+97,Sotorasib,0.351,0.351,,95,0.50,
+98,Dacarbazine,0.344,0.145,0.542,98,0.50,DNA Alkylating Agent
+99,Thiotepa,0.341,0.41,0.271,99,0.50,Cytochrome P450 Oxidase Inhibitor
+100,Clofarabine,0.339,0.49,0.187,100,0.50,DNA Polymerase Inhibitor
+101,Vinorelbine,0.331,0.531,0.131,102,0.50,
+102,Venetoclax,0.309,0.375,0.243,103,0.50,Bcl-2 Inhibitor
+103,Uracil mustard,0.300,0.3,,101,0.50,
+104,Mitoxantrone,0.282,0.302,0.262,104,0.50,DNA Topoisomerase II Inhibitor
+105,Dexrazoxane,0.280,0.13,0.43,105,0.50,DNA Topoisomerase II Inhibitor
+106,Valrubicin,0.264,0.125,0.402,106,0.50,DNA Topoisomerase II Inhibitor
+107,Cladribine,0.260,0.454,0.065,107,0.50,Adenosine Deaminase Inhibitor
+108,Vemurafenib,0.258,0.31,0.206,108,0.50,Raf kinase B Inhibitor
+109,Fruquintinib,0.256,0.343,0.168,109,0.50,VEGFR-1/2/3 Inhibitor
+110,umbralisib,0.239,0.329,0.15,111,0.50,Casein Kinase 1 Inhibitor
+111,Sonidegib,0.229,0.373,0.084,112,0.50,Smo Receptor Antagonist
+112,Idelalisib,0.223,0.157,0.29,114,0.50,PI3Kdelta Inhibitor
+113,Pemigatinib,0.205,0.205,,110,0.50,
+114,Vinblastine,0.190,0.184,0.196,115,0.50,Tubulin polymerization inhibitor
+115,Cisplatin,0.178,0.253,0.103,113,0.70,DNA Alkylating Agent
+116,Neratinib,0.159,0.308,0.009,117,0.50,EGFR Inhibitor
+117,Abiraterone,0.152,0.024,0.28,118,0.50,Androgen Biosynthesis Inhibitor
+118,Teniposide,0.143,0.25,0.037,121,0.50,DNA Topoisomerase II Inhibitor
+119,Zoledronate,0.120,0.082,0.159,122,0.50,Farnesyl Pyrophosphate Synthase Inhibitor
+120,Bleomycin,0.119,0.164,0.075,123,0.50,glycopeptide antibiotic
+121,Lenvatinib,0.100,0.079,0.121,124,0.55,VEGFR-1/2/3 Inhibitor
+122,Nitrogen mustard,0.099,0.099,,116,0.50,
+123,Pralsetinib,0.079,0.079,,119,0.50,
+124,Ifosfamide,0.074,0.074,,120,0.50,

@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><title>下载全 STRING 人类互作组</title>
+<div style="font-family:system-ui;max-width:720px;margin:26px auto;line-height:1.55">
+<h2>全 STRING 人类互作组下载（回应审阅点 #2：全网络 RWR）</h2>
+<p>主分析将改为在<b>完整人类 STRING 互作组</b>上用 ACC 疾病种子做 RWR，再投影到 399 个关联基因，
+避免诱导子网删除中间蛋白。需要两个文件（STRING v12.0，<i>Homo sapiens</i>, taxid 9606）：</p>
+<ol>
+<li><a href="https://stringdb-downloads.org/download/protein.links.v12.0/9606.protein.links.v12.0.txt.gz" target="_blank"><b>9606.protein.links.v12.0.txt.gz</b></a>
+　（蛋白-蛋白边 + combined_score，约 70 MB 压缩）</li>
+<li><a href="https://stringdb-downloads.org/download/protein.info.v12.0/9606.protein.info.v12.0.txt.gz" target="_blank"><b>9606.protein.info.v12.0.txt.gz</b></a>
+　（ENSP → 基因名映射，小文件）</li>
+</ol>
+<p>两个 <code>.gz</code> 原样放进 <code>D:\03-SCI-ACC药物重定位</code>（不用解压，我在沙盒里用 sparse 矩阵处理）。</p>
+<p style="color:#666">拿到后我会：全互作组稀疏 RWR（种子=ACC 疾病基因）→ 全蛋白组 r_ACC → 投影到 399 关联基因，
+并与诱导网络结果对比（若 C_ACC 排名高度一致，方法可信度显著提升）；同时补做 hub 去除、仅直接种子交集等敏感性对照。</p>
+<p style="color:#a00;font-size:13px">备注：如链接域名失效，可从 STRING 官网 string-db.org → Download → 选 Homo sapiens →
+"protein network data (full)" 与 "protein sequences/info" 获取同名文件。</p>
+</div>

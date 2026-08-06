@@ -1,0 +1,12 @@
+<!doctype html><meta charset="utf-8"><title>Download NCI-60 raw activity (absolute -logGI50)</title>
+<div style="font-family:system-ui;max-width:660px;margin:32px auto;line-height:1.55">
+<h2>再下载一个：NCI-60 原始活性（绝对 -logGI50）</h2>
+<p style="background:#fff5f5;padding:10px;border-left:3px solid #e53">刚才那个 ZSCORE 文件是<b>按每个药跨 60 系标准化</b>的（每药均值≈0），
+把"绝对效力"信息抹掉了，没法当 pan-cancer 效力基线。我们需要<b>绝对 -logGI50</b>那个文件。</p>
+<ol>
+<li><a href="https://discover.nci.nih.gov/cellminer/download/rawdataset/DTP_NCI60_RAW.zip" target="_blank"><b>下载 DTP_NCI60_RAW.zip</b></a></li>
+<li>原样放进 <code>D:\03-SCI-ACC药物重定位</code>（不用解压）。</li>
+</ol>
+<p style="color:#666">这个含每个 NSC 在 60 个非 ACC 系的绝对 -logGI50。我会算每药的 pan-cancer 平均效力，
+再和 ACC MIPE 效力做差 → 真正的 ACC 选择性，压制广谱细胞毒药。</p>
+</div>

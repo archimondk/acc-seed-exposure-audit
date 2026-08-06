@@ -1,0 +1,42 @@
+<!doctype html><meta charset="utf-8"><title>下载 ACC_CellMinerCDB 验证数据</title>
+<div style="font-family:system-ui;max-width:820px;margin:26px auto;line-height:1.55">
+<h2>ACC_CellMinerCDB 数据下载指导</h2>
+<p>打开应用：<a href="https://discover.nci.nih.gov/acc_cellminercdb/" target="_blank"><b>discover.nci.nih.gov/acc_cellminercdb</b></a>
+（等 ~30 秒加载完）→ 点顶部 <b>Metadata</b> 标签页。</p>
+<p>左侧有两个下拉框 + 按钮：<b>Cell Line Set</b>（选数据集）、<b>Select Data Type to Download</b>（选数据类型）、
+<b>Download Data</b>（下载）。每次按下表设置好两个下拉框，再点 Download Data。下完统一移动到
+<code>D:\03-SCI-ACC药物重定位</code>，并<b>按"另存为"列改名</b>（否则文件名会重复/看不出区别）。</p>
+
+<h3>① 必下（药敏一致性验证核心，共 3 个）</h3>
+<table border="1" cellpadding="6" style="border-collapse:collapse">
+<tr style="background:#eef"><th>Cell Line Set</th><th>Data Type</th><th>点</th><th>另存为</th></tr>
+<tr><td>ACC NCI plus Surgical</td><td>act: Drug Activity (-log10[IC50M])</td><td>Download Data</td><td><code>ACCcmdb_NCICCR_act.txt</code></td></tr>
+<tr><td>ACC Colorado plus PDX</td><td>act: Drug Activity (-log10[IC50M])</td><td>Download Data</td><td><code>ACCcmdb_ColoradoPDX_act.txt</code></td></tr>
+<tr><td>NCATS IC50</td><td>act: Drug Activity (-log10[IC50M])</td><td>Download Data</td><td><code>ACCcmdb_NCATS_act.txt</code></td></tr>
+</table>
+<p style="color:#a00">注：第 1 个（ACC NCI plus Surgical + act）我刚才在你浏览器里已点过一次，先去 Downloads 看看有没有，有就不用重下。</p>
+
+<h3>② 必下（对齐用的小表，共 2 个）</h3>
+<table border="1" cellpadding="6" style="border-collapse:collapse">
+<tr style="background:#eef"><th>操作</th><th>另存为</th></tr>
+<tr><td>左下 <b>Download Table</b>（drug synonyms，所有数据集通用的药名↔ID 对照）</td><td><code>ACCcmdb_drug_synonyms.txt</code></td></tr>
+<tr><td>Cell Line Set 选 <b>ACC NCI plus Surgical</b> → <b>Download cell lines annotation</b></td><td><code>ACCcmdb_cellline_annotation.txt</code></td></tr>
+</table>
+
+<h3>③ 可选（生物标志/机制验证，用于确认 CDK 通路 & seed 基因在真实 ACC 样本里的状态）</h3>
+<table border="1" cellpadding="6" style="border-collapse:collapse">
+<tr style="background:#eef"><th>Cell Line Set</th><th>Data Type</th><th>另存为</th></tr>
+<tr><td>ACC NCI plus Surgical</td><td>xsq: RNA-seq Expression (log2 FPKM+1)</td><td><code>ACCcmdb_NCICCR_rnaseq.txt</code></td></tr>
+<tr><td>ACC NCI plus Surgical</td><td>cop: DNA Copy Number</td><td><code>ACCcmdb_NCICCR_cn.txt</code></td></tr>
+</table>
+
+<h3>用途说明</h3>
+<ul>
+<li><b>NCICCR_act</b>：独立于 MIPE 的第二个药敏筛选（同 3 株 ACC 系）→ 做 MIPE(NCATS) vs NCI-CCR 一致性，验证活性层。</li>
+<li><b>ColoradoPDX_act</b>：含 PDX 的药敏，体内相关性更强。</li>
+<li><b>NCATS_act</b>：把我们已有的 NCATS/MIPE 换成 -log10 IC50 单位，和上面两个同口径比。</li>
+<li><b>drug_synonyms</b>：把我们 124 药 / NSC 映射到 CellMinerCDB 的药名。</li>
+<li><b>rnaseq / cn（可选）</b>：查 CDKN2A/CDK4/RB1、SOAT1/MGMT/SLFN11 等在 6 个手术样本+PDX 的表达/拷贝数。</li>
+</ul>
+<p style="color:#666">最少下 ①+② 这 5 个就够跑核心验证。下好放进项目文件夹回聊天说一声，我来解析。</p>
+</div>
