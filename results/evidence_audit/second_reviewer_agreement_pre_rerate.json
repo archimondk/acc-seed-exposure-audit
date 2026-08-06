@@ -1,0 +1,181 @@
+{
+  "review_version": "blinded-second-review-agreement-v1",
+  "first_review": "data\\evidence\\evidence_labels_v2.csv",
+  "second_review": "independent_review\\claude_blinded_evidence_review_v1\\claude_review_locked.csv",
+  "all_records": {
+    "evidence_domain": {
+      "second_field": "evidence_domain",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "cohen_kappa": 0.9124423963133638,
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    },
+    "evidence_design": {
+      "second_field": "evidence_design",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "cohen_kappa": 0.9387096774193547,
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    },
+    "drug_specificity": {
+      "second_field": "drug_specificity",
+      "n": 19,
+      "agreement_count": 17,
+      "agreement_rate": 0.8947368421052632,
+      "cohen_kappa": 0.7610062893081762,
+      "mismatch_record_ids": [
+        "B02",
+        "B08"
+      ]
+    },
+    "exposure_context": {
+      "second_field": "exposure_context",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "cohen_kappa": 0.9243027888446215,
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    },
+    "direction_v2": {
+      "second_field": "direction",
+      "n": 19,
+      "agreement_count": 13,
+      "agreement_rate": 0.6842105263157895,
+      "cohen_kappa": 0.6250000000000001,
+      "mismatch_record_ids": [
+        "B02",
+        "B08",
+        "B11",
+        "B14",
+        "B15",
+        "B19"
+      ]
+    },
+    "strict_candidate_eligible": {
+      "second_field": "strict_candidate_eligible",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "cohen_kappa": 0.6415094339622639,
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    },
+    "strict_binary_label": {
+      "second_field": "strict_binary_label",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "cohen_kappa": 0.6415094339622639,
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    }
+  },
+  "evaluable_records_excluding_access_none": {
+    "evidence_domain": {
+      "second_field": "evidence_domain",
+      "n": 18,
+      "agreement_count": 18,
+      "agreement_rate": 1.0,
+      "cohen_kappa": 1.0,
+      "mismatch_record_ids": []
+    },
+    "evidence_design": {
+      "second_field": "evidence_design",
+      "n": 18,
+      "agreement_count": 18,
+      "agreement_rate": 1.0,
+      "cohen_kappa": 1.0,
+      "mismatch_record_ids": []
+    },
+    "drug_specificity": {
+      "second_field": "drug_specificity",
+      "n": 18,
+      "agreement_count": 17,
+      "agreement_rate": 0.9444444444444444,
+      "cohen_kappa": 0.8666666666666666,
+      "mismatch_record_ids": [
+        "B08"
+      ]
+    },
+    "exposure_context": {
+      "second_field": "exposure_context",
+      "n": 18,
+      "agreement_count": 18,
+      "agreement_rate": 1.0,
+      "cohen_kappa": 1.0,
+      "mismatch_record_ids": []
+    },
+    "direction_v2": {
+      "second_field": "direction",
+      "n": 18,
+      "agreement_count": 13,
+      "agreement_rate": 0.7222222222222222,
+      "cohen_kappa": 0.664179104477612,
+      "mismatch_record_ids": [
+        "B08",
+        "B11",
+        "B14",
+        "B15",
+        "B19"
+      ]
+    },
+    "strict_candidate_eligible": {
+      "second_field": "strict_candidate_eligible",
+      "n": 18,
+      "agreement_count": 18,
+      "agreement_rate": 1.0,
+      "cohen_kappa": 1.0,
+      "mismatch_record_ids": []
+    },
+    "strict_binary_label": {
+      "second_field": "strict_binary_label",
+      "n": 18,
+      "agreement_count": 18,
+      "agreement_rate": 1.0,
+      "cohen_kappa": 1.0,
+      "mismatch_record_ids": []
+    }
+  },
+  "evaluable_record_ids": [
+    "B01",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12",
+    "B13",
+    "B14",
+    "B15",
+    "B16",
+    "B17",
+    "B18",
+    "B19"
+  ],
+  "excluded_for_access": [
+    "B02"
+  ],
+  "categorical_disagreement_count": 13,
+  "disagreement_record_ids": [
+    "B02",
+    "B08",
+    "B11",
+    "B14",
+    "B15",
+    "B19"
+  ]
+}

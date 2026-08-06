@@ -1,0 +1,498 @@
+{
+  "review_version": "blinded-second-review-agreement-v2-access-completed",
+  "first_review": "data\\evidence\\evidence_labels_v2.csv",
+  "locked_second_review": "independent_review\\claude_blinded_evidence_review_v1\\claude_review_locked.csv",
+  "b02_access_completion": "independent_review\\cabozantinib_b02_rerate\\claude_b02_rerated.csv",
+  "all_records": {
+    "evidence_domain": {
+      "second_field": "evidence_domain",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 9997,
+      "kappa_bootstrap_undefined_n": 3,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    },
+    "evidence_design": {
+      "second_field": "evidence_design",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    },
+    "drug_specificity": {
+      "second_field": "drug_specificity",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "agreement_exact_ci_95": [
+        0.7397193458047859,
+        0.9986683711958205
+      ],
+      "cohen_kappa": 0.8689655172413792,
+      "kappa_paired_bootstrap_ci_95": [
+        0.6274509803921569,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 9959,
+      "kappa_bootstrap_undefined_n": 41,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B08"
+      ]
+    },
+    "exposure_context": {
+      "second_field": "exposure_context",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    },
+    "direction_v2": {
+      "second_field": "direction",
+      "n": 19,
+      "agreement_count": 14,
+      "agreement_rate": 0.7368421052631579,
+      "agreement_exact_ci_95": [
+        0.4879706546541273,
+        0.9085342150923335
+      ],
+      "cohen_kappa": 0.6854304635761589,
+      "kappa_paired_bootstrap_ci_95": [
+        0.42809364548494977,
+        0.8733333333333332
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B08",
+        "B11",
+        "B14",
+        "B15",
+        "B19"
+      ]
+    },
+    "strict_candidate_eligible": {
+      "second_field": "strict_candidate_eligible",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 8803,
+      "kappa_bootstrap_undefined_n": 1197,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    },
+    "strict_binary_label": {
+      "second_field": "strict_binary_label",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 8803,
+      "kappa_bootstrap_undefined_n": 1197,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    }
+  },
+  "locked_pre_rerate_all_records": {
+    "evidence_domain": {
+      "second_field": "evidence_domain",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "agreement_exact_ci_95": [
+        0.7397193458047859,
+        0.9986683711958205
+      ],
+      "cohen_kappa": 0.9124423963133638,
+      "kappa_paired_bootstrap_ci_95": [
+        0.6999999999999998,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 9997,
+      "kappa_bootstrap_undefined_n": 3,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    },
+    "evidence_design": {
+      "second_field": "evidence_design",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "agreement_exact_ci_95": [
+        0.7397193458047859,
+        0.9986683711958205
+      ],
+      "cohen_kappa": 0.9387096774193547,
+      "kappa_paired_bootstrap_ci_95": [
+        0.8047945205479452,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    },
+    "drug_specificity": {
+      "second_field": "drug_specificity",
+      "n": 19,
+      "agreement_count": 17,
+      "agreement_rate": 0.8947368421052632,
+      "agreement_exact_ci_95": [
+        0.6686233355432342,
+        0.9869878356282226
+      ],
+      "cohen_kappa": 0.7610062893081762,
+      "kappa_paired_bootstrap_ci_95": [
+        0.4519230769230768,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 9959,
+      "kappa_bootstrap_undefined_n": 41,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B02",
+        "B08"
+      ]
+    },
+    "exposure_context": {
+      "second_field": "exposure_context",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "agreement_exact_ci_95": [
+        0.7397193458047859,
+        0.9986683711958205
+      ],
+      "cohen_kappa": 0.9243027888446215,
+      "kappa_paired_bootstrap_ci_95": [
+        0.7634854771784232,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    },
+    "direction_v2": {
+      "second_field": "direction",
+      "n": 19,
+      "agreement_count": 13,
+      "agreement_rate": 0.6842105263157895,
+      "agreement_exact_ci_95": [
+        0.4344984311538491,
+        0.8742393641270167
+      ],
+      "cohen_kappa": 0.6250000000000001,
+      "kappa_paired_bootstrap_ci_95": [
+        0.37086092715231783,
+        0.8628158844765343
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B02",
+        "B08",
+        "B11",
+        "B14",
+        "B15",
+        "B19"
+      ]
+    },
+    "strict_candidate_eligible": {
+      "second_field": "strict_candidate_eligible",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "agreement_exact_ci_95": [
+        0.7397193458047859,
+        0.9986683711958205
+      ],
+      "cohen_kappa": 0.6415094339622639,
+      "kappa_paired_bootstrap_ci_95": [
+        0.34482758620689613,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 6449,
+      "kappa_bootstrap_undefined_n": 3551,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    },
+    "strict_binary_label": {
+      "second_field": "strict_binary_label",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "agreement_exact_ci_95": [
+        0.7397193458047859,
+        0.9986683711958205
+      ],
+      "cohen_kappa": 0.6415094339622639,
+      "kappa_paired_bootstrap_ci_95": [
+        0.34482758620689613,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 6449,
+      "kappa_bootstrap_undefined_n": 3551,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B02"
+      ]
+    }
+  },
+  "evaluable_records_excluding_access_none": {
+    "evidence_domain": {
+      "second_field": "evidence_domain",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 9997,
+      "kappa_bootstrap_undefined_n": 3,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    },
+    "evidence_design": {
+      "second_field": "evidence_design",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    },
+    "drug_specificity": {
+      "second_field": "drug_specificity",
+      "n": 19,
+      "agreement_count": 18,
+      "agreement_rate": 0.9473684210526315,
+      "agreement_exact_ci_95": [
+        0.7397193458047859,
+        0.9986683711958205
+      ],
+      "cohen_kappa": 0.8689655172413792,
+      "kappa_paired_bootstrap_ci_95": [
+        0.6274509803921569,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 9959,
+      "kappa_bootstrap_undefined_n": 41,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B08"
+      ]
+    },
+    "exposure_context": {
+      "second_field": "exposure_context",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    },
+    "direction_v2": {
+      "second_field": "direction",
+      "n": 19,
+      "agreement_count": 14,
+      "agreement_rate": 0.7368421052631579,
+      "agreement_exact_ci_95": [
+        0.4879706546541273,
+        0.9085342150923335
+      ],
+      "cohen_kappa": 0.6854304635761589,
+      "kappa_paired_bootstrap_ci_95": [
+        0.42809364548494977,
+        0.8733333333333332
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 10000,
+      "kappa_bootstrap_undefined_n": 0,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": [
+        "B08",
+        "B11",
+        "B14",
+        "B15",
+        "B19"
+      ]
+    },
+    "strict_candidate_eligible": {
+      "second_field": "strict_candidate_eligible",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 8803,
+      "kappa_bootstrap_undefined_n": 1197,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    },
+    "strict_binary_label": {
+      "second_field": "strict_binary_label",
+      "n": 19,
+      "agreement_count": 19,
+      "agreement_rate": 1.0,
+      "agreement_exact_ci_95": [
+        0.8235330881930346,
+        1.0
+      ],
+      "cohen_kappa": 1.0,
+      "kappa_paired_bootstrap_ci_95": [
+        1.0,
+        1.0
+      ],
+      "kappa_bootstrap_resamples": 10000,
+      "kappa_bootstrap_defined_n": 8803,
+      "kappa_bootstrap_undefined_n": 1197,
+      "kappa_bootstrap_undefined_reason": "a bootstrap resample contained only one marginal category",
+      "mismatch_record_ids": []
+    }
+  },
+  "evaluable_record_ids": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12",
+    "B13",
+    "B14",
+    "B15",
+    "B16",
+    "B17",
+    "B18",
+    "B19"
+  ],
+  "excluded_for_access": [],
+  "categorical_disagreement_count": 6,
+  "disagreement_record_ids": [
+    "B08",
+    "B11",
+    "B14",
+    "B15",
+    "B19"
+  ]
+}

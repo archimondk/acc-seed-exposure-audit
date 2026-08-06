@@ -1,0 +1,7 @@
+record_id,drug,issue,decision,final_direction,strict_effect,basis
+B02,Cabozantinib,source_access_incomplete,resolved_by_blinded_access_completion; retain_first_labels,positive,yes/positive,All seven compared fields agree after the official PubMed record was reviewed.
+B08,Carboplatin,specificity_and_direction_taxonomy,retain_first_taxonomy,class_extrapolated,no/NA unchanged,The protocol maps evidence transferred from a related platinum drug or class to class extrapolation.
+B11,Lenvatinib,direction_taxonomy,adopt_second_taxonomy,regimen_effect,no/NA unchanged,The exposure was a non-decomposable combination regimen.
+B14,Temsirolimus,direction_taxonomy,adopt_second_taxonomy,regimen_effect,no/NA unchanged,The exposure was a non-decomposable combination regimen.
+B15,Sirolimus,direction_taxonomy,adopt_second_taxonomy,class_extrapolated,no/NA unchanged,The source evaluated everolimus rather than sirolimus.
+B19,Erlotinib,direction_taxonomy,adopt_second_taxonomy,regimen_effect,no/NA unchanged,The exposure was a non-decomposable combination regimen.

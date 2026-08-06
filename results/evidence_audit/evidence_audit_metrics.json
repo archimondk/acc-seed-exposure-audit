@@ -1,0 +1,35 @@
+{
+  "figure_version": "c4-evidence-audit-v3-agreement-precision",
+  "legacy_n": 14,
+  "legacy_positive_n": 10,
+  "legacy_negative_n": 4,
+  "category_counts": {
+    "Drug-specific clinical monotherapy": 3,
+    "Clinical regimen/case (confounded)": 6,
+    "Direct ACC preclinical": 2,
+    "Class extrapolation": 3
+  },
+  "strict_candidate_drugs": [
+    "Cabozantinib",
+    "Mitotane"
+  ],
+  "strict_positive_n": 2,
+  "strict_negative_n": 0,
+  "auc_estimable": false,
+  "auc": null,
+  "independence_status": "not_independent: the same literature informed S_external; the audit is descriptive and not a performance validation",
+  "second_reviewer_status": "completed_and_adjudicated",
+  "strict_eligibility_agreement_n": 19,
+  "strict_eligibility_agreement_total": 19,
+  "strict_eligibility_cohen_kappa": 1.0,
+  "strict_binary_agreement_n": 19,
+  "strict_binary_agreement_total": 19,
+  "strict_binary_agreement_exact_ci_95": [
+    0.8235330881930346,
+    1.0
+  ],
+  "strict_binary_cohen_kappa": 1.0,
+  "strict_binary_kappa_bootstrap_defined_n": 8803,
+  "strict_binary_kappa_bootstrap_undefined_n": 1197,
+  "decision": "Retire the legacy 14-drug ROC/PR analysis. The strict drug-specific clinical subset has two positives and no unambiguous negatives, so ROC-AUC and PR-AUC are not estimable."
+}

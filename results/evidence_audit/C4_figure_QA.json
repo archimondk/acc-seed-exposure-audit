@@ -1,0 +1,27 @@
+{
+  "figure_version": "c4-evidence-audit-v3-agreement-precision",
+  "python": "3.14.3",
+  "matplotlib": "3.10.8",
+  "figure": {
+    "target_width_mm": 170.0,
+    "actual_width_mm": 170.0,
+    "actual_height_mm": 112.0,
+    "minimum_font_pt": 8.0,
+    "font_check": true,
+    "annotation_source": "data/evidence/evidence_labels_v3_adjudicated.csv, final blinded second-review agreement, and frozen C1 ranks"
+  },
+  "png": {
+    "pixels": [
+      6692,
+      4409
+    ],
+    "dpi": [
+      999.9979999999999,
+      999.9979999999999
+    ],
+    "measured_width_mm": 169.977,
+    "dpi_check": true,
+    "width_check": true,
+    "file_size_bytes": 866816
+  }
+}
