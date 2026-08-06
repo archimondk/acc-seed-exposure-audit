@@ -1,0 +1,21 @@
+record_id,source_id,drug,source_title,source_year,doi_or_identifier,source_url
+B01,S01,Mitotane,"European Society of Endocrinology Clinical Practice Guidelines on the management of adrenocortical carcinoma in adults, in collaboration with the European Network for the Study of Adrenal Tumors",2018,10.1530/EJE-18-0608,https://pubmed.ncbi.nlm.nih.gov/30299884/
+B02,S02,Cabozantinib,"Cabozantinib monotherapy for advanced adrenocortical carcinoma: a single-arm phase 2 trial",2024,10.1016/S1470-2045(24)00095-0,https://doi.org/10.1016/S1470-2045(24)00095-0
+B03,S03,Etoposide,Combination chemotherapy in advanced adrenocortical carcinoma,2012,10.1056/NEJMoa1200966,https://doi.org/10.1056/NEJMoa1200966
+B04,S03,Doxorubicin,Combination chemotherapy in advanced adrenocortical carcinoma,2012,10.1056/NEJMoa1200966,https://doi.org/10.1056/NEJMoa1200966
+B05,S03,Cisplatin,Combination chemotherapy in advanced adrenocortical carcinoma,2012,10.1056/NEJMoa1200966,https://doi.org/10.1056/NEJMoa1200966
+B06,S04,Gemcitabine,Gemcitabine-Based Chemotherapy in Adrenocortical Carcinoma: A Multicenter Study of Efficacy and Predictive Factors,2017,10.1210/jc.2017-01624,https://pubmed.ncbi.nlm.nih.gov/29092062/
+B07,S05,Palbociclib,A hypothesis-driven approach identifies CDK4 and CDK6 inhibitors as candidate drugs for treatments of adrenocortical carcinomas,2017,10.18632/aging.101356,https://pmc.ncbi.nlm.nih.gov/articles/PMC5764399/
+B08,S03,Carboplatin,Combination chemotherapy in advanced adrenocortical carcinoma,2012,10.1056/NEJMoa1200966,https://doi.org/10.1056/NEJMoa1200966
+B09,S05,Ribociclib,A hypothesis-driven approach identifies CDK4 and CDK6 inhibitors as candidate drugs for treatments of adrenocortical carcinomas,2017,10.18632/aging.101356,https://pmc.ncbi.nlm.nih.gov/articles/PMC5764399/
+B10,S05,Abemaciclib,A hypothesis-driven approach identifies CDK4 and CDK6 inhibitors as candidate drugs for treatments of adrenocortical carcinomas,2017,10.18632/aging.101356,https://pmc.ncbi.nlm.nih.gov/articles/PMC5764399/
+B11,S06,Lenvatinib,Combined lenvatinib and pembrolizumab as salvage therapy in advanced adrenal cortical carcinoma,2020,10.1136/jitc-2020-001009,https://pmc.ncbi.nlm.nih.gov/articles/PMC7394183/
+B12,S07,Actinomycin D,Unusual case of adrenal cortical carcinoma in a female infant,1978,10.1136/adc.53.4.342,https://pmc.ncbi.nlm.nih.gov/articles/PMC1544871/
+B13,S08,Everolimus,Tissue Expression and Pharmacological In Vitro Analyses of mTOR and SSTR Pathways in Adrenocortical Carcinoma,2017,10.1007/s12022-017-9473-8,https://pubmed.ncbi.nlm.nih.gov/28271381/
+B14,S09,Temsirolimus,Insulin growth factor receptor antibody cixutumumab combined with the mTOR inhibitor temsirolimus in patients with metastatic adrenocortical carcinoma,2013,10.1038/bjc.2013.46,https://pmc.ncbi.nlm.nih.gov/articles/PMC3590681/
+B15,S08,Sirolimus,Tissue Expression and Pharmacological In Vitro Analyses of mTOR and SSTR Pathways in Adrenocortical Carcinoma,2017,10.1007/s12022-017-9473-8,https://pubmed.ncbi.nlm.nih.gov/28271381/
+B16,S10,Sunitinib,"Sunitinib in refractory adrenocortical carcinoma: a phase II, single-arm, open-label trial",2012,10.1210/jc.2012-1419,https://pubmed.ncbi.nlm.nih.gov/22837187/
+B17,S11,Osimertinib,A phase II trial of gefitinib monotherapy in patients with unresectable adrenocortical carcinoma,2007,10.1200/jco.2007.25.18_suppl.15527,https://doi.org/10.1200/jco.2007.25.18_suppl.15527
+B18,S11,Afatinib,A phase II trial of gefitinib monotherapy in patients with unresectable adrenocortical carcinoma,2007,10.1200/jco.2007.25.18_suppl.15527,https://doi.org/10.1200/jco.2007.25.18_suppl.15527
+B19,S12,Erlotinib,Treatment of advanced adrenocortical carcinoma with erlotinib plus gemcitabine,2008,10.1210/jc.2007-2564,https://pubmed.ncbi.nlm.nih.gov/18334586/
+
