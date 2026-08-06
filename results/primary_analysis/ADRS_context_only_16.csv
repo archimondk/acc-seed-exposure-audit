@@ -1,0 +1,17 @@
+drug,n_assoc,C_ACC,C_ACC_pct_all124,rank_C_ACC_all124,missing_reason
+Pipobroman,3,0.193381856212,0.975609756098,4,MIPE activity unavailable
+tepotinib,6,0.0852002374744,0.813008130081,24,MIPE activity unavailable
+Arsenic trioxide,22,0.0793860454908,0.79674796748,26,MIPE activity unavailable
+Trilaciclib,21,0.0602925890529,0.747967479675,32,MIPE activity unavailable
+Zanubrutinib,11,0.050347509805,0.682926829268,40,MIPE activity unavailable
+Avapritinib,2,0.047413027454,0.666666666667,42,MIPE activity unavailable
+Talazoparib,2,0.037611627454,0.471544715447,66,MIPE activity unavailable
+Selpercatinib,37,0.0374507034317,0.463414634146,67,MIPE activity unavailable
+Fedratinib,2,0.032478627454,0.382113821138,77,MIPE activity unavailable
+Triethylenemelamine,3,0.031004689545,0.341463414634,82,MIPE activity unavailable
+Sotorasib,4,0.0262407338957,0.276422764228,90,MIPE activity unavailable
+Uracil mustard,5,0.0231447671587,0.219512195122,97,MIPE activity unavailable
+Pemigatinib,10,0.0202072413285,0.146341463415,106,MIPE activity unavailable
+Pralsetinib,59,0.0171284538269,0.0650406504065,116,MIPE activity unavailable
+Nitrogen mustard,16,0.0151025335405,0.0487804878049,118,MIPE activity unavailable
+Ifosfamide,17,0.0141279068635,0.0243902439024,121,MIPE activity unavailable
