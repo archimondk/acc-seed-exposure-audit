@@ -1,0 +1,114 @@
+{
+  "analysis_version": "dirichlet-component-weight-sensitivity-v1",
+  "protocol_id": "dirichlet_component_weight_sensitivity_v1",
+  "post_hoc": true,
+  "frozen_verdict_revised": false,
+  "active_components": [
+    "G",
+    "R",
+    "P",
+    "L",
+    "S"
+  ],
+  "therapeutic_component_included": false,
+  "therapy_only_seeds_included": false,
+  "disease_seed_count": 45,
+  "primary_drug_count": 108,
+  "dirichlet_alpha": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "draws": 1000,
+  "rng_seed": 20260729,
+  "restart_probability": 0.4,
+  "c_acc_pseudo_count": 3.0,
+  "baseline_component_proportions": {
+    "G": 0.35294117647058826,
+    "R": 0.23529411764705885,
+    "P": 0.23529411764705885,
+    "L": 0.11764705882352942,
+    "S": 0.05882352941176471
+  },
+  "baseline_reproduction": {
+    "rACC_max_abs_difference": 4.995480725952794e-07,
+    "rACC_spearman": 0.9999999055427468,
+    "C_ACC_percentile_spearman": 1.0,
+    "RWR_iterations": 30,
+    "RWR_final_max_L1_delta": 5.832660682467463e-11
+  },
+  "ADRS_rank_spearman_vs_locked": {
+    "minimum": 0.9915497251517144,
+    "q05": 0.9972939114197796,
+    "median": 0.9989044175788582,
+    "q95": 0.999628454657178,
+    "maximum": 0.9999333123743652
+  },
+  "top20_jaccard_vs_locked": {
+    "minimum": 0.8181818181818182,
+    "q05": 0.9047619047619048,
+    "median": 1.0,
+    "q95": 1.0,
+    "maximum": 1.0
+  },
+  "CDK46_mean_rank": {
+    "minimum": 26.666666666666668,
+    "q05": 27.333333333333332,
+    "median": 28.0,
+    "q95": 29.0,
+    "maximum": 31.333333333333332
+  },
+  "CDK46_drugs": {
+    "Abemaciclib": {
+      "drug": "Abemaciclib",
+      "locked_rank": 8,
+      "rank_median": 8.0,
+      "rank_q05": 7.0,
+      "rank_q25": 8.0,
+      "rank_q75": 8.0,
+      "rank_q95": 10.0,
+      "rank_sd": 0.6981965901366739,
+      "prob_top10": 0.988,
+      "prob_top20": 1.0
+    },
+    "Palbociclib": {
+      "drug": "Palbociclib",
+      "locked_rank": 26,
+      "rank_median": 27.0,
+      "rank_q05": 26.0,
+      "rank_q25": 26.0,
+      "rank_q75": 27.0,
+      "rank_q95": 29.0,
+      "rank_sd": 1.2153505984188584,
+      "prob_top10": 0.0,
+      "prob_top20": 0.0
+    },
+    "Ribociclib": {
+      "drug": "Ribociclib",
+      "locked_rank": 51,
+      "rank_median": 49.0,
+      "rank_q05": 48.0,
+      "rank_q25": 49.0,
+      "rank_q75": 50.0,
+      "rank_q95": 51.0,
+      "rank_sd": 0.9349144693848015,
+      "prob_top10": 0.0,
+      "prob_top20": 0.0
+    }
+  },
+  "n_drugs_prob_top20_ge_0_80": 20,
+  "n_drugs_prob_top20_le_0_20": 88,
+  "quality_control": {
+    "component_draw_count": 1000,
+    "component_simplex_max_abs_error": 4.440892098500626e-16,
+    "restart_simplex_max_abs_error": 8.881784197001252e-16,
+    "all_component_weights_positive": true,
+    "all_seed_weights_positive": true,
+    "all_rank_columns_complete": true,
+    "max_RWR_iterations": 30,
+    "max_RWR_final_L1_delta": 6.181040871492672e-11
+  },
+  "runtime_seconds": 42.02806730000157
+}
