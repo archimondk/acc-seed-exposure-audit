@@ -1,0 +1,68 @@
+{
+  "figure_version": "c3-primary108-v1",
+  "n_primary": 108,
+  "n_weight_settings": 21,
+  "weight_C_ACC_values": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "primary_weight_C_ACC": 0.5,
+  "selected_drugs": [
+    "Irinotecan",
+    "Ixazomib",
+    "Abemaciclib",
+    "Olaparib",
+    "Mitotane",
+    "Doxorubicin",
+    "Palbociclib",
+    "Afatinib",
+    "Ribociclib"
+  ],
+  "selected_scan_rows": 189,
+  "cdk46_members": [
+    "Abemaciclib",
+    "Palbociclib",
+    "Ribociclib"
+  ],
+  "cdk46_ranks": [
+    8,
+    26,
+    51
+  ],
+  "cdk46_mean_rank": 28.333333333333332,
+  "cdk46_p_exact": 0.07635827504457375,
+  "cdk46_q_bh": 0.37110183715720657,
+  "cdk46_rank_sum": 85,
+  "n_eligible_classes": 10,
+  "exact_null_combinations": 204156,
+  "primary_selected_ranks": {
+    "Irinotecan": 1,
+    "Ixazomib": 3,
+    "Abemaciclib": 8,
+    "Olaparib": 12,
+    "Mitotane": 17,
+    "Doxorubicin": 23,
+    "Palbociclib": 26,
+    "Afatinib": 42,
+    "Ribociclib": 51
+  }
+}

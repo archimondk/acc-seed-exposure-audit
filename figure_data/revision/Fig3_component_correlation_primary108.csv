@@ -1,0 +1,26 @@
+variable_x,label_x,variable_y,label_y,n_pairwise,spearman_rho
+C_ACC_pct,C_ACC percentile,C_ACC_pct,C_ACC percentile,108,1.0
+C_ACC_pct,C_ACC percentile,residual_pct,ACC-relative residual percentile,108,0.004415694531162404
+C_ACC_pct,C_ACC percentile,MIPE_potency_pct,MIPE potency percentile,108,0.06070984552283154
+C_ACC_pct,C_ACC percentile,NCI60_potency_pct,NCI-60 potency percentile,108,0.1823105467003006
+C_ACC_pct,C_ACC percentile,ADRS_comp,ADRS_comp,108,0.6997379965701296
+residual_pct,ACC-relative residual percentile,C_ACC_pct,C_ACC percentile,108,0.004415694531162404
+residual_pct,ACC-relative residual percentile,residual_pct,ACC-relative residual percentile,108,0.9999999999999999
+residual_pct,ACC-relative residual percentile,MIPE_potency_pct,MIPE potency percentile,108,0.9147732144388236
+residual_pct,ACC-relative residual percentile,NCI60_potency_pct,NCI-60 potency percentile,108,0.03793573218249545
+residual_pct,ACC-relative residual percentile,ADRS_comp,ADRS_comp,108,0.706556277287226
+MIPE_potency_pct,MIPE potency percentile,C_ACC_pct,C_ACC percentile,108,0.06070984552283154
+MIPE_potency_pct,MIPE potency percentile,residual_pct,ACC-relative residual percentile,108,0.9147732144388236
+MIPE_potency_pct,MIPE potency percentile,MIPE_potency_pct,MIPE potency percentile,108,0.9999999999999999
+MIPE_potency_pct,MIPE potency percentile,NCI60_potency_pct,NCI-60 potency percentile,108,0.42017967551706725
+MIPE_potency_pct,MIPE potency percentile,ADRS_comp,ADRS_comp,108,0.6887495785426136
+NCI60_potency_pct,NCI-60 potency percentile,C_ACC_pct,C_ACC percentile,108,0.18231054670030064
+NCI60_potency_pct,NCI-60 potency percentile,residual_pct,ACC-relative residual percentile,108,0.03793573218249545
+NCI60_potency_pct,NCI-60 potency percentile,MIPE_potency_pct,MIPE potency percentile,108,0.42017967551706725
+NCI60_potency_pct,NCI-60 potency percentile,NCI60_potency_pct,NCI-60 potency percentile,108,0.9999999999999999
+NCI60_potency_pct,NCI-60 potency percentile,ADRS_comp,ADRS_comp,108,0.16304705134613362
+ADRS_comp,ADRS_comp,C_ACC_pct,C_ACC percentile,108,0.6997379965701296
+ADRS_comp,ADRS_comp,residual_pct,ACC-relative residual percentile,108,0.7065562772872261
+ADRS_comp,ADRS_comp,MIPE_potency_pct,MIPE potency percentile,108,0.6887495785426135
+ADRS_comp,ADRS_comp,NCI60_potency_pct,NCI-60 potency percentile,108,0.16304705134613362
+ADRS_comp,ADRS_comp,ADRS_comp,ADRS_comp,108,1.0
