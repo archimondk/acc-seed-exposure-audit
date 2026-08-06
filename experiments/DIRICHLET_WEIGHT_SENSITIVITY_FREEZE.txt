@@ -1,0 +1,22 @@
+ACC-PHARMA-NET Dirichlet component-weight sensitivity freeze record
+Protocol ID: dirichlet_component_weight_sensitivity_v1
+Freeze date: 2026-07-29
+Status: post hoc; no Dirichlet weight-sensitivity output had been generated or inspected
+
+AUTHORITATIVE FROZEN PROTOCOL
+206e00aa4dd2fbd13bbaaf75f345b5dd7f5de8d1f2eddaf12e3493e04de8802b  experiments/dirichlet_component_weight_sensitivity_protocol_v1.md
+
+LOCKED DESIGN
+- Active components: G, R, P, L, S
+- Disease-only seed membership: 45 fixed genes
+- Therapeutic component T and five therapy-response/vulnerability genes: excluded
+- Distribution: Dirichlet(1,1,1,1,1)
+- Draws: 1000
+- RNG: NumPy default_rng
+- RNG seed: 20260729
+- Primary estimator: column-normalized RWR plus min-max gene scaling
+- Downstream score: ADRS_comp = 0.50*C_ACC_pct + 0.50*locked residual_pct
+- Degree-matched nulls: not regenerated; no empirical-P or FDR claim
+
+Any change after this freeze requires a numbered amendment that states whether
+Dirichlet results had already been generated or inspected.

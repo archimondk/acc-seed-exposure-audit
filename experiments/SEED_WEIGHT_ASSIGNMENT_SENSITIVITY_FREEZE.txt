@@ -1,0 +1,23 @@
+ACC-PHARMA-NET seed-weight assignment sensitivity freeze record
+Protocol ID: seed_weight_assignment_sensitivity_v1
+Registration date: 2026-07-29
+Status: post hoc; all prior analyses and the membership-dominance hypothesis
+were known, but no W1 or W2 output had been generated or inspected
+
+SHA-256:
+f5fbdc5b2054dba37bb15f0c036f8797af7ac9706e4c851d2e0c515aeffc915d  experiments/seed_weight_assignment_sensitivity_protocol_v1.md
+
+Frozen arms:
+- W1: uniform restart weight 1/45 on the fixed 45 disease-only seeds
+- W2: 1,000 independent permutations of the normalized baseline five-component
+  weights across the same 45 seeds
+- RNG: NumPy default_rng
+- RNG seed: 20260729
+- Fixed downstream pathway: primary column-normalized RWR, min-max r_ACC,
+  shrinkage C_ACC percentile, locked residual percentile, and 0.50/0.50 ADRS
+- No regenerated degree-matched nulls, empirical P values, FDR claims, or
+  equivalence margin
+- Frozen PARTIAL_OR_NOT_SUPPORTED verdict unchanged
+
+Any change to these specifications requires a new amendment and must disclose
+that the W1/W2 results had already been generated or inspected.
