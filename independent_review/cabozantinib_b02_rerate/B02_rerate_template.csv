@@ -1,0 +1,3 @@
+record_id,source_id,drug,doi_or_identifier,source_accessed,access_level,evidence_domain,evidence_design,drug_specificity,exposure_context,direction,strict_candidate_eligible,strict_binary_label,strict_exclusion_reason,population_or_model,sample_size,treatment_and_comparator,outcome_numbers,source_locator,confidence,reviewer_notes
+B02,S02,Cabozantinib,10.1016/S1470-2045(24)00095-0,,,,,,,,,,,,,,,,,
+
