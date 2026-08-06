@@ -1,0 +1,15 @@
+drug,comp_score,label
+Mitotane,0.6975,positive
+Cabozantinib,0.3640,positive
+Etoposide,0.5460,positive
+Doxorubicin,0.5335,positive
+Cisplatin,0.1780,positive
+Gemcitabine,0.5290,positive
+Palbociclib,0.6535,positive
+Ribociclib,0.5705,positive
+Carboplatin,0.3635,positive
+Actinomycin D,0.7900,positive
+Afatinib,0.6100,negative
+Erlotinib,0.5740,negative
+Osimertinib,0.6285,negative
+Sunitinib,0.4265,negative
