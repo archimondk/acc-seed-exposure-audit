@@ -1,0 +1,40 @@
+{
+  "snapshot_date": "2026-07-28",
+  "control": "ER-positive/HER2-negative breast cancer",
+  "datahub_commit": "58341090c8bf0368ebe03f7aa95ec5137a8def25",
+  "files": {
+    "data_clinical_patient.txt": {
+      "source": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/brca_tcga/data_clinical_patient.txt",
+      "sha256": "973b6e03436330e0563a15989d04fb3566a2c7cdc66db9aaa3badbb32c58badc",
+      "bytes": 1703839
+    },
+    "data_clinical_sample.txt": {
+      "source": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/brca_tcga/data_clinical_sample.txt",
+      "sha256": "32dab97607211f492afdc9fb957610fa30de23c2aca315ba07e33803e1752e66",
+      "bytes": 459870
+    },
+    "data_rppa_zscores.txt": {
+      "source": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/brca_tcga/data_rppa_zscores.txt",
+      "sha256": "07553b25973c26a1142d2f153ee83c2eb9461197170b556f92b45a33021664a9",
+      "bytes": 1432604
+    },
+    "mutations_api.json": {
+      "source": "POST https://www.cbioportal.org/api/molecular-profiles/brca_tcga_mutations/mutations/fetch?projection=DETAILED&pageSize=10000000&pageNumber=0",
+      "request_body": {
+        "sampleListId": "brca_tcga_all"
+      },
+      "sha256": "f81b3623bfdfeb26c301216e23e2b6fb759108676de6f0fd076b44a06056ad5f",
+      "bytes": 46006281
+    },
+    "sequenced_sample_ids.json": {
+      "source": "https://www.cbioportal.org/api/sample-lists/brca_tcga_sequenced/sample-ids",
+      "sha256": "24ddf7673413b13fa6a5e48259838b9230552a7ad4fa962388d6f3db2c94a8d5",
+      "bytes": 17677
+    },
+    "PMC3465532_fullText.xml": {
+      "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3465532/fullTextXML",
+      "sha256": "47d41acb91f9e3723c50e156c4862bf34f8ca69b5a5207662d0b831fe7392619",
+      "bytes": 148325
+    }
+  }
+}
