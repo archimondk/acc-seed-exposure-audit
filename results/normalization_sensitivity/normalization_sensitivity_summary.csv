@@ -1,0 +1,5 @@
+variant,description,gene_rho_degree,gene_rho_strength,gene_rho_PageRank,drug_rho_vs_locked_C_ACC,drug_top20_jaccard_vs_locked_C_ACC,n_drugs_q_lt_0_05,minimum_q_bh_108,CDK46_observed_mean_C_ACC_pct,CDK46_degree_matched_empirical_p,CDK46_q_bh_across_variants
+column_minmax,Locked column-stochastic RWR with gene-level min-max scaling,0.797049504852,0.798288812483,0.789073563305,1,1,2,0.010798920108,0.638629283489,0.283871612839,0.283871612839
+column_gene_rank,Column-stochastic RWR with gene-level average-rank percentiles,0.797049504852,0.798288812483,0.789073563305,0.622392012652,0.379310344828,0,0.0755924407559,0.604361370717,0.010398960104,0.0346632003466
+uniform_ratio_gene_rank,"Column-stochastic RWR divided by the uniform-restart steady state, then gene-level average-rank percentiles",0.516878280527,0.517259417388,0.496625420335,0.640950402988,0.428571428571,0,0.10798920108,0.641744548287,0.02599740026,0.0346632003466
+symmetric_gene_rank,Symmetric D^-1/2 W D^-1/2 propagation with gene-level average-rank percentiles,0.624459044032,0.623980806287,0.611322968225,0.640435950689,0.428571428571,1,0.043195680432,0.654205607477,0.021397860214,0.0346632003466
