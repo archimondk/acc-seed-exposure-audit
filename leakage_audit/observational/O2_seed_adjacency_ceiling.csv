@@ -1,0 +1,2 @@
+﻿top25_cut,n_top25,n_no_seed,max_pct_no_seed,median_no_seed,median_seed_assoc,n_no_seed_in_top25,mannwhitney_U,mannwhitney_P,claim_supported
+0.75,27,62,0.672897196262,0.2943925233645,0.789719626168,0,2655.0,1.1491784693918888e-14,True

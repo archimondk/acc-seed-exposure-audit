@@ -1,0 +1,44 @@
+{
+  "analysis": "locked_drug_association_set_resolution",
+  "n_locked_drugs": 108,
+  "n_pairwise_comparisons": 5778,
+  "n_singleton_drugs": 17,
+  "singleton_drugs": [
+    "acalabrutinib",
+    "axitinib",
+    "azacitidine",
+    "bosutinib",
+    "cabozantinib",
+    "decitabine",
+    "doxorubicin",
+    "gilteritinib",
+    "homoharringtonine",
+    "lapatinib",
+    "mitotane",
+    "olaparib",
+    "panobinostat",
+    "romidepsin",
+    "temsirolimus",
+    "tivozanib",
+    "vinorelbine"
+  ],
+  "n_identical_pairs": 2,
+  "identical_pairs": [
+    {
+      "drug_a": "axitinib",
+      "drug_b": "cabozantinib",
+      "n_a": 1,
+      "shared_genes": "ZNF521"
+    },
+    {
+      "drug_a": "bosutinib",
+      "drug_b": "lapatinib",
+      "n_a": 1,
+      "shared_genes": "MLLT10"
+    }
+  ],
+  "n_pairs_jaccard_ge_0_8": 3,
+  "n_pairs_jaccard_ge_0_5": 14,
+  "edges_sha256": "0ac37e507e763b5d20e78571df372ac14350e95b4d19c0360d1324ed35018d63",
+  "universe_sha256": "c42942efecf4e667cbb5af6180502e0d206cb61d560ba6b41d0ccd51c63386d4"
+}
