@@ -1,0 +1,38 @@
+{
+  "title": "Seed exposure and normalization sensitivity in network-propagation drug ranking by gene-set averaging: an adrenocortical carcinoma audit",
+  "description": "Code, protocols, derived data and audit records for a reproducible analysis of seed exposure, topology and normalization sensitivity in gene-set-averaged drug ranking. Code is licensed under MIT. Author-generated derived data and documentation are licensed under CC BY 4.0 within the scope defined in DATA_LICENSE.md. Third-party raw data are excluded and remain subject to their source terms.",
+  "upload_type": "software",
+  "version": "1.0.3",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Zhang, Han",
+      "affiliation": "Chengdu First People's Hospital"
+    },
+    {
+      "name": "Xia, Yuhang",
+      "affiliation": "Chengdu Hi-tech Zone Women's and Children's Hospital, West China Second University Hospital, Sichuan University"
+    },
+    {
+      "name": "Mo, Zhenhan",
+      "affiliation": "Chengdu First People's Hospital"
+    },
+    {
+      "name": "Zhang, Yujing",
+      "affiliation": "Chengdu First People's Hospital"
+    },
+    {
+      "name": "Yang, Haixia",
+      "affiliation": "Chengdu First People's Hospital"
+    }
+  ],
+  "keywords": [
+    "adrenocortical carcinoma",
+    "drug repurposing",
+    "network propagation",
+    "seed-exposure bias",
+    "normalization sensitivity",
+    "reproducibility"
+  ],
+  "notes": "Corrective release: fixes the corresponding author's given name and restores compact author-generated outputs omitted from v1.0.2. No scientific result was changed."
+}

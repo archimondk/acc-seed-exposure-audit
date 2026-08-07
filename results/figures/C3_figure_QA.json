@@ -1,0 +1,61 @@
+{
+  "figure_version": "c3-primary108-v1",
+  "python": "3.14.3",
+  "matplotlib": "3.10.8",
+  "target_journal": "mdpi",
+  "target_column": "full",
+  "F3": {
+    "figure": {
+      "target_width_mm": 170.0,
+      "actual_width_mm": 170.0,
+      "actual_height_mm": 124.0,
+      "minimum_font_pt": 8.0,
+      "font_check": true,
+      "n_primary": 108,
+      "color_scale": [
+        -1,
+        1
+      ]
+    },
+    "png": {
+      "pixels": [
+        6692,
+        4881
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "measured_width_mm": 169.977,
+      "dpi_check": true,
+      "width_check": true,
+      "file_size_bytes": 859902
+    }
+  },
+  "F5": {
+    "figure": {
+      "target_width_mm": 170.0,
+      "actual_width_mm": 170.0,
+      "actual_height_mm": 96.0,
+      "minimum_font_pt": 8.0,
+      "font_check": true,
+      "n_weight_settings": 21,
+      "exact_null_combinations": 204156,
+      "annotation_source": "computed C1-C2 objects"
+    },
+    "png": {
+      "pixels": [
+        6692,
+        3779
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "measured_width_mm": 169.977,
+      "dpi_check": true,
+      "width_check": true,
+      "file_size_bytes": 678330
+    }
+  }
+}

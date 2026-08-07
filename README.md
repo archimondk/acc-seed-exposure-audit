@@ -197,7 +197,7 @@ content or upstream materials identified in `DATA_SOURCES.md`.
 ## Citation and release status
 
 Citation metadata are provided in `CITATION.cff`. The current archival release
-is [`v1.0.2`](https://github.com/archimondk/acc-seed-exposure-audit/releases/tag/v1.0.2),
+is [`v1.0.3`](https://github.com/archimondk/acc-seed-exposure-audit/releases/tag/v1.0.3),
 and its Zenodo concept DOI is
 [`10.5281/zenodo.21824511`](https://doi.org/10.5281/zenodo.21824511). MIT and
 CC BY 4.0 apply to author-owned code and author-generated data/documentation,

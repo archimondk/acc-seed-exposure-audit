@@ -1,0 +1,23 @@
+{
+  "analysis": "regenerated exploratory Supplementary Figures S1-S2",
+  "status": "descriptive/exploratory; not a primary validation analysis",
+  "inputs": {
+    "data/bindex_network/ADRS_final_fullSTRING_ranked.csv": "a85391c5640c2febfc06488b7e9f67b3b25087ef3305011f9b952aa43228e69f",
+    "data/bindex_network/ADRS_v2_ranked.csv": "fd69d5978e1af840856b4e868612a9d4f365466343dfd9bf6f7d6644d5776544",
+    "data/bindex_network/bindex_edges_1304.csv": "0ac37e507e763b5d20e78571df372ac14350e95b4d19c0360d1324ed35018d63",
+    "data/bindex_network/rACC_399_fullSTRING.csv": "9c9a18d8937b83f1da79cbe8f8e6d6870c30b267ed410fbcc283edc0507c4ab8",
+    "data/bindex_network/Sactivity_124_v1.csv": "5d371ff5d8b8261f1b3a091131506be67fb0a39f39563c333a0bcbd9f5ade475",
+    "data/bindex_network/NCI60_potency_124.csv": "60e5e60e5211990b659b807181d968cb3c06e9c0889635d12d5fea15fb2bb367"
+  },
+  "outputs": [
+    "figure_data/revision/FigS1_four_component_weight_grid.csv",
+    "figure_data/revision/FigS2_lomco_neighbor_assessment.csv",
+    "figures/revision/FigS1_four_component_weight_grid.pdf",
+    "figures/revision/FigS1_four_component_weight_grid.svg",
+    "figures/revision/FigS1_four_component_weight_grid.png",
+    "figures/revision/FigS2_lomco_neighbor_assessment.pdf",
+    "figures/revision/FigS2_lomco_neighbor_assessment.svg",
+    "figures/revision/FigS2_lomco_neighbor_assessment.png",
+    "results/supplementary_legacy/supplementary_legacy_metrics.json"
+  ]
+}

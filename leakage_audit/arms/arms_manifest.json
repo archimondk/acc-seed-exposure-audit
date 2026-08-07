@@ -1,0 +1,66 @@
+{
+  "protocol": {
+    "protocol_id": "leakage_audit_v1",
+    "protocol_path": "leakage_audit/leakage_audit_protocol_v1.md",
+    "protocol_sha256": "36c9638ade80bb761f6e8481889575b1b80feb460bbd51c9d5d68617a4155e85",
+    "freeze_path": "leakage_audit/FREEZE.txt",
+    "freeze_sha256": "a820fc881edf08a56d3c0da4b719730b27c98cf828a29fe138dfd7ada07751b9",
+    "l1_threshold": 2.0,
+    "l2_threshold": 1.5,
+    "l3_threshold": 2.0,
+    "interventional_results_observed_at_freeze": false
+  },
+  "rng_seed": 20260727,
+  "null_draws": 10000,
+  "results_inspected_before_seed_construction": false,
+  "arms": {
+    "A1": {
+      "seed_n": 45,
+      "seed_path": "leakage_audit/arms/A1/seeds_frozen.csv",
+      "seed_sha256": "6d3b6ec4728f29a9cfa610fd0f84d3b121ce32e73323f07947775438ab8b06d0",
+      "raw_weight_sum": 22.790000000000003,
+      "rb1_raw_weight": 0.7300000000000001,
+      "status": "reference_complete_before_freeze"
+    },
+    "A2": {
+      "seed_n": 44,
+      "seed_path": "leakage_audit/arms/A2/seeds_frozen.csv",
+      "seed_sha256": "93d2eef82df0ae6d0678356e0e04f6de461e657656d183c82fa5e336f146c9dd",
+      "raw_weight_sum": 22.060000000000002,
+      "rb1_raw_weight": null,
+      "status": "not_executed_at_seed_freeze"
+    },
+    "B1": {
+      "seed_n": 24,
+      "seed_path": "leakage_audit/arms/B1/seeds_frozen.csv",
+      "seed_sha256": "fbbefea6dbbca706a54f153f1c377be3d24f119a001fa615bc19a96beba0eeaf",
+      "raw_weight_sum": 1.0,
+      "rb1_raw_weight": null,
+      "status": "reference_complete_before_freeze"
+    },
+    "B2": {
+      "seed_n": 25,
+      "seed_path": "leakage_audit/arms/B2/seeds_frozen.csv",
+      "seed_sha256": "6b1afcd3797ff945430b93e0b7eefcd3baa08d0bf3ed90794c0803060d96e51a",
+      "raw_weight_sum": 1.0115468887339176,
+      "rb1_raw_weight": 0.011546888733917616,
+      "status": "not_executed_at_seed_freeze"
+    },
+    "B2_lo": {
+      "seed_n": 25,
+      "seed_path": "leakage_audit/arms/B2_lo/seeds_frozen.csv",
+      "seed_sha256": "426a4f3aaa8a72b334e06e9bbeaa2287eb6b9eba47624cb34cf2c275c42b367d",
+      "raw_weight_sum": 1.0057734443669588,
+      "rb1_raw_weight": 0.005773444366958808,
+      "status": "not_executed_at_seed_freeze"
+    },
+    "B2_hi": {
+      "seed_n": 25,
+      "seed_path": "leakage_audit/arms/B2_hi/seeds_frozen.csv",
+      "seed_sha256": "4b338785ad9a877215740a840bef192067f00439f072b38e776b6048c9fcd58e",
+      "raw_weight_sum": 1.0173203331008764,
+      "rb1_raw_weight": 0.017320333100876426,
+      "status": "not_executed_at_seed_freeze"
+    }
+  }
+}

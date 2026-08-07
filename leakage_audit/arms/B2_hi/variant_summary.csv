@@ -1,0 +1,5 @@
+variant,description,CDK46_observed_mean_percentile,CDK46_null_mean_percentile,CDK46_empirical_p_upper,direction_observed_gt_null_mean,n_drugs_q_lt_0_05,minimum_drug_q_bh_108,CDK46_q_bh_across_variants
+column_minmax,Locked column-stochastic RWR with gene-level min-max scaling,0.725856697819,0.564565419971,0.108689131087,yes,0,0.496750324968,0.434756524348
+column_gene_rank,Column-stochastic RWR with gene-level average-rank percentiles,0.395638629283,0.418711681619,0.589641035896,no,0,0.529147085291,0.589641035896
+uniform_ratio_gene_rank,"Column-stochastic RWR divided by the uniform-restart steady state, then gene-level average-rank percentiles",0.411214953271,0.421841276674,0.535646435356,no,0,0.118788121188,0.589641035896
+symmetric_gene_rank,Symmetric D^-1/2 W D^-1/2 propagation with gene-level average-rank percentiles,0.423676012461,0.434173987116,0.527947205279,no,0,0.583141685831,0.589641035896

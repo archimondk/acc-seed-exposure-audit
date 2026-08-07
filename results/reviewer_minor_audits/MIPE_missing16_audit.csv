@@ -1,0 +1,17 @@
+drug,mechanism_class,coarse_group,n_assoc,C_ACC_k3,rank_C_ACC_all124_k3,missing_reason,classification_basis
+Pipobroman,Alkylator/platinum,broad_cytotoxic,3,0.193381856212,4,MIPE activity unavailable,explicit drug-identity audit
+tepotinib,ALK/MET,targeted,6,0.0852002374744,24,MIPE activity unavailable,explicit drug-identity audit
+Arsenic trioxide,Pleiotropic/other,other,22,0.0793860454908,26,MIPE activity unavailable,explicit drug-identity audit
+Trilaciclib,CDK4/6,targeted,21,0.0602925890529,32,MIPE activity unavailable,explicit drug-identity audit
+Zanubrutinib,BTK,targeted,11,0.050347509805,40,MIPE activity unavailable,explicit drug-identity audit
+Avapritinib,KIT/PDGFRA,targeted,2,0.047413027454,42,MIPE activity unavailable,explicit drug-identity audit
+Talazoparib,PARP,targeted,2,0.037611627454,66,MIPE activity unavailable,explicit drug-identity audit
+Selpercatinib,RET,targeted,37,0.0374507034317,67,MIPE activity unavailable,explicit drug-identity audit
+Fedratinib,JAK2,targeted,2,0.032478627454,77,MIPE activity unavailable,explicit drug-identity audit
+Triethylenemelamine,Alkylator/platinum,broad_cytotoxic,3,0.031004689545,82,MIPE activity unavailable,explicit drug-identity audit
+Sotorasib,KRAS G12C,targeted,4,0.0262407338957,90,MIPE activity unavailable,explicit drug-identity audit
+Uracil mustard,Alkylator/platinum,broad_cytotoxic,5,0.0231447671587,97,MIPE activity unavailable,explicit drug-identity audit
+Pemigatinib,FGFR,targeted,10,0.0202072413285,106,MIPE activity unavailable,explicit drug-identity audit
+Pralsetinib,RET,targeted,59,0.0171284538269,116,MIPE activity unavailable,explicit drug-identity audit
+Nitrogen mustard,Alkylator/platinum,broad_cytotoxic,16,0.0151025335405,118,MIPE activity unavailable,explicit drug-identity audit
+Ifosfamide,Alkylator/platinum,broad_cytotoxic,17,0.0141279068635,121,MIPE activity unavailable,explicit drug-identity audit

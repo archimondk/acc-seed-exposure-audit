@@ -270,7 +270,7 @@ Status date: 2026-08-05 (rev13).
 - [x] Added an order-based CRediT draft to the manuscript. No role is assigned
   for an independent human rereview because that task was not performed.
 - [x] Corresponding-author confirmation on 1 August 2026 fixed the final
-  author order as Han Zhang, Yuxing Xia, Zhenhan Mo, Yujing Zhang and Haixia
+  author order as Han Zhang, Yuhang Xia, Zhenhan Mo, Yujing Zhang and Haixia
   Yang.
 - [x] Funding status was confirmed and the manuscript now states: “This
   research received no external funding.”

@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.3 — 2026-08-07
+
+- Corrected the corresponding author's given name from `Yuxing` to `Yuhang`
+  across citation, licence, reproducibility and Zenodo metadata.
+- Added root-level `.zenodo.json` metadata so GitHub-to-Zenodo archiving uses
+  the verified five-author order and explicit licence scope.
+- Restored compact author-generated outputs and final rev13 verification
+  records that were unintentionally absent from the v1.0.2 source archive.
+- Replaced machine-specific download instructions with portable project-root
+  paths; third-party raw inputs remain excluded and are fetched from their
+  official providers.
+- Refreshed the release checksum inventory and regression-tested the corrected
+  package without changing scientific results.
+
 ## 0.9.0 — 2026-08-02
 
 - Repositioned the manuscript as a phenomenon-first audit of seed exposure,

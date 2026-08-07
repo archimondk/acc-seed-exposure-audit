@@ -1,0 +1,31 @@
+{
+  "analysis_version": "seed-target-leakage-audit-v1",
+  "arm_id": "B2_lo",
+  "command": "python -m analysis.leakage_audit run-arm --arm B2_lo --n-null 10000 --batch-size 64",
+  "rng_seed": 20260727,
+  "null_draws": 10000,
+  "protocol_sha256": "36c9638ade80bb761f6e8481889575b1b80feb460bbd51c9d5d68617a4155e85",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "logical_cpu_count": 12,
+  "wall_clock_seconds": 661.5378723000031,
+  "inputs": {
+    "leakage_audit/arms/B2_lo/seeds_frozen.csv": "426a4f3aaa8a72b334e06e9bbeaa2287eb6b9eba47624cb34cf2c275c42b367d",
+    "leakage_audit/leakage_audit_protocol_v1.md": "36c9638ade80bb761f6e8481889575b1b80feb460bbd51c9d5d68617a4155e85",
+    "data/bindex_network/bindex_edges_1304.csv": "0ac37e507e763b5d20e78571df372ac14350e95b4d19c0360d1324ed35018d63",
+    "9606.protein.info.v12.0.txt.gz": "144de4b0d98c6a7dfde6ddc2591cf88657f27b989eadff4f501450c3ed1f0f1c",
+    "9606.protein.links.v12.0.txt.gz": "3e22f32572211aa341d5b4bd08d30c32e693e294603202120936872f87719d4f"
+  },
+  "outputs": {
+    "leakage_audit/arms/B2_lo/variant_summary.csv": "18e50cd0799d4530b2b67c8af79afb9e4d47b771767371ff639b6646d1519e12",
+    "leakage_audit/arms/B2_lo/drug_ranks_108.csv": "b9758e42c9eab735a919d0dfeab5efe073bc3ba23c6456fee56d15214dc1c58b",
+    "leakage_audit/arms/B2_lo/CDK46_group_null.csv": "9b258793150744b7790ff7248afdd4d2d8148eb0fe16e8fa13a207ef5b372284",
+    "leakage_audit/arms/B2_lo/degree_matched_seeds.csv": "4e2ebc5e9b44510c5686337195f20a1c226094fc3bd377d3c118a640bbe6bddc",
+    "leakage_audit/arms/B2_lo/drug_null_10000.npz": "c6868fd8baa34db86aef9178e813e49d0aa376552e67519c0851a033e349b2dc",
+    "leakage_audit/arms/B2_lo/arm_metrics.json": "3e93dfbbbd7ec83de8a4163581cdcdbac2c4da9e91e019513a44924f7f8784c7"
+  }
+}

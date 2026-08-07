@@ -1,0 +1,49 @@
+{
+  "analysis_version": "shrinkage-missingness-audit-v1",
+  "pseudo_counts": [
+    1.0,
+    3.0,
+    5.0,
+    10.0
+  ],
+  "all_drug_n": 124,
+  "primary_drug_n": 108,
+  "MIPE_missing_n": 16,
+  "missing_group_counts": {
+    "broad_cytotoxic": 5,
+    "targeted": 10,
+    "other": 1
+  },
+  "primary_group_counts": {
+    "targeted": 34,
+    "other": 33,
+    "broad_cytotoxic": 41
+  },
+  "targeted_missingness_fisher_exact": {
+    "contingency_missing_vs_primary_targeted_other": [
+      [
+        10,
+        6
+      ],
+      [
+        34,
+        74
+      ]
+    ],
+    "odds_ratio": 3.627450980392157,
+    "p_two_sided": 0.023681382212842134
+  },
+  "C_ACC_rank_missing_vs_primary_mannwhitney": {
+    "missing_median_rank": 72.0,
+    "primary_median_rank": 60.5,
+    "U": 972.0,
+    "p_two_sided": 0.4229824783600722
+  },
+  "association_count_missing_vs_primary_mannwhitney": {
+    "missing_median_n_assoc": 8.0,
+    "primary_median_n_assoc": 7.5,
+    "U": 952.0,
+    "p_two_sided": 0.5132036283474611
+  },
+  "interpretation_boundary": "Mechanism groups for the 16 missing drugs are an explicit drug-identity audit. These tests characterize missingness and cannot prove MCAR, MAR or MNAR."
+}

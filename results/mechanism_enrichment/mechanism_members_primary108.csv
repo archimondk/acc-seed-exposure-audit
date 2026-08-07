@@ -1,0 +1,109 @@
+rank_comp,drug,mechanism_class,primary_moa,gene_symbol,moa_source,assignment_rule,in_primary_universe,eligible_class
+1,Irinotecan,Topo/anthracycline,DNA Topoisomerase I Inhibitor,TOP1,MIPE Primary MOA,explicit_drug_alias,True,True
+2,Cytarabine,Antimetabolite,DNA Polymerase Inhibitor,,MIPE Primary MOA,explicit_drug_alias,True,True
+3,Ixazomib,Proteasome,Proteasome Inhibitor,PSMD1,MIPE Primary MOA,primary_moa,True,False
+4,Daunorubicin,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+5,Mitomycin,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+6,Belinostat,HDAC,HDAC Inhibitor,HDAC1,MIPE Primary MOA,primary_moa,True,True
+7,Brigatinib,ALK/MET,IGF-1R Inhibitor,IGFR1,MIPE Primary MOA,explicit_drug_alias,True,True
+8,Abemaciclib,CDK4/6,CDK4/6 Inhibitor,CDK4,MIPE Primary MOA,explicit_drug_alias,True,True
+9,Actinomycin D,Other,DNA-Directed RNA Polymerase Inhibitor,PRKDC,MIPE Primary MOA,other_or_singleton,True,False
+10,Docetaxel,Tubulin,Tubulin depolymerization Inhibitor,TUBB,MIPE Primary MOA,explicit_drug_alias,True,True
+11,Crizotinib,ALK/MET,HGFR Inhibitor,MET,MIPE Primary MOA,explicit_drug_alias,True,True
+12,Olaparib,PARP,PARP Inhibitor,PARP1,MIPE Primary MOA,primary_moa,True,False
+13,Celecoxib,Other,Cyclooxygenase-2 Inhibitor,PTGS2,MIPE Primary MOA,other_or_singleton,True,False
+14,Fluorouracil,Antimetabolite,Pyrimidine Antagonist,TYMS,MIPE Primary MOA,explicit_drug_alias,True,True
+15,Homoharringtonine,Other,Alkaloid,RPL3,MIPE Primary MOA,other_or_singleton,True,False
+16,Ibrutinib,BTK,BTK Inhibitor,BTK,MIPE Primary MOA,primary_moa,True,False
+17,Mitotane,Other,Antineoplastic Agent,,MIPE Primary MOA,other_or_singleton,True,False
+18,Paclitaxel,Tubulin,Tubulin depolymerization Inhibitor,TUBB,MIPE Primary MOA,explicit_drug_alias,True,True
+19,Axitinib,Multikinase/VEGFR,VEGFR-1/2/3 Inhibitor,FLT1,MIPE Primary MOA,explicit_drug_alias,True,True
+20,Mercaptopurine,Antimetabolite,Purine Antagonist,HPRT1,MIPE Primary MOA,explicit_drug_alias,True,True
+21,Romidepsin,HDAC,HDAC Inhibitor,HDAC1,MIPE Primary MOA,primary_moa,True,True
+22,Ceritinib,ALK/MET,ALK Inhibitor,ALK,MIPE Primary MOA,explicit_drug_alias,True,True
+23,Doxorubicin,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+24,Idarubicin,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+25,Nilotinib,Other,Bcr-Abl Inhibitor,ABL1,MIPE Primary MOA,other_or_singleton,True,False
+26,Palbociclib,CDK4/6,CDK4/6 Inhibitor,CDK4,MIPE Primary MOA,explicit_drug_alias,True,True
+27,Epirubicin,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+28,Bosutinib,Other,Bcr-Abl Inhibitor,ABL1,MIPE Primary MOA,other_or_singleton,True,False
+29,Panobinostat,HDAC,HDAC Inhibitor,HDAC1,MIPE Primary MOA,primary_moa,True,True
+30,Cobimetinib,MEK,Mek Inhibitor,MAP2K1,MIPE Primary MOA,explicit_drug_alias,True,True
+31,Hydroxyurea,Antimetabolite,Ribonucleoside-Diphosphate Reductase Inhibitor,RRM1,MIPE Primary MOA,explicit_drug_alias,True,True
+32,Chlorambucil,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+33,Lapatinib,EGFR/HER,EGFR Inhibitor,EGFR,MIPE Primary MOA,explicit_drug_alias,True,True
+34,Gemcitabine,Antimetabolite,Ribonucleotide reductase Inhibitor,RRM2,MIPE Primary MOA,explicit_drug_alias,True,True
+35,Osimertinib,EGFR/HER,EGFR (Thr790Met Mutant) Inhibitor,EGFR,MIPE Primary MOA,explicit_drug_alias,True,True
+36,Tivozanib,Multikinase/VEGFR,VEGFR inhibitor,FLT1,curated drug-identity alias,explicit_drug_alias,True,True
+37,Acalabrutinib,BTK,BTK Inhibitor,BTK,MIPE Primary MOA,primary_moa,True,False
+38,Melphalan,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+39,Fulvestrant,Other,Estrogen Receptor Antagonist,ESR1,MIPE Primary MOA,other_or_singleton,True,False
+40,Erlotinib,EGFR/HER,EGFR Inhibitor,EGFR,MIPE Primary MOA,explicit_drug_alias,True,True
+41,Ixabepilone,Tubulin,Microtubule-Stabilizing Agents,,MIPE Primary MOA,explicit_drug_alias,True,True
+42,Afatinib,EGFR/HER,EGFR Inhibitor,EGFR,MIPE Primary MOA,explicit_drug_alias,True,True
+43,Allopurinol,Other,Xanthine Oxidase Inhibitor,XDH,MIPE Primary MOA,other_or_singleton,True,False
+44,Etoposide,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+45,Tucatinib,EGFR/HER,HER2 Inhibitor,ERBB2,MIPE Primary MOA,explicit_drug_alias,True,True
+46,Carmustine,Alkylator/platinum,DNA Alkylating Agent,H2AFX,MIPE Primary MOA,explicit_drug_alias,True,True
+47,Pemetrexed,Antimetabolite,Thymidylate synthase Inhibitor,,MIPE Primary MOA,explicit_drug_alias,True,True
+48,Tamoxifen,Other,Selective Estrogen Receptor Modulators (SERM),ESR1,MIPE Primary MOA,other_or_singleton,True,False
+49,Decitabine,Other,DNA Methyltransferase (DNMT) Inhibitor,DNMT1,MIPE Primary MOA,other_or_singleton,True,False
+50,Cyclophosphamide,Alkylator/platinum,Bcl-2 Expression Inhibitor,BCL2,MIPE Primary MOA,explicit_drug_alias,True,True
+51,Ribociclib,CDK4/6,CDK4/6 Inhibitor,CDK4,MIPE Primary MOA,explicit_drug_alias,True,True
+52,Pralatrexate,Antimetabolite,,,drug-name rule or unclassified,explicit_drug_alias,True,True
+53,Vandetanib,EGFR/HER,EGFR Inhibitor,EGFR,MIPE Primary MOA,explicit_drug_alias,True,True
+54,Azacitidine,Other,DNA Methyltransferase (DNMT) Inhibitor,DNMT1,MIPE Primary MOA,other_or_singleton,True,False
+55,Tioguanine,Antimetabolite,Purine Antagonist,HPRT1,MIPE Primary MOA,explicit_drug_alias,True,True
+56,Binimetinib,MEK,Mek 1/2 Inhibitor,MAP2K1,MIPE Primary MOA,explicit_drug_alias,True,True
+57,Trifluridine,Antimetabolite,thymidylate synthase Inhibitor,TYMS,MIPE Primary MOA,explicit_drug_alias,True,True
+58,Selinexor,Other,Exportin-1 Antagonist,XPO1,MIPE Primary MOA,other_or_singleton,True,False
+59,Sirolimus,Other,mTOR Inhibitor,MTOR,MIPE Primary MOA,other_or_singleton,True,False
+60,Lomustine,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+61,Selumetinib,MEK,MEK1/2 inhibitor,MAP2K1,curated drug-identity alias,explicit_drug_alias,True,True
+62,Carfilzomib,Proteasome,Proteasome Inhibitor,PSMD1,MIPE Primary MOA,primary_moa,True,False
+63,Erdafitinib,Other,FGFR 1/2/3/4 Inhibitor,FGFR1,MIPE Primary MOA,other_or_singleton,True,False
+64,Dabrafenib,Other,Raf kinase B Inhibitor,BRAF,MIPE Primary MOA,other_or_singleton,True,False
+65,Dasatinib,Other,Bcr-Abl Inhibitor,ABL1,MIPE Primary MOA,other_or_singleton,True,False
+66,Encorafenib,Other,Raf Kinase Inhibitor B (V600E Mutant),BRAF,MIPE Primary MOA,other_or_singleton,True,False
+67,Trametinib,MEK,Mek 1/2 Inhibitor,MAP2K1,MIPE Primary MOA,explicit_drug_alias,True,True
+68,Methotrexate,Antimetabolite,Dihydrofolate Reductase (DHFR) Inhibitor,DHFR,MIPE Primary MOA,explicit_drug_alias,True,True
+69,Sunitinib,Multikinase/VEGFR,VEGFR-1/2/3 Inhibitor,FLT1,MIPE Primary MOA,explicit_drug_alias,True,True
+70,Oxaliplatin,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+71,Darolutamide,Other,Androgen Receptor Antagonist,AR,MIPE Primary MOA,other_or_singleton,True,False
+72,Temsirolimus,Other,mTOR Inhibitor,MTOR,MIPE Primary MOA,other_or_singleton,True,False
+73,Estramustine,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+74,Raloxifene,Other,Selective Estrogen Receptor Modulators (SERM),ESR1,MIPE Primary MOA,other_or_singleton,True,False
+75,Gilteritinib,Other,FLT3/AXL inhibitor,AXL,curated drug-identity alias,other_or_singleton,True,False
+76,Asciminib,Other,Bcr-Abl Inhibitor,ABL1,MIPE Primary MOA,other_or_singleton,True,False
+77,Imatinib,Other,Bcr-Abl Inhibitor,ABL1,MIPE Primary MOA,other_or_singleton,True,False
+78,Topotecan,Topo/anthracycline,DNA Topoisomerase I Inhibitor,TOP1,MIPE Primary MOA,explicit_drug_alias,True,True
+79,Everolimus,Other,mTOR inhibitor,MTOR,MIPE Primary MOA,other_or_singleton,True,False
+80,Lorlatinib,ALK/MET,ALK Inhibitor,ALK,MIPE Primary MOA,explicit_drug_alias,True,True
+81,Vinorelbine,Tubulin,Microtubule inhibitor,TUBB,curated drug-identity alias,explicit_drug_alias,True,True
+82,Cabozantinib,Multikinase/VEGFR,VEGFR-2 Inhibitor,KDR,MIPE Primary MOA,explicit_drug_alias,True,True
+83,Fludarabine,Antimetabolite,Purine Antagonist,HPRT1,MIPE Primary MOA,explicit_drug_alias,True,True
+84,Duvelisib,Other,PI3Kd/g Inhibitor,PIK3CD,MIPE Primary MOA,other_or_singleton,True,False
+85,Vorinostat,HDAC,HDAC Inhibitor,HDAC1,MIPE Primary MOA,primary_moa,True,True
+86,Carboplatin,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+87,Clofarabine,Antimetabolite,DNA Polymerase Inhibitor,,MIPE Primary MOA,explicit_drug_alias,True,True
+88,Dacarbazine,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+89,Dacomitinib,EGFR/HER,EGFR Inhibitor,EGFR,MIPE Primary MOA,explicit_drug_alias,True,True
+90,Thiotepa,Alkylator/platinum,Cytochrome P450 Oxidase Inhibitor,,MIPE Primary MOA,explicit_drug_alias,True,True
+91,Venetoclax,Other,Bcl-2 Inhibitor,BCL2,MIPE Primary MOA,other_or_singleton,True,False
+92,Dexrazoxane,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+93,Fruquintinib,Multikinase/VEGFR,VEGFR-1/2/3 Inhibitor,FLT1,MIPE Primary MOA,explicit_drug_alias,True,True
+94,Mitoxantrone,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+95,Vemurafenib,Other,Raf kinase B Inhibitor,BRAF,MIPE Primary MOA,other_or_singleton,True,False
+96,Cladribine,Antimetabolite,Adenosine Deaminase Inhibitor,ADA,MIPE Primary MOA,explicit_drug_alias,True,True
+97,Valrubicin,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+98,umbralisib,Other,Casein Kinase 1 Inhibitor,CSNK1E,MIPE Primary MOA,other_or_singleton,True,False
+99,Sonidegib,Other,Smo Receptor Antagonist,SMO,MIPE Primary MOA,other_or_singleton,True,False
+100,Idelalisib,Other,PI3Kdelta Inhibitor,PIK3CD,MIPE Primary MOA,other_or_singleton,True,False
+101,Vinblastine,Tubulin,Tubulin polymerization inhibitor,TUBB,MIPE Primary MOA,explicit_drug_alias,True,True
+102,Abiraterone,Other,Androgen Biosynthesis Inhibitor,AR,MIPE Primary MOA,other_or_singleton,True,False
+103,Cisplatin,Alkylator/platinum,DNA Alkylating Agent,,MIPE Primary MOA,explicit_drug_alias,True,True
+104,Neratinib,EGFR/HER,EGFR Inhibitor,EGFR,MIPE Primary MOA,explicit_drug_alias,True,True
+105,Teniposide,Topo/anthracycline,DNA Topoisomerase II Inhibitor,TOP2A,MIPE Primary MOA,explicit_drug_alias,True,True
+106,Zoledronate,Other,Farnesyl Pyrophosphate Synthase Inhibitor,FDPS,MIPE Primary MOA,other_or_singleton,True,False
+107,Bleomycin,Other,glycopeptide antibiotic,,MIPE Primary MOA,other_or_singleton,True,False
+108,Lenvatinib,Multikinase/VEGFR,VEGFR-1/2/3 Inhibitor,FLT1,MIPE Primary MOA,explicit_drug_alias,True,True

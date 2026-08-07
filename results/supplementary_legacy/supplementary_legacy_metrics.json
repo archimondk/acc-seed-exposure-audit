@@ -1,0 +1,121 @@
+{
+  "figure_s1": {
+    "analysis_status": "legacy exploratory; excluded from primary robustness claims",
+    "universe_n": 108,
+    "n_weight_settings": 203,
+    "grid_step": 0.1,
+    "maximum_component_weight": 0.6,
+    "requires_C_ACC_or_residual_positive": true,
+    "selected_drug_summary": [
+      {
+        "drug": "Actinomycin D",
+        "median_rank": 2.0,
+        "q1_rank": 1.0,
+        "q3_rank": 5.0,
+        "minimum_rank": 1,
+        "maximum_rank": 30,
+        "top10_rate": 0.9408866995073891,
+        "top20_rate": 0.9802955665024631
+      },
+      {
+        "drug": "Mitotane",
+        "median_rank": 2.0,
+        "q1_rank": 1.0,
+        "q3_rank": 13.0,
+        "minimum_rank": 1,
+        "maximum_rank": 51,
+        "top10_rate": 0.7093596059113301,
+        "top20_rate": 0.8866995073891626
+      },
+      {
+        "drug": "Cobimetinib",
+        "median_rank": 18.0,
+        "q1_rank": 7.0,
+        "q3_rank": 33.0,
+        "minimum_rank": 4,
+        "maximum_rank": 72,
+        "top10_rate": 0.3448275862068966,
+        "top20_rate": 0.5369458128078818
+      },
+      {
+        "drug": "Palbociclib",
+        "median_rank": 13.0,
+        "q1_rank": 6.0,
+        "q3_rank": 21.0,
+        "minimum_rank": 3,
+        "maximum_rank": 35,
+        "top10_rate": 0.45320197044334976,
+        "top20_rate": 0.7241379310344828
+      },
+      {
+        "drug": "Ribociclib",
+        "median_rank": 13.0,
+        "q1_rank": 4.5,
+        "q3_rank": 35.0,
+        "minimum_rank": 1,
+        "maximum_rank": 70,
+        "top10_rate": 0.458128078817734,
+        "top20_rate": 0.5911330049261084
+      },
+      {
+        "drug": "Ixazomib",
+        "median_rank": 32.0,
+        "q1_rank": 14.0,
+        "q3_rank": 56.0,
+        "minimum_rank": 3,
+        "maximum_rank": 96,
+        "top10_rate": 0.17733990147783252,
+        "top20_rate": 0.3497536945812808
+      },
+      {
+        "drug": "Olaparib",
+        "median_rank": 32.0,
+        "q1_rank": 18.0,
+        "q3_rank": 55.0,
+        "minimum_rank": 7,
+        "maximum_rank": 85,
+        "top10_rate": 0.06403940886699508,
+        "top20_rate": 0.3054187192118227
+      },
+      {
+        "drug": "Abemaciclib",
+        "median_rank": 30.0,
+        "q1_rank": 15.5,
+        "q3_rank": 48.0,
+        "minimum_rank": 5,
+        "maximum_rank": 80,
+        "top10_rate": 0.1330049261083744,
+        "top20_rate": 0.35960591133004927
+      },
+      {
+        "drug": "Doxorubicin",
+        "median_rank": 23.0,
+        "q1_rank": 8.0,
+        "q3_rank": 40.0,
+        "minimum_rank": 3,
+        "maximum_rank": 55,
+        "top10_rate": 0.2857142857142857,
+        "top20_rate": 0.45320197044334976
+      },
+      {
+        "drug": "Afatinib",
+        "median_rank": 56.0,
+        "q1_rank": 30.5,
+        "q3_rank": 85.0,
+        "minimum_rank": 6,
+        "maximum_rank": 108,
+        "top10_rate": 0.024630541871921183,
+        "top20_rate": 0.15763546798029557
+      }
+    ]
+  },
+  "figure_s2": {
+    "analysis_status": "legacy exploratory; not an independent predictive validation",
+    "locked_universe_n": 108,
+    "evaluable_n": 103,
+    "spearman_rho": -0.11050339643115935,
+    "spearman_p": 0.26647918158561984,
+    "leave_out_unit": "mechanism class",
+    "similarity_lambda": 1.0
+  }
+}

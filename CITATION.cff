@@ -6,8 +6,8 @@ title: >-
   Seed exposure and normalization sensitivity in network-propagation drug
   ranking by gene-set averaging: an adrenocortical carcinoma audit
 type: software
-version: 1.0.2
-date-released: 2026-08-06
+version: 1.0.3
+date-released: 2026-08-07
 repository-code: 'https://github.com/archimondk/acc-seed-exposure-audit'
 doi: 10.5281/zenodo.21824511
 license: MIT
@@ -16,7 +16,7 @@ authors:
     given-names: Han
     affiliation: Chengdu First People's Hospital
   - family-names: Xia
-    given-names: Yuxing
+    given-names: Yuhang
     affiliation: >-
       Chengdu Hi-tech Zone Women's and Children's Hospital, West China Second
       University Hospital, Sichuan University

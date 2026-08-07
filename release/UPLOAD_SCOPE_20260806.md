@@ -1,8 +1,9 @@
-# GitHub upload scope — rev13 pre-release
+# GitHub upload scope — rev13 v1.0.3 corrective release
 
 Proposed repository: `archimondk/acc-seed-exposure-audit`  
 Local preparation date: 2026-08-06  
-Package version: `0.9.0` (pre-release)
+Corrective release date: 2026-08-07
+Package version: `1.0.3`
 
 ## Included
 
@@ -13,18 +14,18 @@ Package version: `0.9.0` (pre-release)
 - source manifests and downloader instructions for third-party inputs;
 - final Figures 1–5 and Supplementary Figures S1–S6;
 - release metadata, checksums and the scientific verification report.
+- compact 10,000-draw null outputs, degree-matched seed matrices and the two
+  108,000-row sensitivity draw tables required by the regression tests.
 
 ## Excluded intentionally
 
 - the manuscript, supplementary Markdown and author metadata containing contact
   details, pending all-author public-release approval;
 - downloaded third-party raw data and publisher full text;
-- large 10,000-draw matrices and degree-matched seed matrices, which remain
-  available locally and are intended for a DOI archive or release assets after
-  the redistribution review;
 - old manuscript revisions, referee reports, internal project records and
   temporary previews.
 
 The repository README and `DATA_SOURCES.md` describe how users can obtain and
-verify omitted third-party inputs. No DOI or public Data Availability URL is
-claimed until a tagged archive is created.
+verify omitted third-party inputs. The stable concept DOI is
+`10.5281/zenodo.21824511`; the v1.0.3 version DOI is recorded externally after
+Zenodo archives the GitHub release.

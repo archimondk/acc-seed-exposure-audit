@@ -1,70 +1,59 @@
 # Pharmaceutics DOI release readiness — rev13
 
-Status updated: 2026-08-05
+Status updated: 2026-08-07
 
-## Current decision
+## Current status
 
-The project is **not yet DOI-publishable without further author action**. Five creator names, affiliations and contact emails were supplied on 1 August 2026, official-site-supported addresses/postcodes were added, and the corresponding author confirmed the creator order. MIT was selected for author-owned code and CC BY 4.0 for author-generated data/documentation, with explicit third-party exclusions. The repository owner/URL, institutional-name approval, release tag, Zenodo archival record and DOI remain unavailable. ORCID identifiers are desirable but optional. A DOI must not be invented, and a public archival record must not be created before its remaining metadata and redistribution boundaries are approved.
+The public repository is <https://github.com/archimondk/acc-seed-exposure-audit>.
+Zenodo concept DOI `10.5281/zenodo.21824511` identifies all versions; v1.0.2
+version DOI `10.5281/zenodo.21825627` remains the previous immutable snapshot.
+This v1.0.3 corrective release fixes the corresponding author's given name to
+`Yuhang Xia`, restores compact author-generated outputs omitted from v1.0.2,
+adds deterministic line-ending rules for frozen hashes and does not change any
+scientific result.
 
-## Release scope
+## Release boundary
 
-### Include in the DOI-bearing release
+### Included
 
-- analysis and reproduction code;
-- exact dependency lock and execution instructions;
-- derived drug–gene network tables that the upstream publication permits to be redistributed;
-- derived ACC seed, score, ranking, null-summary and sensitivity tables;
-- protocol files and their SHA-256 values;
-- blinded prompt/source manifests, locked Claude classifications and adjudication records, excluding any source full text that cannot legally be redistributed;
-- figure-source tables and final manuscript/supplement Markdown;
-- a machine-readable file manifest and checksums;
-- a clear AI-use and analysis-timing record.
+- analysis and reproduction code, tests and exact dependency declarations;
+- author-generated derived tables, compact null outputs and sensitivity draws;
+- protocols, input hashes, run manifests and verification reports;
+- figure-source tables and author-created figure assets;
+- citation metadata, licence files and a root `.zenodo.json` file.
 
-### Link, hash and document rather than redistribute
+### Linked and hashed, not redistributed
 
 - STRING raw protein-info and links archives;
-- NCATS MIPE raw downloads;
-- CellMiner/NCI-60 raw downloads;
-- cBioPortal/TCGA source exports;
-- publisher PDFs or other copyrighted full text;
-- any upstream B-index supplement whose license does not authorize relicensing.
+- NCATS MIPE and CellMiner/NCI-60 raw downloads;
+- cBioPortal/TCGA, ACC_CellMinerCDB, DepMap/PRISM and GDSC source exports;
+- publisher PDFs and upstream supplementary files without explicit
+  redistribution permission.
 
-For these inputs, the release should provide the official source URL, version or accession, retrieval date, byte count and SHA-256. This preserves reproducibility without claiming redistribution rights.
+`DATA_SOURCES.md` records providers and retrieval requirements. The repository
+downloader fetches the two STRING inputs from the official provider and checks
+their frozen SHA-256 values.
 
-## Required author decisions
+## Verification gates
 
-1. All-author approval of the release metadata and official English affiliation forms; the creator order is fixed; supply ORCID identifiers if available.
-2. Repository owner or organization.
-3. Confirmation that derived B-index tables may be redistributed under the upstream article's licence.
-4. Whether the archival release should be public immediately or reserved until manuscript submission.
-
-## Exact publication sequence
-
-1. Create the version-controlled repository and exclude non-redistributable raw inputs.
-2. Run the isolated reproduction and Amendment 4 and Amendment 5 implementations from a clean checkout.
-3. Generate the final checksum manifest.
-4. Tag the exact submitted state, for example `v1.0.0`.
-5. Archive that tag in Zenodo or an equivalent DOI-minting repository.
-6. Record the concept DOI and version DOI.
-7. Replace the manuscript's Data Availability submission-gate sentence with the real version DOI URL.
-8. Verify that the DOI landing page exposes the code, derived data, licenses, creators, version and citation.
-
-## Data Availability text after DOI minting
-
-> Analysis code, derived data, protocol files, blinded-review records, figure-source tables and reproduction manifests are available in the versioned archival release at **[insert the real version DOI URL]**. Third-party raw data that cannot be redistributed are documented by provider URL, version, retrieval date and SHA-256 in the release manifest. Primary sources include the B-index publication and its Supplementary Materials, NCATS MIPE 5.0, STRING v12.0, CellMiner NCI-60, ACC_CellMinerCDB, TCGA and cBioPortal.
-
-Do not place this final wording in the submitted manuscript until the DOI resolves publicly.
-
-## Hard-gate status
-
-| Requirement | Status | Evidence/action |
+| Requirement | Status | Evidence |
 |---|---|---|
-| Version-controlled repository | planned/open | Author plans a GitHub upload; no repository URL or `.git` directory is yet present in the workspace |
-| Authenticated publishing route | planned/unverified | GitHub is planned, but no real repository or Zenodo/OSF archival link has been supplied |
-| Verified creators | partial | Five names, degrees, affiliations, emails and official-site-supported addresses/postcodes are present; creator order is confirmed; institutional English-name and final release-metadata approval remain open; ORCIDs are optional |
-| Code/data licence | ready | MIT is recorded in `LICENSE`; CC BY 4.0 scope and third-party exclusions are recorded in `DATA_LICENSE.md` |
-| Redistribution review | partial | Third-party raw inputs identified for exclusion; upstream derived-table rights still require confirmation |
-| Reproducible scientific outputs | ready | The isolated core verified 14/14 input hashes and 38/38 byte-identical outputs; the 21-stage rev13 orchestration passed, including executable Amendments 4-5, and the final suite reported 87 passed/1 obsolete layout skip |
-| DOI | blocked | Cannot mint truthfully until the preceding items are resolved |
+| Public version-controlled repository | pass | GitHub repository and v1.0.2 release resolve publicly |
+| Correct creators | pass for v1.0.3 | Five-author order is fixed; `Yuhang Xia` is the corresponding author |
+| Code/data licence | pass | MIT for code; CC BY 4.0 for author-generated data/documentation; explicit third-party exclusions |
+| Reproducible package | pass | Clean release worktree with official STRING inputs: 65/65 tests passed |
+| Sensitive data / credentials | pass | No access token, password, personal local path or identifiable participant data detected |
+| New archival DOI | pending external automation | Zenodo will mint the v1.0.3 version DOI after the GitHub release is published |
 
-This is an external publication gate, not a scientific-analysis failure.
+## Publication sequence
+
+1. Commit the verified v1.0.3 release candidate and publish GitHub release
+   `v1.0.3`.
+2. Confirm that Zenodo archived the same tag with creators headed by Han Zhang
+   and including `Xia, Yuhang`.
+3. Record the new version DOI and verify the archive checksum and file list.
+4. Insert that version DOI into the local manuscript and regenerate the final
+   submission PDF.
+
+The manuscript must cite the version DOI, while the repository citation file
+may retain the concept DOI so citations continue to resolve across versions.

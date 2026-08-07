@@ -1,0 +1,26 @@
+{
+  "target_journal": "mdpi",
+  "target_column": "full",
+  "minimum_font_pt": 8.0,
+  "png_dpi": 1000,
+  "figure": {
+    "figure_version": "method-strengthening-f2-v1",
+    "target_width_mm": 170.0,
+    "minimum_visible_font_pt": 8.0,
+    "font_check": true
+  },
+  "png": {
+    "pixels": [
+      6692,
+      5826
+    ],
+    "dpi": [
+      999.9979999999999,
+      999.9979999999999
+    ],
+    "measured_width_mm": 169.977,
+    "dpi_check": true,
+    "width_check": true,
+    "file_size_bytes": 1539827
+  }
+}

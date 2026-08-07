@@ -1,0 +1,199 @@
+{
+  "analysis_version": "method-strengthening-v2-reviewer-null-resolution",
+  "primary_universe_n": 108,
+  "associated_gene_n": 399,
+  "all_drug_n": 124,
+  "ACC_seed_n": 45,
+  "STRING_threshold": 400,
+  "STRING_symbol_nodes": 19701,
+  "STRING_source_edge_rows": 1858944,
+  "STRING_aggregated_undirected_edges": 929472,
+  "RWR_restart_probability": 0.4,
+  "RWR_observed_iterations": 30,
+  "RWR_observed_final_max_L1_delta": 5.832660627545648e-11,
+  "rACC_frozen_max_abs_difference": 4.995480725900753e-07,
+  "rACC_frozen_spearman": 0.9999999055427468,
+  "PageRank_damping": 0.85,
+  "PageRank_iterations": 77,
+  "PageRank_final_L1_delta": 9.212955173602301e-13,
+  "degree_bins_requested": 10,
+  "degree_bins_effective": 10,
+  "degree_bin_edges_log2_degree_plus1": [
+    0.0,
+    3.4594316186372973,
+    4.169925001442312,
+    4.754887502163468,
+    5.247927513443585,
+    5.700439718141092,
+    6.169925001442312,
+    6.6293566200796095,
+    7.149747119504682,
+    7.832890014164741,
+    11.147204924942228
+  ],
+  "null_draws": 10000,
+  "null_rng_seed": 20260727,
+  "null_batch_size": 64,
+  "null_RWR_iterations_min": 30,
+  "null_RWR_iterations_max": 38,
+  "null_RWR_final_delta_max": 9.902361120875126e-11,
+  "empirical_p_minimum_resolution": 9.999000099990002e-05,
+  "BH_family_size": 108,
+  "BH_alpha": 0.05,
+  "BH_q_minimum_possible": 0.010798920107989201,
+  "minimum_null_draws_for_any_BH_q_lt_0_05": 2160,
+  "BH_resolution_adequate": true,
+  "CDK46_observed_mean_C_ACC_pct": 0.6386292834890965,
+  "CDK46_degree_matched_null_mean": 0.5595024922118379,
+  "CDK46_degree_matched_null_sd": 0.12502454625348575,
+  "CDK46_degree_matched_empirical_p": 0.28387161283871615,
+  "centrality_correlations": {
+    "gene_rACC_vs_degree": {
+      "n": 399,
+      "rho": 0.7970495048522446,
+      "p_two_sided_descriptive": 5.5881674904614966e-89,
+      "bootstrap_ci_95": [
+        0.7528673421446895,
+        0.8327446825672203
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "gene_rACC_vs_strength": {
+      "n": 399,
+      "rho": 0.7982888124834701,
+      "p_two_sided_descriptive": 1.8966862176535038e-89,
+      "bootstrap_ci_95": [
+        0.7539077104904296,
+        0.8328855303736911
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "gene_rACC_vs_PageRank": {
+      "n": 399,
+      "rho": 0.789073563305248,
+      "p_two_sided_descriptive": 4.9113472477895756e-86,
+      "bootstrap_ci_95": [
+        0.7444852266199348,
+        0.8256399279995674
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "gene_rACC_vs_PageRank_partial_log_degree": {
+      "n": 399,
+      "rho": -0.017098458735679323,
+      "interpretation": "rank residual correlation controlling log2(degree+1)"
+    },
+    "drug_C_ACC_vs_n_assoc": {
+      "n": 108,
+      "rho": -0.11215113207672496,
+      "p_two_sided_descriptive": 0.24784620235144117,
+      "bootstrap_ci_95": [
+        -0.2919587629220232,
+        0.06441404155335143
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "drug_ADRS_comp_vs_n_assoc": {
+      "n": 108,
+      "rho": -0.1228097151915494,
+      "p_two_sided_descriptive": 0.20543282263141302,
+      "bootstrap_ci_95": [
+        -0.28559956305520756,
+        0.05027694719634324
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "drug_C_ACC_vs_mean_degree": {
+      "n": 108,
+      "rho": 0.37313123566602524,
+      "p_two_sided_descriptive": 6.973098763301194e-05,
+      "bootstrap_ci_95": [
+        0.22005804072340843,
+        0.5030557813047495
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "drug_ADRS_comp_vs_mean_degree": {
+      "n": 108,
+      "rho": 0.17167369724827236,
+      "p_two_sided_descriptive": 0.07564404010697441,
+      "bootstrap_ci_95": [
+        0.005123926748271985,
+        0.34704429513527896
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "drug_C_ACC_vs_mean_strength": {
+      "n": 108,
+      "rho": 0.3796467427547968,
+      "p_two_sided_descriptive": 5.071812458156144e-05,
+      "bootstrap_ci_95": [
+        0.23945449693342166,
+        0.5078494115507673
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "drug_ADRS_comp_vs_mean_strength": {
+      "n": 108,
+      "rho": 0.18718381134223253,
+      "p_two_sided_descriptive": 0.052401844472429314,
+      "bootstrap_ci_95": [
+        0.00016513238197479364,
+        0.3436146628558678
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "drug_C_ACC_vs_mean_PageRank": {
+      "n": 108,
+      "rho": 0.33118343082521956,
+      "p_two_sided_descriptive": 0.0004634207608309413,
+      "bootstrap_ci_95": [
+        0.17837033186245593,
+        0.4580656443287364
+      ],
+      "bootstrap_resamples": 2000
+    },
+    "drug_ADRS_comp_vs_mean_PageRank": {
+      "n": 108,
+      "rho": 0.1501081355729905,
+      "p_two_sided_descriptive": 0.12099347313966942,
+      "bootstrap_ci_95": [
+        -0.026752101108736617,
+        0.32099378381921617
+      ],
+      "bootstrap_resamples": 2000
+    }
+  },
+  "hypothesis_decisions": {
+    "H1_nonredundancy": {
+      "status": "retired_descriptive_only",
+      "substituting_baselines": [],
+      "rule": "retired as a hypothesis test because ADRS_comp is an equal-weight combination of the two ranked components; baseline similarity is reported only as a composition audit"
+    },
+    "composition_audit": {
+      "status": "descriptive",
+      "substituting_baselines": [],
+      "rule": "report Spearman correlation and Top-20 overlap without an inferential non-redundancy claim"
+    },
+    "H3_CDK46_robustness": {
+      "status": "not_supported",
+      "ADRS_p_lower_than_all_baselines": false,
+      "degree_matched_seed_group_p": 0.28387161283871615,
+      "rule": "ADRS exact P lower than every baseline and null P<0.05"
+    },
+    "H2_disease_context_beyond_centrality": {
+      "status": "partially_supported",
+      "abs_rho_rACC_degree": 0.7970495048522446,
+      "abs_rho_rACC_PageRank": 0.789073563305248,
+      "n_drugs_q_lt_0_05": 2,
+      "CDK46_degree_matched_seed_p": 0.28387161283871615,
+      "rule": "both centrality |rho|<0.70 and at least one drug q<0.05 or CDK4/6 null P<0.05"
+    }
+  },
+  "clinical_performance_gate": {
+    "auc_estimable": false,
+    "strict_positive_n": 2,
+    "strict_negative_n": 0,
+    "reason": "C4 strict drug-specific clinical subset has no unambiguous negative comparator"
+  }
+}

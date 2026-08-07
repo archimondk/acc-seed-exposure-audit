@@ -1,0 +1,280 @@
+{
+  "schema_version": 2,
+  "status": "passed",
+  "started_utc": "2026-08-03T15:11:42.400133+00:00",
+  "resumed_utc": "2026-08-05T12:12:03.886431+00:00",
+  "project_root": "D:\\03-SCI-ACC药物重定位",
+  "stages": [
+    {
+      "name": "fetch_string_inputs",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "scripts.fetch_external_inputs",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 0.4086319000000458
+    },
+    {
+      "name": "core_and_amendments_4_5",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "scripts.reproduce",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 1132.1571900000001
+    },
+    {
+      "name": "positive_control",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.positive_control",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 731.0976504999999
+    },
+    {
+      "name": "leakage_make_arms",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位",
+        "make-arms"
+      ],
+      "returncode": 0,
+      "duration_seconds": 1.2254158999999163
+    },
+    {
+      "name": "leakage_run_A1",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位",
+        "run-arm",
+        "--arm",
+        "A1"
+      ],
+      "returncode": 0,
+      "duration_seconds": 689.9452389999997
+    },
+    {
+      "name": "leakage_run_A2",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位",
+        "run-arm",
+        "--arm",
+        "A2"
+      ],
+      "returncode": 0,
+      "duration_seconds": 640.2523692999994
+    },
+    {
+      "name": "leakage_run_B1",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位",
+        "run-arm",
+        "--arm",
+        "B1"
+      ],
+      "returncode": 0,
+      "duration_seconds": 721.2638303000003
+    },
+    {
+      "name": "leakage_run_B2",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位",
+        "run-arm",
+        "--arm",
+        "B2"
+      ],
+      "returncode": 0,
+      "duration_seconds": 594.6377417999975
+    },
+    {
+      "name": "leakage_run_B2_lo",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位",
+        "run-arm",
+        "--arm",
+        "B2_lo"
+      ],
+      "returncode": 0,
+      "duration_seconds": 664.5748409999978
+    },
+    {
+      "name": "leakage_run_B2_hi",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位",
+        "run-arm",
+        "--arm",
+        "B2_hi"
+      ],
+      "returncode": 0,
+      "duration_seconds": 711.1939194999977
+    },
+    {
+      "name": "leakage_evaluate",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位",
+        "evaluate"
+      ],
+      "returncode": 0,
+      "duration_seconds": 5.968421800000215
+    },
+    {
+      "name": "leakage_figure",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leakage_audit_figure",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 6.474409200000082
+    },
+    {
+      "name": "amendment1_scale_free",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "D:\\03-SCI-ACC药物重定位\\variant_scale_free_effect_v2.py",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 1.1520329999984824
+    },
+    {
+      "name": "network_resolution",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.network_resolution_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 0.6765783000009833
+    },
+    {
+      "name": "dirichlet_weights",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.dirichlet_weight_sensitivity",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 45.72747700000036
+    },
+    {
+      "name": "seed_weight_assignment",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.seed_weight_assignment_sensitivity",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 45.26131670000177
+    },
+    {
+      "name": "leave_one_seed_out",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.leave_one_seed_out",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 14.041985599997133
+    },
+    {
+      "name": "seed_excluded_scoring",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.seed_excluded_scoring",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 0.95914410000114
+    },
+    {
+      "name": "evidence_audit",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.evidence_label_audit",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 1.9014480000005278
+    },
+    {
+      "name": "supplementary_figures_s1_s2",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "analysis.supplementary_legacy_figures",
+        "--project-root",
+        "D:\\03-SCI-ACC药物重定位"
+      ],
+      "returncode": 0,
+      "duration_seconds": 5.776078299997607
+    },
+    {
+      "name": "scientific_regression_tests",
+      "command": [
+        "C:\\Users\\008bu\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0,
+      "duration_seconds": 31.56859550000081
+    }
+  ],
+  "completed_utc": "2026-08-05T12:47:33.830450+00:00"
+}
