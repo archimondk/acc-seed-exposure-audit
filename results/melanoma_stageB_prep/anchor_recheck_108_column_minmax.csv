@@ -1,0 +1,3 @@
+disease,universe,exposed,unexposed,c,c_float,rho_L_count,rho_L_weight,unexposed_in_top_rank_cutoff,unexposed_in_pct_ge_0.75,u,u_float,max_unexposed_pct
+ACC,108,46,62,46/108,0.425925925926,0.822008522139,0.827693585992,0,0,0/1,0,0.672897196262
+Breast,108,14,94,14/108,0.12962962963,0.577297444564,0.581300520324,13,13,13/94,0.13829787234,0.88785046729

@@ -1,0 +1,10 @@
+arm,seed,normalized_weight,in_399,n_drugs_124,n_drugs_108,drugs
+M0,ARID2,0.234906695939,True,5,4,Daunorubicin;Dexrazoxane;Idarubicin;Nitrogen mustard;Oxaliplatin
+M0,CDKN2A,0.256860592755,False,0,0,
+M0,PTEN,0.262349066959,True,2,2,Ceritinib;Dexrazoxane
+M0,TP53,0.245883644347,False,0,0,
+M1,ARID2,0.181972789116,True,5,4,Daunorubicin;Dexrazoxane;Idarubicin;Nitrogen mustard;Oxaliplatin
+M1,BRAF,0.225340136054,True,2,2,Dacarbazine;Tioguanine
+M1,CDKN2A,0.198979591837,False,0,0,
+M1,PTEN,0.203231292517,True,2,2,Ceritinib;Dexrazoxane
+M1,TP53,0.190476190476,False,0,0,

@@ -1,0 +1,15 @@
+Protocol: melanoma_R1_v0.3, stage B
+User confirmation: 2026-10-18T22:09 (America/New_York)
+Frozen at: 2026-10-18T22:09:43-04:00
+Stage-A tag: melanoma-protocol-stageA (remote commit af7487a)
+Allowed after this freeze: propagation, drug scoring, null models, audit metrics, H4/H5/H6 evaluation.
+H5 verdict must carry the ARITHMETICALLY_DETERMINED annotation (STAGE_B_PREDICTIONS.md section 3).
+
+af16e661508e30bb5c3949a2ddc3b3cfa90a42b2f3e7e523df037fdb04b8d472  04_melanoma_protocol/STAGE_B_PREDICTIONS.md
+d5c705d78132016fc8e7feb32173836365afced25a9a7ad01d396b5f228f23dd  results/melanoma_stageB_prep/exposure_map_M0_M1_seeds.csv
+436cc5d1db94b566c38284725381c381ae27809a115d560bbc6918b5bf9a92a9  results/melanoma_stageB_prep/exposure_map_M0_M1_drugs.csv
+2358cda9f27395a2257d74537d2ea466086c01e5b6a4a454b6c9a140023c4da5  results/melanoma_stageB_prep/anchor_recheck_108_column_minmax.csv
+7bcc9c9a07734d03f607abc339fe96cbe69d5eb41d58906761511b2979f61406  results/melanoma_stageB_prep/stageB_exposure_anchor_summary.json
+ec701ecb18058de5b600e4ed82985232d2925699d474c0bc12225d14dc8087de  scripts/stageB_exposure_and_anchors.py
+
+Third-party timestamp: pending (author to commit and tag melanoma-protocol-stageB).

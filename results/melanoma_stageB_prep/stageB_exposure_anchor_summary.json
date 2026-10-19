@@ -1,0 +1,98 @@
+{
+  "melanoma_coverage": {
+    "M0_108": {
+      "exposed": 5,
+      "n": 108,
+      "c": "5/108",
+      "c_float": 0.046296296296296294
+    },
+    "M0_124": {
+      "exposed": 6,
+      "n": 124,
+      "c": "3/62",
+      "c_float": 0.04838709677419355
+    },
+    "M1_108": {
+      "exposed": 7,
+      "n": 108,
+      "c": "7/108",
+      "c_float": 0.06481481481481481
+    },
+    "M1_124": {
+      "exposed": 8,
+      "n": 124,
+      "c": "2/31",
+      "c_float": 0.06451612903225806
+    }
+  },
+  "restored_genes_M1": [
+    "BRAF"
+  ],
+  "X": [
+    "Dacarbazine",
+    "Tioguanine"
+  ],
+  "six_drug_exposure": {
+    "Dabrafenib": {
+      "M0_hits": "",
+      "M1_hits": ""
+    },
+    "Vemurafenib": {
+      "M0_hits": "",
+      "M1_hits": ""
+    },
+    "Encorafenib": {
+      "M0_hits": "",
+      "M1_hits": ""
+    },
+    "Trametinib": {
+      "M0_hits": "",
+      "M1_hits": ""
+    },
+    "Cobimetinib": {
+      "M0_hits": "",
+      "M1_hits": ""
+    },
+    "Binimetinib": {
+      "M0_hits": "",
+      "M1_hits": ""
+    }
+  },
+  "anchors": [
+    {
+      "disease": "ACC",
+      "universe": 108,
+      "exposed": 46,
+      "unexposed": 62,
+      "c": "46/108",
+      "c_float": 0.42592592592592593,
+      "rho_L_count": 0.8220085221393144,
+      "rho_L_weight": 0.8276935859922666,
+      "unexposed_in_top_rank_cutoff": 0,
+      "unexposed_in_pct_ge_0.75": 0,
+      "u": "0/1",
+      "u_float": 0.0,
+      "max_unexposed_pct": 0.672897196262
+    },
+    {
+      "disease": "Breast",
+      "universe": 108,
+      "exposed": 14,
+      "unexposed": 94,
+      "c": "14/108",
+      "c_float": 0.12962962962962962,
+      "rho_L_count": 0.5772974445641333,
+      "rho_L_weight": 0.5813005203239454,
+      "unexposed_in_top_rank_cutoff": 13,
+      "unexposed_in_pct_ge_0.75": 13,
+      "u": "13/94",
+      "u_float": 0.13829787234042554,
+      "max_unexposed_pct": 0.88785046729
+    }
+  ],
+  "archived_O1_acc_rho": {
+    "L_count": 0.8220085221393144,
+    "L_weighted": 0.8276830059370972
+  },
+  "seed_file": "results/melanoma_stageA_seeds/primary_metastasis/seeds_frozen.csv"
+}
