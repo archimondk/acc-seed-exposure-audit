@@ -1,0 +1,30 @@
+item,name,in_124,in_108,n_assoc,detail
+six_drug,Dabrafenib,True,True,40,
+six_drug,Vemurafenib,True,True,22,
+six_drug,Encorafenib,True,True,15,
+six_drug,Trametinib,True,True,22,
+six_drug,Cobimetinib,True,True,29,
+six_drug,Binimetinib,True,True,23,
+forced_exclusion_gene,BRAF,,,2,in_399=True; drugs=Dacarbazine;Tioguanine
+forced_exclusion_gene,MAP2K1,,,0,in_399=False; drugs=
+forced_exclusion_gene,MAP2K2,,,0,in_399=False; drugs=
+class_drug_not_in_six,Selumetinib,True,True,27,
+six_pair_jaccard,Dabrafenib|Vemurafenib,,,9,jaccard=0.170
+six_pair_jaccard,Dabrafenib|Encorafenib,,,11,jaccard=0.250
+six_pair_jaccard,Dabrafenib|Trametinib,,,14,jaccard=0.292
+six_pair_jaccard,Dabrafenib|Cobimetinib,,,17,jaccard=0.327
+six_pair_jaccard,Dabrafenib|Binimetinib,,,13,jaccard=0.260
+six_pair_jaccard,Vemurafenib|Encorafenib,,,10,jaccard=0.370
+six_pair_jaccard,Vemurafenib|Trametinib,,,6,jaccard=0.158
+six_pair_jaccard,Vemurafenib|Cobimetinib,,,8,jaccard=0.186
+six_pair_jaccard,Vemurafenib|Binimetinib,,,8,jaccard=0.216
+six_pair_jaccard,Encorafenib|Trametinib,,,8,jaccard=0.276
+six_pair_jaccard,Encorafenib|Cobimetinib,,,10,jaccard=0.294
+six_pair_jaccard,Encorafenib|Binimetinib,,,9,jaccard=0.310
+six_pair_jaccard,Trametinib|Cobimetinib,,,22,jaccard=0.759
+six_pair_jaccard,Trametinib|Binimetinib,,,20,jaccard=0.800
+six_pair_jaccard,Cobimetinib|Binimetinib,,,22,jaccard=0.733
+input_sha256,bindex_edges_1304.csv,,,,0ac37e507e763b5d20e78571df372ac14350e95b4d19c0360d1324ed35018d63
+input_sha256,bindex_genes_399.csv,,,,53475ca4143bc28711b0f21ef162518e3878b71a6cc33af0e1cb7366bf063189
+input_sha256,bindex_drugs_124.csv,,,,c5eedde5a7e36da600351dc92c05f751d2369960206c9a0934c84968787004b7
+input_sha256,positive_control_drug_ranks_primary108.csv,,,,9ffb63783fe8ee1a11d07bf6b017f8ab144d3f9c988900b176e4cdae30ecc136

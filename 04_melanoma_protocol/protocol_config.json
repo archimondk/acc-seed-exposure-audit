@@ -1,0 +1,383 @@
+{
+  "protocol_id": "melanoma_R1_v0.3",
+  "status": "STAGE_A_FROZEN",
+  "execution_allowed": "stage_A_only",
+  "user_approved_at": "2026-10-18T18:48:00-04:00",
+  "frozen_at": {
+    "stage_A": "2026-10-18T18:49:02-04:00",
+    "stage_B": null
+  },
+  "freeze_stages": {
+    "stage_A": {
+      "approved_at": "2026-10-18T18:48:00-04:00",
+      "frozen_at": "2026-10-18T18:49:02-04:00",
+      "hash_covers": [
+        "PROJECT_PLAN.md",
+        "protocol_config.json",
+        "prefreeze_network_check.csv"
+      ],
+      "allowed_after_freeze": [
+        "cohort_construction",
+        "mutation_statistics",
+        "rppa_statistics",
+        "seed_generation"
+      ],
+      "forbidden_until_stage_B": [
+        "propagation",
+        "drug_scoring",
+        "null_models"
+      ]
+    },
+    "stage_B": {
+      "frozen_at": null,
+      "adds_only": [
+        "exposure_map_M0_M1.csv",
+        "H5_ordering_prediction",
+        "H5b_exposed_unexposed_lists",
+        "H6_exposed_set_X",
+        "anchor_recheck_Lcount_Lweight"
+      ],
+      "may_not_modify_stage_A_rules": true
+    },
+    "timestamp_record": "GitHub tag per stage; Zenodo version if feasible"
+  },
+  "specification": "PROJECT_PLAN.md",
+  "scope": "network_module_audit_not_ACC_composite_or_clinical_efficacy",
+  "study": "skcm_tcga_pan_can_atlas_2018",
+  "datahub_commit": "58341090c8bf0368ebe03f7aa95ec5137a8def25",
+  "sample_type": "Metastasis",
+  "expected_feasibility_counts": {
+    "V600E_K": 106,
+    "no_reported_BRAF_variant": 125
+  },
+  "mutation_candidate_genes": [
+    "ARID2",
+    "BRAF",
+    "CDKN2A",
+    "DDX3X",
+    "IDH1",
+    "MAP2K1",
+    "NF1",
+    "NRAS",
+    "PPP6C",
+    "PTEN",
+    "RAC1",
+    "RB1",
+    "TP53"
+  ],
+  "mutation_min_patients": 10,
+  "mutation_min_fraction": 0.05,
+  "mutation_recurrence_scale": 0.2,
+  "rppa_family_n": 198,
+  "rppa_min_n_each": 50,
+  "rppa_min_finite_fraction_each": 0.5,
+  "rppa_q_strict_less_than": 0.01,
+  "rppa_min_abs_effect": 0.5,
+  "rppa_lineage_effect_scale": 2,
+  "primary_rppa_gene_mapping": "single_gene_only",
+  "seed_weight_coefficients": {
+    "genomic_driver": 0.3,
+    "recurrence": 0.2,
+    "core_pathway": 0,
+    "lineage_biomarker": 0.1,
+    "prognostic_subtype": 0,
+    "therapeutic_relevance": 0
+  },
+  "M0_forced_seed_exclusions": [
+    "BRAF",
+    "MAP2K1",
+    "MAP2K2"
+  ],
+  "M1": "restore_only_disease_rule_eligible_excluded_genes",
+  "minimum_mapped_seed_count": 2,
+  "drug_n_primary": 124,
+  "drug_n_sensitivity": 108,
+  "association_gene_n": 399,
+  "association_edge_n": 1304,
+  "score_name": "C_MEL",
+  "use_ACC_activity_residual": false,
+  "string_threshold": 400,
+  "alpha_restart": 0.4,
+  "pseudo_count_k": 3,
+  "convergence_L1": 1e-10,
+  "max_iterations": 500,
+  "normalization_domain": "fixed_399_association_genes_after_full_graph_propagation",
+  "variants": [
+    "column_minmax",
+    "column_gene_rank",
+    "uniform_ratio_gene_rank",
+    "symmetric_gene_rank"
+  ],
+  "n_null_per_arm": 10000,
+  "draws_per_rng_stream": 2000,
+  "rng_stream_seeds": [
+    2026101801,
+    2026101802,
+    2026101803,
+    2026101804,
+    2026101805
+  ],
+  "rng_construction": "default_rng(SeedSequence([stream_seed, arm_index])); M0=0, M1=1",
+  "null_sd_ddof": 1,
+  "monte_carlo_ci_level": 0.95,
+  "requested_degree_bins": 10,
+  "null_batch_size": 16,
+  "null_precision": "float64",
+  "six_drugs": [
+    "Dabrafenib",
+    "Vemurafenib",
+    "Encorafenib",
+    "Trametinib",
+    "Cobimetinib",
+    "Binimetinib"
+  ],
+  "prism_response_analysis": "DEFERRED_REQUIRES_SEPARATE_APPROVED_PROTOCOL",
+  "no_cartesian_parameter_search": true,
+  "resource_guard_hours": 12,
+  "resource_guard_output_GB": 5,
+  "user_direction_recorded": {
+    "at": "2026-10-18T10:50:00-04:00",
+    "note": "User instructed revision per review comments; not approval of v0.2 text"
+  },
+  "prefreeze_network_check": {
+    "script": "scripts/prefreeze_network_check.py",
+    "output": "prefreeze_network_check.csv",
+    "run_date": "2026-10-18",
+    "source": "public repo tag v1.0.3 commit cc4c962fc2178e5744ca1537bfdb6b60664d31b3; rerun on local pipeline before stage A",
+    "input_sha256": {
+      "bindex_edges_1304.csv": "0ac37e507e763b5d20e78571df372ac14350e95b4d19c0360d1324ed35018d63",
+      "bindex_genes_399.csv": "53475ca4143bc28711b0f21ef162518e3878b71a6cc33af0e1cb7366bf063189",
+      "bindex_drugs_124.csv": "c5eedde5a7e36da600351dc92c05f751d2369960206c9a0934c84968787004b7",
+      "positive_control_drug_ranks_primary108.csv (drug column only)": "9ffb63783fe8ee1a11d07bf6b017f8ab144d3f9c988900b176e4cdae30ecc136"
+    },
+    "findings": {
+      "six_drugs_in_124": 6,
+      "six_drugs_in_108": 6,
+      "BRAF_in_399": true,
+      "BRAF_associated_drugs": [
+        "Dacarbazine",
+        "Tioguanine"
+      ],
+      "MAP2K1_in_399": false,
+      "MAP2K2_in_399": false,
+      "class_drug_not_in_six": [
+        "Selumetinib"
+      ],
+      "MEK_trio_jaccard": {
+        "Trametinib|Binimetinib": 0.8,
+        "Trametinib|Cobimetinib": 0.759,
+        "Cobimetinib|Binimetinib": 0.733
+      }
+    },
+    "local_rerun": {
+      "date": "2026-10-18",
+      "file": "melanoma_prefreeze_network_check_20261018.csv",
+      "identical_to_public_repo_output": true
+    }
+  },
+  "null_pool_rule": "exclude_only_true_seeds_of_current_arm; forced exclusions not removed from pool; matches breast implementation (method_strengthening.generate_degree_matched_seed_sets)",
+  "H4_criteria": {
+    "group": [
+      "Dabrafenib",
+      "Vemurafenib",
+      "Encorafenib",
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib"
+    ],
+    "excluded_class_drugs": {
+      "Selumetinib": "not approved for melanoma (NCI PDQ); report rank descriptively only"
+    },
+    "primary_group_p_lt": {
+      "value": 0.05,
+      "variant": "column_minmax"
+    },
+    "variant_family_bh_q_lt": {
+      "value": 0.05,
+      "q_used": "q of column_minmax after BH across the four variant group P values",
+      "all_four_required": false
+    },
+    "min_in_top25": {
+      "value": 3,
+      "universe": "124",
+      "variant": "column_minmax",
+      "cutoff_rank": 31
+    },
+    "require_at_least_one_each": {
+      "BRAFi": [
+        "Dabrafenib",
+        "Vemurafenib",
+        "Encorafenib"
+      ],
+      "MEKi": [
+        "Trametinib",
+        "Cobimetinib",
+        "Binimetinib"
+      ]
+    },
+    "min_variants_observed_above_null_mean": 3,
+    "arm": "M0",
+    "M1_cannot_substitute": true,
+    "status_labels": {
+      "pass": "4/4 criteria",
+      "partial_recovery": "2-3 criteria",
+      "fail": "0-1 criteria",
+      "source": "matches breast evaluate_success_criteria"
+    },
+    "S1_108_universe": "same rules, cutoff_rank 27, sensitivity only"
+  },
+  "top25_cutoff_rank": {
+    "124": 31,
+    "108": 27
+  },
+  "H5_regime_prediction": {
+    "coverage_definition": "fraction of drugs with >=1 M0 seed in associated set",
+    "primary_universe": "108",
+    "secondary_universe": "124 (after anchors recomputed)",
+    "metrics": {
+      "rho": "Spearman(L_count, C percentile), average ranks",
+      "u": "unexposed drugs in Top25% / unexposed drugs"
+    },
+    "anchors_108_primary_variant": {
+      "ACC": {
+        "c": 0.426,
+        "rho": 0.828,
+        "u": 0.0
+      },
+      "Breast": {
+        "c": 0.13,
+        "rho": 0.577,
+        "u": 0.138
+      }
+    },
+    "anchor_recheck_required": "recompute rho for L_count and L_weight from archived outputs before stage B; manuscript labels conflict",
+    "prediction": "interval rule; see intervals",
+    "verdict": {
+      "both_consistent": "SUPPORTED",
+      "one_consistent_one_not": "PARTIAL",
+      "both_inconsistent": "NOT_SUPPORTED",
+      "one_NA": "INCOMPLETE",
+      "both_NA": "NOT_EVALUABLE"
+    },
+    "no_prediction_if_abs_c_difference_lt": 0.02,
+    "p_values": false,
+    "intervals": {
+      "between_anchors": {
+        "rho": "[rho_Breast, rho_ACC]",
+        "u": "[u_ACC, u_Breast]"
+      },
+      "above_ACC": {
+        "rho": ">= rho_ACC",
+        "u": "<= u_ACC"
+      },
+      "below_Breast": {
+        "rho": "<= rho_Breast",
+        "u": ">= u_Breast"
+      },
+      "within_0.02_of_one_anchor": "one-sided prediction against the other anchor only"
+    },
+    "ties": "closed interval bounds; equality counts as consistent; u and c compared as exact fractions; rho float64 without tolerance; anchors at full precision after recheck",
+    "missing": {
+      "rho_NA": "metric NA",
+      "c_equals_0_or_1": "NOT_EVALUABLE",
+      "anchor_recheck_fails": "pause H5, write amendment; do not fall back to manuscript values"
+    },
+    "universes_reported_separately": true
+  },
+  "H6_intervention": {
+    "delta": "z_M1 - z_M0 per variant and drug",
+    "exposed_set_X": "drugs associated in 399 with restored genes; fixed at stage B; expected {Dacarbazine, Tioguanine} if only BRAF restored",
+    "I1": {
+      "variant": "column_minmax",
+      "min_delta_z_any_in_X": 2.0,
+      "all_in_X_positive": true
+    },
+    "I2": {
+      "I1_holds_in_min_variants": 3
+    },
+    "NC_M1a": {
+      "drugs": [
+        "Dabrafenib",
+        "Vemurafenib",
+        "Encorafenib",
+        "Trametinib",
+        "Cobimetinib",
+        "Binimetinib"
+      ],
+      "max_abs_delta_z": 0.5,
+      "verdict_variant": "column_minmax",
+      "other_variants": "reported; NC_ROBUST flag if passes in 4/4, descriptive only"
+    },
+    "NC_M1b": {
+      "drugs": "all drugs not in X",
+      "max_abs_delta_z": 0.5,
+      "verdict_variant": "column_minmax",
+      "other_variants": "reported max abs and pass/fail",
+      "NA_fraction_limit": 0.05
+    },
+    "F_M1": "all computable delta_z in X <= 0 under column_minmax; NOT_EVALUABLE if all X NA",
+    "verdict": {
+      "SUPPORTED": "column_minmax: I1 and NC_M1a and NC_M1b; and I2",
+      "PARTIAL": "column_minmax I1 holds but any other condition fails or is NA",
+      "NOT_SUPPORTED": "column_minmax I1 fails",
+      "NOT_EVALUABLE": "column_minmax I1 is NA"
+    },
+    "prespecified_secondary": "empirical rank of each X drug delta_z among unexposed drugs per cell (scale-free)",
+    "not_estimable_if": "M1 identical to M0",
+    "NA_rules": {
+      "z": "computed only if null SD (ddof=1) > 0, else NA; no epsilon (matches breast implementation)",
+      "delta_z": "NA if z NA in either arm",
+      "I1": "NA in a variant if any X drug delta_z NA",
+      "I2": "variants with I1 NA counted as not holding; NA count reported",
+      "NC_M1a": "NA if any six-drug delta_z NA under column_minmax; verdict at most PARTIAL",
+      "NC_M1b": "max abs over computable drugs; NA count and names reported; NA if NA drugs > 5% of unexposed under column_minmax"
+    }
+  },
+  "sensitivity_branches": {
+    "S1": "108-drug universe, M0 seeds fixed, 1304-edge background",
+    "S2": "E-only metastatic",
+    "S3": "neoadjuvant No",
+    "S4": "exclude 2 site-conflict samples",
+    "S5": "HC3 OLS adjusted RPPA selection (AGE/10, SEX, site proxy, grouped center)",
+    "S6": "primary samples 36 vs 28: descriptive only, no reselection",
+    "S7": "all samples one per patient 142 vs 152",
+    "S8": "uniform seed weights",
+    "S9": "multi-gene RPPA split mapping",
+    "S10": {
+      "alpha": [
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "string_threshold": [
+        400,
+        700
+      ],
+      "k": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "one_factor_at_a_time": true,
+      "all_variants": true
+    },
+    "nulls_per_branch": false
+  },
+  "table2_mapping": "PROJECT_PLAN.md section 4.3",
+  "user_review_records": [
+    {
+      "at": "2026-10-18T10:50:00-04:00",
+      "note": "direction to revise per review; produced v0.2"
+    },
+    {
+      "at": "2026-10-18T18:43:00-04:00",
+      "note": "v0.2 checked: two-stage freeze OK, local prefreeze CSV byte-identical; H5/H6/H4 rules incomplete; produced v0.3"
+    },
+    {
+      "at": "2026-10-18T18:48:00-04:00",
+      "note": "v0.3 confirmed; stage A freeze and seed generation authorised"
+    }
+  ]
+}

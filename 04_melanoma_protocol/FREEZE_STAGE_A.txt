@@ -1,0 +1,11 @@
+Protocol: melanoma_R1_v0.3
+Stage: A (cohort, mutation/RPPA statistics, seed generation only)
+User approval: 2026-10-18T18:48:00-04:00 (America/New_York)
+Frozen at: 2026-10-18T18:49:02-04:00
+Forbidden until stage B freeze: propagation, drug scoring, null models. Exposure map is the first step of stage B (after seeds), not of stage A.
+
+5d94c7e4d103dcb09109a361d690d9d58e0d7ad795f6502130959d92fd135cec  PROJECT_PLAN.md
+60827a14d6f4fb8b0363bb7a78cc3925c3964faa60957d79af14850b95b3a0bd  protocol_config.json
+da0e55db59458080436fbab382ea39d744ac32d20a4bb26534cd7e123a70f2db  prefreeze_network_check.csv
+
+Third-party timestamp: pending (author to commit these files and create GitHub tag melanoma-protocol-stageA; Zenodo version if feasible).

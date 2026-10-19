@@ -1,0 +1,6 @@
+Protocol: melanoma_R1_v0.3, stage A addendum
+Amendment A1 confirmed by user: 2026-10-18T19:05:41-04:00 (America/New_York)
+Knowledge state before A1: cohort counts and BRAF annotations of excluded samples only; no seeds, RPPA tests, mutation recurrences or drug scores.
+The three stage-A frozen files are unchanged (see FREEZE_STAGE_A.txt).
+
+326a3cfe7c4ac37d16f8da0841affb721eb488128cbe7dc8d3c2f82665b7dbca  AMENDMENT_A1_braf_classification.md
