@@ -1,0 +1,324 @@
+{
+  "H4": {
+    "124": {
+      "status": "fail",
+      "criteria": {
+        "primary_group_p_lt_0_05": false,
+        "primary_group_q_lt_0_05": false,
+        "at_least_3_top25_with_one_BRAFi_and_one_MEKi": false,
+        "direction_concordant_at_least_3_variants": false
+      },
+      "q_by_variant": {
+        "column_minmax": 0.9653034696530347,
+        "column_gene_rank": 0.9653034696530347,
+        "uniform_ratio_gene_rank": 0.9653034696530347,
+        "symmetric_gene_rank": 0.9653034696530347
+      },
+      "n_six_in_top25": 0,
+      "BRAFi_in_top25": false,
+      "MEKi_in_top25": false,
+      "concordant_variants": 0,
+      "group_by_variant": {
+        "column_minmax": {
+          "observed": 0.06775067750677506,
+          "null_mean": 0.3229616531165312,
+          "p": 0.9653034696530347,
+          "exceedances": 9653,
+          "p_by_stream": [
+            0.9710144927536232,
+            0.9585207396301849,
+            0.9640179910044977,
+            0.9710144927536232,
+            0.9620189905047476
+          ]
+        },
+        "column_gene_rank": {
+          "observed": 0.23577235772357721,
+          "null_mean": 0.3310518970189702,
+          "p": 0.7875212478752125,
+          "exceedances": 7875,
+          "p_by_stream": [
+            0.7956021989005497,
+            0.7881059470264867,
+            0.7821089455272364,
+            0.7941029485257372,
+            0.7781109445277361
+          ]
+        },
+        "uniform_ratio_gene_rank": {
+          "observed": 0.25609756097560976,
+          "null_mean": 0.3849479674796748,
+          "p": 0.7926207379262074,
+          "exceedances": 7926,
+          "p_by_stream": [
+            0.7941029485257372,
+            0.7971014492753623,
+            0.7906046976511744,
+            0.7966016991504248,
+            0.7851074462768616
+          ]
+        },
+        "symmetric_gene_rank": {
+          "observed": 0.25203252032520324,
+          "null_mean": 0.36894471544715446,
+          "p": 0.7395260473952605,
+          "exceedances": 7395,
+          "p_by_stream": [
+            0.743128435782109,
+            0.7391304347826086,
+            0.7406296851574213,
+            0.743128435782109,
+            0.7321339330334833
+          ]
+        }
+      }
+    },
+    "108": {
+      "status": "fail",
+      "criteria": {
+        "primary_group_p_lt_0_05": false,
+        "primary_group_q_lt_0_05": false,
+        "at_least_3_top25_with_one_BRAFi_and_one_MEKi": false,
+        "direction_concordant_at_least_3_variants": false
+      },
+      "q_by_variant": {
+        "column_minmax": 0.9738026197380262,
+        "column_gene_rank": 0.9738026197380262,
+        "uniform_ratio_gene_rank": 0.9738026197380262,
+        "symmetric_gene_rank": 0.9738026197380262
+      },
+      "n_six_in_top25": 0,
+      "BRAFi_in_top25": false,
+      "MEKi_in_top25": false,
+      "concordant_variants": 0,
+      "group_by_variant": {
+        "column_minmax": {
+          "observed": 0.05763239875389408,
+          "null_mean": 0.3185227414330218,
+          "p": 0.9738026197380262,
+          "exceedances": 9738,
+          "p_by_stream": [
+            0.975512243878061,
+            0.9705147426286856,
+            0.9750124937531235,
+            0.9775112443778111,
+            0.9705147426286856
+          ]
+        },
+        "column_gene_rank": {
+          "observed": 0.22118380062305296,
+          "null_mean": 0.32401495327102803,
+          "p": 0.8228177182281772,
+          "exceedances": 8228,
+          "p_by_stream": [
+            0.8250874562718641,
+            0.8255872063968016,
+            0.816591704147926,
+            0.8275862068965517,
+            0.8195902048975512
+          ]
+        },
+        "uniform_ratio_gene_rank": {
+          "observed": 0.2507788161993769,
+          "null_mean": 0.3800221183800623,
+          "p": 0.8034196580341966,
+          "exceedances": 8034,
+          "p_by_stream": [
+            0.8030984507746127,
+            0.8040979510244878,
+            0.8035982008995503,
+            0.8075962018990505,
+            0.7991004497751124
+          ]
+        },
+        "symmetric_gene_rank": {
+          "observed": 0.24299065420560748,
+          "null_mean": 0.36464119937694706,
+          "p": 0.7545245475452454,
+          "exceedances": 7545,
+          "p_by_stream": [
+            0.7541229385307346,
+            0.7541229385307346,
+            0.7571214392803598,
+            0.7586206896551724,
+            0.7491254372813593
+          ]
+        }
+      }
+    }
+  },
+  "H5": {
+    "108": {
+      "verdict": "SUPPORTED",
+      "branch": "below_Breast",
+      "rho_interval": [
+        null,
+        0.5772974445641333
+      ],
+      "u_interval": [
+        "13/94",
+        null
+      ],
+      "rho_status": "consistent",
+      "u_status": "consistent",
+      "annotation": "ARITHMETICALLY_DETERMINED",
+      "c": "5/108",
+      "rho_Lcount_C": 0.36405136080705514,
+      "u": "22/103",
+      "feasible_bounds": {
+        "rho_min": -0.36408887590303657,
+        "rho_max": 0.36408887590303657,
+        "u_min": "22/103",
+        "u_max": "27/103"
+      }
+    },
+    "124": {
+      "verdict": "PENDING_124_ANCHORS",
+      "note": "anchors in 124 are computed in task 5",
+      "c": "3/62",
+      "rho_Lcount_C": 0.37180012343687957,
+      "u": "25/118",
+      "feasible_bounds": {
+        "rho_min": -0.3718243453887343,
+        "rho_max": 0.3718243453887343,
+        "u_min": "25/118",
+        "u_max": "31/118"
+      }
+    }
+  },
+  "H6": {
+    "124": {
+      "verdict": "PARTIAL",
+      "I1_by_variant": {
+        "column_minmax": true,
+        "column_gene_rank": false,
+        "uniform_ratio_gene_rank": false,
+        "symmetric_gene_rank": false
+      },
+      "I2_count": 1,
+      "I2": false,
+      "I1_NA_variants": 0,
+      "NC_M1a_by_variant": {
+        "column_minmax": true,
+        "column_gene_rank": false,
+        "uniform_ratio_gene_rank": false,
+        "symmetric_gene_rank": false
+      },
+      "NC_ROBUST": false,
+      "NC_M1b_by_variant": {
+        "column_minmax": {
+          "status": false,
+          "max_abs": 0.7549579676872246,
+          "n_na": 0,
+          "na_drugs": []
+        },
+        "column_gene_rank": {
+          "status": false,
+          "max_abs": 2.7238934831865205,
+          "n_na": 0,
+          "na_drugs": []
+        },
+        "uniform_ratio_gene_rank": {
+          "status": false,
+          "max_abs": 2.115091236519753,
+          "n_na": 0,
+          "na_drugs": []
+        },
+        "symmetric_gene_rank": {
+          "status": false,
+          "max_abs": 2.2265129218332484,
+          "n_na": 0,
+          "na_drugs": []
+        }
+      },
+      "F_M1": false,
+      "scale_free_rank_by_variant": {
+        "column_minmax": {
+          "Dacarbazine": 0.008130081300813009,
+          "Tioguanine": 0.008130081300813009
+        },
+        "column_gene_rank": {
+          "Dacarbazine": 0.8455284552845529,
+          "Tioguanine": 0.2764227642276423
+        },
+        "uniform_ratio_gene_rank": {
+          "Dacarbazine": 0.9105691056910569,
+          "Tioguanine": 0.3170731707317073
+        },
+        "symmetric_gene_rank": {
+          "Dacarbazine": 0.9024390243902439,
+          "Tioguanine": 0.2845528455284553
+        }
+      }
+    },
+    "108": {
+      "verdict": "PARTIAL",
+      "I1_by_variant": {
+        "column_minmax": true,
+        "column_gene_rank": false,
+        "uniform_ratio_gene_rank": false,
+        "symmetric_gene_rank": false
+      },
+      "I2_count": 1,
+      "I2": false,
+      "I1_NA_variants": 0,
+      "NC_M1a_by_variant": {
+        "column_minmax": true,
+        "column_gene_rank": false,
+        "uniform_ratio_gene_rank": false,
+        "symmetric_gene_rank": false
+      },
+      "NC_ROBUST": false,
+      "NC_M1b_by_variant": {
+        "column_minmax": {
+          "status": false,
+          "max_abs": 0.5944651593940005,
+          "n_na": 0,
+          "na_drugs": []
+        },
+        "column_gene_rank": {
+          "status": false,
+          "max_abs": 2.70794031783763,
+          "n_na": 0,
+          "na_drugs": []
+        },
+        "uniform_ratio_gene_rank": {
+          "status": false,
+          "max_abs": 2.0878067069722763,
+          "n_na": 0,
+          "na_drugs": []
+        },
+        "symmetric_gene_rank": {
+          "status": false,
+          "max_abs": 2.3507080914828418,
+          "n_na": 0,
+          "na_drugs": []
+        }
+      },
+      "F_M1": false,
+      "scale_free_rank_by_variant": {
+        "column_minmax": {
+          "Dacarbazine": 0.009345794392523364,
+          "Tioguanine": 0.009345794392523364
+        },
+        "column_gene_rank": {
+          "Dacarbazine": 0.8504672897196262,
+          "Tioguanine": 0.308411214953271
+        },
+        "uniform_ratio_gene_rank": {
+          "Dacarbazine": 0.8317757009345794,
+          "Tioguanine": 0.32710280373831774
+        },
+        "symmetric_gene_rank": {
+          "Dacarbazine": 0.9065420560747663,
+          "Tioguanine": 0.29906542056074764
+        }
+      }
+    }
+  },
+  "X": [
+    "Dacarbazine",
+    "Tioguanine"
+  ],
+  "H5b": "NOT_EVALUABLE (all six drugs unexposed; STAGE_B_PREDICTIONS.md section 3)"
+}

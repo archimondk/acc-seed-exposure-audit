@@ -1,0 +1,66 @@
+{
+  "H5_124": {
+    "verdict": "SUPPORTED",
+    "branch": "below_Breast",
+    "rho_interval": [
+      null,
+      0.5440069849150113
+    ],
+    "u_interval": [
+      "17/110",
+      null
+    ],
+    "rho_status": "consistent",
+    "u_status": "consistent",
+    "annotation": "ARITHMETICALLY_DETERMINED"
+  },
+  "primary_normalization": "column_minmax",
+  "anchors_124": {
+    "ACC": {
+      "c": "53/124",
+      "rho": 0.8095181336399745,
+      "u": "0"
+    },
+    "Breast": {
+      "c": "7/62",
+      "rho": 0.5440069849150113,
+      "u": "17/110"
+    }
+  },
+  "melanoma_124": {
+    "c": "3/62",
+    "rho_Lcount_C": 0.37180012343687957,
+    "u": "25/118",
+    "feasible_bounds": {
+      "rho_min": -0.3718243453887343,
+      "rho_max": 0.3718243453887343,
+      "u_min": "25/118",
+      "u_max": "31/118"
+    }
+  },
+  "original_H5_108": {
+    "verdict": "SUPPORTED",
+    "branch": "below_Breast",
+    "rho_interval": [
+      null,
+      0.5772974445641333
+    ],
+    "u_interval": [
+      "13/94",
+      null
+    ],
+    "rho_status": "consistent",
+    "u_status": "consistent",
+    "annotation": "ARITHMETICALLY_DETERMINED",
+    "c": "5/108",
+    "rho_Lcount_C": 0.36405136080705514,
+    "u": "22/103",
+    "feasible_bounds": {
+      "rho_min": -0.36408887590303657,
+      "rho_max": 0.36408887590303657,
+      "u_min": "22/103",
+      "u_max": "27/103"
+    }
+  },
+  "interpretation_note": "The arithmetic-determination annotation must accompany any SUPPORTED verdict."
+}

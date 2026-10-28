@@ -1,0 +1,36 @@
+{
+  "n": 108,
+  "ols_slope": 0.42017967551716195,
+  "ols_intercept": 0.2899101622414122,
+  "ols_r": 0.4201796755171618,
+  "ols_slope_hc3_se": 0.081158892387679,
+  "ols_slope_bootstrap95": [
+    0.2594686934232387,
+    0.574420548645474
+  ],
+  "max_abs_diff_vs_archived_residual": 9.926504063173525e-13,
+  "shapiro_W": 0.9760326686863752,
+  "shapiro_P": 0.04806490138156993,
+  "residual_skew": -0.050240922680466746,
+  "residual_excess_kurtosis": -0.77751032462319,
+  "theil_sen_slope": 0.4571428571431978,
+  "theil_sen_95": [
+    0.2705882352940726,
+    0.6250000000013136
+  ],
+  "spearman_resid_ols_vs_ts": 0.9985709794506845,
+  "spearman_adrs_ols_vs_ts": 0.9990473196337896,
+  "top20_overlap_adrs_ols_vs_ts": 20,
+  "posthoc_drop6_most_potent": {
+    "dropped": [
+      "Actinomycin D",
+      "Ixabepilone",
+      "Paclitaxel",
+      "Romidepsin",
+      "Sirolimus",
+      "Vinblastine"
+    ],
+    "slope": 0.4051037313898203,
+    "spearman_resid_rank_vs_full": 0.9996041865751395
+  }
+}

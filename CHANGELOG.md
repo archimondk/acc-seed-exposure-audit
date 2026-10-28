@@ -1,3 +1,10 @@
+# v1.1.0 — R1 revision, prepared 2026-10-28
+
+Adds melanoma audit implementation and aggregate outputs, S4–S6 branches,
+124-drug comparison, ACC diagnostics and independent human evidence review.
+Preserves original numerical results, labels and frozen protocol files.
+Clarifies public timestamp limits and third-party redistribution boundaries.
+
 # Changelog
 
 ## 1.0.3 — 2026-08-07

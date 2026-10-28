@@ -1,0 +1,3 @@
+path,bytes,sha256,distribution
+results/melanoma_stageB_20261019/run/null_C_raw_M0.npz,36064114,31fdc33eddaaba04fc5e84373b091c98ae5ba2ac7d6632cd82462e1d33760364,melanoma_null_arrays_v1.1.0.zip
+results/melanoma_stageB_20261019/run/null_C_raw_M1.npz,36052366,f87495ec695a9394310c483c546530af084c8b4d29997a8661763e0fa52bf949,melanoma_null_arrays_v1.1.0.zip

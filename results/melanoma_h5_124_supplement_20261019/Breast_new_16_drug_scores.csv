@@ -1,0 +1,65 @@
+disease,universe,variant,drug,in_archived_108,rank,C_raw,percentile,seed_hits,L_count,L_weight
+Breast,124,column_minmax,Arsenic trioxide,False,92,0.003911861189037842,0.2601626016260163,,0.0,0.0
+Breast,124,column_minmax,Avapritinib,False,16,0.008910154727670764,0.8780487804878049,,0.0,0.0
+Breast,124,column_minmax,Fedratinib,False,56,0.005134209695765941,0.5528455284552846,,0.0,0.0
+Breast,124,column_minmax,Ifosfamide,False,122,0.0028110952369158047,0.016260162601626018,,0.0,0.0
+Breast,124,column_minmax,Nitrogen mustard,False,119,0.0028896948051305746,0.04065040650406504,,0.0,0.0
+Breast,124,column_minmax,Pemigatinib,False,83,0.004268845323475547,0.3333333333333333,,0.0,0.0
+Breast,124,column_minmax,Pipobroman,False,43,0.006043697869499339,0.6585365853658537,,0.0,0.0
+Breast,124,column_minmax,Pralsetinib,False,118,0.0029200487292436643,0.04878048780487805,,0.0,0.0
+Breast,124,column_minmax,Selpercatinib,False,113,0.0032822012568838217,0.08943089430894309,,0.0,0.0
+Breast,124,column_minmax,Sotorasib,False,65,0.004731843508811133,0.4796747967479675,,0.0,0.0
+Breast,124,column_minmax,Talazoparib,False,22,0.00724903063942909,0.8292682926829268,,0.0,0.0
+Breast,124,column_minmax,Triethylenemelamine,False,52,0.005397604306474856,0.5853658536585366,,0.0,0.0
+Breast,124,column_minmax,Trilaciclib,False,84,0.0042355243123732185,0.3252032520325203,,0.0,0.0
+Breast,124,column_minmax,Uracil mustard,False,86,0.004220656388026378,0.3089430894308943,,0.0,0.0
+Breast,124,column_minmax,Zanubrutinib,False,66,0.0046371779163409,0.4715447154471545,,0.0,0.0
+Breast,124,column_minmax,tepotinib,False,89,0.004093794402082174,0.2845528455284553,,0.0,0.0
+Breast,124,column_gene_rank,Arsenic trioxide,False,32,0.5684932330363474,0.7479674796747967,,0.0,0.0
+Breast,124,column_gene_rank,Avapritinib,False,12,0.6173405370410334,0.9105691056910569,,0.0,0.0
+Breast,124,column_gene_rank,Fedratinib,False,123,0.3716118938249531,0.008130081300813009,,0.0,0.0
+Breast,124,column_gene_rank,Ifosfamide,False,117,0.41212407898387643,0.056910569105691054,,0.0,0.0
+Breast,124,column_gene_rank,Nitrogen mustard,False,112,0.42217768694943886,0.0975609756097561,,0.0,0.0
+Breast,124,column_gene_rank,Pemigatinib,False,74,0.5022241338831961,0.4065040650406504,,0.0,0.0
+Breast,124,column_gene_rank,Pipobroman,False,24,0.58857105054927,0.8130081300813008,,0.0,0.0
+Breast,124,column_gene_rank,Pralsetinib,False,94,0.4731523613515828,0.24390243902439024,,0.0,0.0
+Breast,124,column_gene_rank,Selpercatinib,False,86,0.48313490381354623,0.3089430894308943,,0.0,0.0
+Breast,124,column_gene_rank,Sotorasib,False,64,0.517052285969726,0.4878048780487805,,0.0,0.0
+Breast,124,column_gene_rank,Talazoparib,False,17,0.6057827480963098,0.8699186991869918,,0.0,0.0
+Breast,124,column_gene_rank,Triethylenemelamine,False,59,0.526175740666523,0.5284552845528455,,0.0,0.0
+Breast,124,column_gene_rank,Trilaciclib,False,38,0.5527122768751734,0.6991869918699187,,0.0,0.0
+Breast,124,column_gene_rank,Uracil mustard,False,102,0.45242075022351025,0.17886178861788618,,0.0,0.0
+Breast,124,column_gene_rank,Zanubrutinib,False,55,0.5318570834012305,0.5609756097560976,,0.0,0.0
+Breast,124,column_gene_rank,tepotinib,False,71,0.5071210688753927,0.43089430894308944,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Arsenic trioxide,False,28,0.5731202022381848,0.7804878048780488,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Avapritinib,False,44,0.5444954835527331,0.6504065040650406,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Fedratinib,False,122,0.38972161420599943,0.016260162601626018,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Ifosfamide,False,113,0.43587261460677623,0.08943089430894309,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Nitrogen mustard,False,100,0.45920999897777554,0.1951219512195122,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Pemigatinib,False,105,0.4506273699787281,0.15447154471544716,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Pipobroman,False,43,0.5483861022905941,0.6585365853658537,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Pralsetinib,False,92,0.47513965035945616,0.2601626016260163,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Selpercatinib,False,91,0.47559962388630284,0.2682926829268293,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Sotorasib,False,25,0.5791622441744216,0.8048780487804879,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Talazoparib,False,39,0.5530381971205723,0.6910569105691057,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Triethylenemelamine,False,58,0.5324732044681486,0.5365853658536586,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Trilaciclib,False,42,0.5506224887217274,0.6666666666666666,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Uracil mustard,False,97,0.4646815365169406,0.21951219512195122,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,Zanubrutinib,False,67,0.5137376188567729,0.4634146341463415,,0.0,0.0
+Breast,124,uniform_ratio_gene_rank,tepotinib,False,65,0.5210904556867502,0.483739837398374,,0.0,0.0
+Breast,124,symmetric_gene_rank,Arsenic trioxide,False,32,0.5617584856799334,0.7479674796747967,,0.0,0.0
+Breast,124,symmetric_gene_rank,Avapritinib,False,23,0.5846718253845916,0.8211382113821138,,0.0,0.0
+Breast,124,symmetric_gene_rank,Fedratinib,False,124,0.3690939359373554,0.0,,0.0,0.0
+Breast,124,symmetric_gene_rank,Ifosfamide,False,116,0.4197860467984092,0.06504065040650407,,0.0,0.0
+Breast,124,symmetric_gene_rank,Nitrogen mustard,False,110,0.4363259630409068,0.11382113821138211,,0.0,0.0
+Breast,124,symmetric_gene_rank,Pemigatinib,False,95,0.4651134388317235,0.23577235772357724,,0.0,0.0
+Breast,124,symmetric_gene_rank,Pipobroman,False,37,0.5533906752576789,0.7073170731707317,,0.0,0.0
+Breast,124,symmetric_gene_rank,Pralsetinib,False,88,0.4800006861936836,0.2926829268292683,,0.0,0.0
+Breast,124,symmetric_gene_rank,Selpercatinib,False,74,0.4929960384745814,0.4065040650406504,,0.0,0.0
+Breast,124,symmetric_gene_rank,Sotorasib,False,46,0.5421740604864815,0.6341463414634146,,0.0,0.0
+Breast,124,symmetric_gene_rank,Talazoparib,False,29,0.5751240866911242,0.7723577235772358,,0.0,0.0
+Breast,124,symmetric_gene_rank,Triethylenemelamine,False,62,0.5169585144536589,0.5040650406504065,,0.0,0.0
+Breast,124,symmetric_gene_rank,Trilaciclib,False,47,0.5410905498864466,0.6260162601626016,,0.0,0.0
+Breast,124,symmetric_gene_rank,Uracil mustard,False,108,0.445821900915621,0.13008130081300814,,0.0,0.0
+Breast,124,symmetric_gene_rank,Zanubrutinib,False,52,0.5327525004514245,0.5853658536585366,,0.0,0.0
+Breast,124,symmetric_gene_rank,tepotinib,False,65,0.5129807181784861,0.4796747967479675,,0.0,0.0

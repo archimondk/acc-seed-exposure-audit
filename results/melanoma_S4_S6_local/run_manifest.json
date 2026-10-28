@@ -1,0 +1,115 @@
+{
+  "analysis_version": "melanoma-seeds-S4-S6-v1",
+  "protocol_id": "melanoma_R1_v0.3",
+  "frozen_files_verified": {
+    "PROJECT_PLAN.md": "5d94c7e4d103dcb09109a361d690d9d58e0d7ad795f6502130959d92fd135cec",
+    "protocol_config.json": "60827a14d6f4fb8b0363bb7a78cc3925c3964faa60957d79af14850b95b3a0bd",
+    "prefreeze_network_check.csv": "da0e55db59458080436fbab382ea39d744ac32d20a4bb26534cd7e123a70f2db"
+  },
+  "amendments_verified": {
+    "AMENDMENT_A1_braf_classification.md": "326a3cfe7c4ac37d16f8da0841affb721eb488128cbe7dc8d3c2f82665b7dbca"
+  },
+  "implementation_note_sha256": "50b70e9334ac1cbc0091e61e5f61518e06d4f82be99e30ab43c33ab15249cf71",
+  "inputs_sha256": {
+    "data_clinical_patient.txt": "f512d71fb1347ae228c57ceed1de44a1c063fc00ce060172b34668b2a4235cdc",
+    "data_clinical_sample.txt": "1da0e866ba04db38a3efc98da78bff1ffb6204558859c7546683f791995fc90d",
+    "data_mutations.txt": "df9da79cf5efc65df3f5b72354040e485d0f0c2ec0ab9c040f669a897dcb6bb7",
+    "data_rppa_zscores.txt": "ee3c4c2b2d8e19597ce633d7986ab8ba8916648d7286590a963a071288920408",
+    "cases_sequenced.txt": "359e57cf014511197bf8dfae9d3f3718f50c8cd7fa87a254a99d17d40e3e7094"
+  },
+  "code_sha256": {
+    "melanoma_seeds_s4_s6.py": "4b926ae2d17142014a8c6cea04140ac030440750afd03d5504d370f2e61fc22b",
+    "melanoma_seeds.py": "e349187fd97a2be44e4bd7922c490ac7b2b9f3c271674dc20c09f4ecceebea2c"
+  },
+  "python": "3.14.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "S4_conflict_samples_in_primary": [
+    {
+      "sample_id": "TCGA-D9-A6E9-06",
+      "tumor_tissue_site": "Extremities|Primary"
+    },
+    {
+      "sample_id": "TCGA-ER-A2NF-06",
+      "tumor_tissue_site": "Head and Neck|Primary"
+    }
+  ],
+  "S4_conflict_samples_all": [
+    "TCGA-D9-A6E9-06",
+    "TCGA-ER-A19T-06",
+    "TCGA-ER-A2NF-06"
+  ],
+  "S6_counts": {
+    "EK": 36,
+    "REF": 28,
+    "expected": [
+      36,
+      28
+    ]
+  },
+  "S6_summary": {
+    "features": 198,
+    "features_meeting_testing_threshold": 0,
+    "direction_comparable": 181,
+    "same_direction": 111,
+    "note": "descriptive only; no P values, no BH, no seeds"
+  },
+  "branch_counts": {
+    "S4_site_conflict_excluded": {
+      "EK_patients": 105,
+      "E_patients": 91,
+      "K_patients": 14,
+      "REF_patients": 124,
+      "rppa_features_tested": 181,
+      "rppa_features_selected": 0,
+      "mutation_genes_eligible": 5,
+      "seeds_M0": 4,
+      "seeds_M1": 5,
+      "M1_restored": [
+        "BRAF"
+      ]
+    },
+    "S5_hc3_adjusted": {
+      "patients_complete_age_sex": 226,
+      "EK": 103,
+      "REF": 123,
+      "dropped_missing_age_or_sex": [
+        "TCGA-D3-A3C1",
+        "TCGA-D3-A3C3",
+        "TCGA-RP-A695",
+        "TCGA-RP-A6K9",
+        "TCGA-YD-A9TB"
+      ],
+      "center_levels": {
+        "other_or_unknown": 41,
+        "MD Anderson": 38,
+        "Yale": 16,
+        "University of Sydney": 57,
+        "University of Pittsburgh": 31,
+        "Essen": 18,
+        "Roswell": 14,
+        "Norfolk and Norwich Hospital": 11
+      },
+      "site_levels": {
+        "Regional Lymph Node": 145,
+        "Regional Cutaneous or Subcutaneous Tissue": 37,
+        "Distant Metastasis": 40,
+        "other_or_ambiguous": 4
+      },
+      "rppa_features_tested": 181,
+      "not_tested_reasons": {
+        "multi_gene_annotation": 10,
+        "fewer_than_50_finite_in_a_group": 7
+      },
+      "rppa_features_selected": 1,
+      "selected_t_reference_descriptive": 1,
+      "seeds_M0": 5,
+      "seeds_M1": 6,
+      "selected_genes": [
+        "PDCD4"
+      ]
+    }
+  },
+  "status": "COMPLETED"
+}

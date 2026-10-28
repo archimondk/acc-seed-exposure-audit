@@ -1,0 +1,80 @@
+{
+  "retrieved_utc": "2026-10-18T08:36:13.475274+00:00",
+  "datahub_commit": "58341090c8bf0368ebe03f7aa95ec5137a8def25",
+  "study": "skcm_tcga_pan_can_atlas_2018",
+  "inputs": [
+    {
+      "file": "pancan/data_clinical_sample.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/data_clinical_sample.txt",
+      "bytes": 82995,
+      "sha256": "1da0e866ba04db38a3efc98da78bff1ffb6204558859c7546683f791995fc90d",
+      "verified_provider_hash": "1da0e866ba04db38a3efc98da78bff1ffb6204558859c7546683f791995fc90d",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "pancan/data_clinical_patient.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/data_clinical_patient.txt",
+      "bytes": 129364,
+      "sha256": "f512d71fb1347ae228c57ceed1de44a1c063fc00ce060172b34668b2a4235cdc",
+      "verified_provider_hash": "f512d71fb1347ae228c57ceed1de44a1c063fc00ce060172b34668b2a4235cdc",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "pancan/data_mutations.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/data_mutations.txt",
+      "bytes": 575715248,
+      "sha256": "df9da79cf5efc65df3f5b72354040e485d0f0c2ec0ab9c040f669a897dcb6bb7",
+      "verified_provider_hash": "df9da79cf5efc65df3f5b72354040e485d0f0c2ec0ab9c040f669a897dcb6bb7",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "pancan/data_rppa_zscores.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/data_rppa_zscores.txt",
+      "bytes": 482629,
+      "sha256": "ee3c4c2b2d8e19597ce633d7986ab8ba8916648d7286590a963a071288920408",
+      "verified_provider_hash": "ee3c4c2b2d8e19597ce633d7986ab8ba8916648d7286590a963a071288920408",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "pancan/case_lists/cases_sequenced.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/case_lists/cases_sequenced.txt",
+      "bytes": 7315,
+      "sha256": "359e57cf014511197bf8dfae9d3f3718f50c8cd7fa87a254a99d17d40e3e7094",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "pancan/meta_study.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/meta_study.txt",
+      "bytes": 606,
+      "sha256": "833d2fefc1821d0a37a9ce81863b10c974d7c45329d990353b94373083db1774",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "pancan/meta_mutations.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/meta_mutations.txt",
+      "bytes": 328,
+      "sha256": "d6769e888d97043b3530e24965237c75425ec24f496e66fdf16fa3a6fa56f34b",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "pancan/meta_rppa_zscores.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/meta_rppa_zscores.txt",
+      "bytes": 347,
+      "sha256": "ae8cb8226bf06fbe859367b4df760d5d20b8ab470b6c0dd3660277ad92d09c2b",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "pancan/LICENSE",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga_pan_can_atlas_2018/LICENSE",
+      "bytes": 446,
+      "sha256": "a290da9a9b7f53084667f3b21cc3b4fce4168f917994e7516a02dd0e44385d38",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    }
+  ],
+  "reason": "Audit legacy split-codon annotations; no drug outcomes inspected"
+}

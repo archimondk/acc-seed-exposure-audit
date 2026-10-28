@@ -4,10 +4,10 @@ message: >-
   and the accompanying article.
 title: >-
   Seed exposure and normalization sensitivity in network-propagation drug
-  ranking by gene-set averaging: an adrenocortical carcinoma audit
+  ranking by gene-set averaging: an adrenocortical carcinoma audit with breast-cancer and melanoma comparisons
 type: software
-version: 1.0.3
-date-released: 2026-08-07
+version: 1.1.0
+date-released: 2026-10-28
 repository-code: 'https://github.com/archimondk/acc-seed-exposure-audit'
 doi: 10.5281/zenodo.21824511
 license: MIT

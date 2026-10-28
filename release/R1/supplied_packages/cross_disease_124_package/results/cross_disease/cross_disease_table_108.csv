@@ -1,0 +1,13 @@
+disease,variant,exposed,unexposed,c,unexposed_in_top27,arith_min,arith_max,at_arith_min,first_unexposed_rank,exposed_in_top27,rho_Lcount_C,rho_nassoc_C
+ACC,column_minmax,46,62,46/108,0,0,27,True,36,27,0.822009,-0.112151
+Breast,column_minmax,14,94,14/108,13,13,27,True,13,14,0.577297,-0.447974
+Melanoma,column_minmax,5,103,5/108,22,22,27,True,6,5,0.364051,-0.755783
+ACC,column_gene_rank,46,62,46/108,9,0,27,False,7,18,0.492980,-0.087296
+Breast,column_gene_rank,14,94,14/108,23,13,27,False,1,4,0.020174,-0.080993
+Melanoma,column_gene_rank,5,103,5/108,25,22,27,False,1,2,0.153714,-0.051345
+ACC,uniform_ratio_gene_rank,46,62,46/108,9,0,27,False,6,18,0.521146,-0.061293
+Breast,uniform_ratio_gene_rank,14,94,14/108,22,13,27,False,1,5,0.032637,-0.039362
+Melanoma,uniform_ratio_gene_rank,5,103,5/108,26,22,27,False,1,1,0.182837,-0.019633
+ACC,symmetric_gene_rank,46,62,46/108,9,0,27,False,7,18,0.519358,-0.065541
+Breast,symmetric_gene_rank,14,94,14/108,23,13,27,False,1,4,-0.017759,-0.061566
+Melanoma,symmetric_gene_rank,5,103,5/108,26,22,27,False,1,1,0.167046,-0.048206

@@ -1,0 +1,23 @@
+{
+  "baseline_max_abs_diff_vs_archived": 4.953260024365136e-13,
+  "graph_nodes_edge_rows": {
+    "400": [
+      19701,
+      1858944
+    ],
+    "150": [
+      19701,
+      13715404
+    ],
+    "700": [
+      19701,
+      473860
+    ],
+    "900": [
+      19701,
+      201712
+    ]
+  },
+  "seeds": 45,
+  "note": "VEGFA is not a STRING v12 preferred name and enters as an isolated node"
+}

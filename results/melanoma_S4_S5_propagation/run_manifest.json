@@ -1,0 +1,39 @@
+{
+  "freezes_verified": {
+    "FREEZE_STAGE_A.txt": {
+      "PROJECT_PLAN.md": "5d94c7e4d103dcb09109a361d690d9d58e0d7ad795f6502130959d92fd135cec",
+      "protocol_config.json": "60827a14d6f4fb8b0363bb7a78cc3925c3964faa60957d79af14850b95b3a0bd",
+      "prefreeze_network_check.csv": "da0e55db59458080436fbab382ea39d744ac32d20a4bb26534cd7e123a70f2db"
+    },
+    "FREEZE_STAGE_A_ADDENDUM.txt": {
+      "AMENDMENT_A1_braf_classification.md": "326a3cfe7c4ac37d16f8da0841affb721eb488128cbe7dc8d3c2f82665b7dbca"
+    },
+    "FREEZE_STAGE_B.txt": {
+      "04_melanoma_protocol/STAGE_B_PREDICTIONS.md": "af16e661508e30bb5c3949a2ddc3b3cfa90a42b2f3e7e523df037fdb04b8d472",
+      "results/melanoma_stageB_prep/exposure_map_M0_M1_seeds.csv": "d5c705d78132016fc8e7feb32173836365afced25a9a7ad01d396b5f228f23dd",
+      "results/melanoma_stageB_prep/exposure_map_M0_M1_drugs.csv": "436cc5d1db94b566c38284725381c381ae27809a115d560bbc6918b5bf9a92a9",
+      "results/melanoma_stageB_prep/anchor_recheck_108_column_minmax.csv": "2358cda9f27395a2257d74537d2ea466086c01e5b6a4a454b6c9a140023c4da5",
+      "results/melanoma_stageB_prep/stageB_exposure_anchor_summary.json": "7bcc9c9a07734d03f607abc339fe96cbe69d5eb41d58906761511b2979f61406",
+      "scripts/stageB_exposure_and_anchors.py": "ec701ecb18058de5b600e4ed82985232d2925699d474c0bc12225d14dc8087de"
+    }
+  },
+  "regression_max_abs_diff": 4.959366251000574e-13,
+  "tolerance": 5e-11,
+  "branch_seed_files_sha256": {
+    "S4_site_conflict_excluded": "e2d4092fe53eaf1ace05302508ff7be3c68fe130e7efea07175a85c9533cc92a",
+    "S5_hc3_adjusted": "dcd19d5bc0f6c8a4e1586418d77b2e45d2a35996fdcfce8b69892ac33e84db40"
+  },
+  "code_sha256": {
+    "melanoma_branches_s4_s5.py": "501657f740d12f0401c833f3b2849a447fd13d3bae29e10ff6c66463a9eb6e34",
+    "melanoma_audit.py": "e243e09444d61f1a8bbb1ccf9e2a0e603ebe4d5cd66b01a53b3436cea6f19937",
+    "melanoma_rules.py": "67f6dcf70251d769d818e2e26587d41323be91bba8e649e12d4fe2a3af8b9c85"
+  },
+  "string_sha256": {
+    "9606.protein.info.v12.0.txt.gz": "144de4b0d98c6a7dfde6ddc2591cf88657f27b989eadff4f501450c3ed1f0f1c",
+    "9606.protein.links.v12.0.txt.gz": "3e22f32572211aa341d5b4bd08d30c32e693e294603202120936872f87719d4f"
+  },
+  "python": "3.14.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

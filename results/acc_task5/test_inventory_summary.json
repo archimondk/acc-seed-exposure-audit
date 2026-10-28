@@ -1,0 +1,68 @@
+{
+  "hypothesis_level_tests": 40,
+  "surviving_hypothesis_level": [
+    "L_d(weighted) vs C_ACC Spearman",
+    "Cross-platform concordance CU-ACC1"
+  ],
+  "drug_level_tests": 1856,
+  "min_pooled_drug_q": 0.0618604806186048,
+  "drug_level_q_lt_0_05": [],
+  "smallest_drug_level": [
+    [
+      "ACC",
+      "column_minmax",
+      "Pralatrexate",
+      9.99900009999e-05,
+      0.0619
+    ],
+    [
+      "Melanoma M0",
+      "uniform_ratio_gene_rank",
+      "Allopurinol",
+      9.99900009999e-05,
+      0.0619
+    ],
+    [
+      "Melanoma M0",
+      "symmetric_gene_rank",
+      "Allopurinol",
+      9.99900009999e-05,
+      0.0619
+    ],
+    [
+      "ACC",
+      "symmetric_gene_rank",
+      "Allopurinol",
+      0.000399960004,
+      0.1237
+    ],
+    [
+      "Melanoma M1",
+      "uniform_ratio_gene_rank",
+      "Allopurinol",
+      0.000399960004,
+      0.1237
+    ],
+    [
+      "Melanoma M1",
+      "symmetric_gene_rank",
+      "Allopurinol",
+      0.000399960004,
+      0.1237
+    ],
+    [
+      "ACC",
+      "column_minmax",
+      "Pemetrexed",
+      0.000499950005,
+      0.1326
+    ],
+    [
+      "ACC",
+      "column_gene_rank",
+      "Allopurinol",
+      0.000699930006999,
+      0.1547
+    ]
+  ]
+}

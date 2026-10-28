@@ -1,0 +1,150 @@
+{
+  "retrieved_utc": "2026-10-18T03:34:55.282558+00:00",
+  "datahub_commit": "58341090c8bf0368ebe03f7aa95ec5137a8def25",
+  "depmap_article_id": 27993248,
+  "depmap_article_version": 1,
+  "depmap_license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "inputs": [
+    {
+      "file": "tcga/data_clinical_sample.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/data_clinical_sample.txt",
+      "bytes": 197798,
+      "sha256": "f3f23b02afb2aee83036e33aaa8dfa7b310a21411c208216af67b9e3fc8eea33",
+      "verified_provider_hash": "f3f23b02afb2aee83036e33aaa8dfa7b310a21411c208216af67b9e3fc8eea33",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "tcga/data_clinical_patient.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/data_clinical_patient.txt",
+      "bytes": 293136,
+      "sha256": "f13af06019ffa3dade5752af9e40753d961c2f44e66929b7622977be3942d574",
+      "verified_provider_hash": "f13af06019ffa3dade5752af9e40753d961c2f44e66929b7622977be3942d574",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "tcga/data_mutations.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/data_mutations.txt",
+      "bytes": 320449339,
+      "sha256": "1b9260adf554e4555d961204f32230b1e19bf68202bfa6818bc7e5a22a46f5db",
+      "verified_provider_hash": "1b9260adf554e4555d961204f32230b1e19bf68202bfa6818bc7e5a22a46f5db",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "tcga/data_rppa_zscores.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/data_rppa_zscores.txt",
+      "bytes": 553407,
+      "sha256": "ab5b1accc4ae07b88500fd6e8c8e8cfc5df6cd14fbb9025a526623284d74d7d5",
+      "verified_provider_hash": "ab5b1accc4ae07b88500fd6e8c8e8cfc5df6cd14fbb9025a526623284d74d7d5",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "tcga/data_gene_panel_matrix.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/data_gene_panel_matrix.txt",
+      "bytes": 11322,
+      "sha256": "ae4b4109bdcda2ae63bcfd4d1c5937f53749a3506bf3a6309a5edce0124b6024",
+      "verified_provider_hash": "ae4b4109bdcda2ae63bcfd4d1c5937f53749a3506bf3a6309a5edce0124b6024",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "tcga/data_mutsig.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/data_mutsig.txt",
+      "bytes": 2143963,
+      "sha256": "6630f239cb4e2d8746e750b35c77ae4999d19d06bd064f0054f9b8c7808a4ae6",
+      "verified_provider_hash": "6630f239cb4e2d8746e750b35c77ae4999d19d06bd064f0054f9b8c7808a4ae6",
+      "provider_hash_algorithm": "sha256"
+    },
+    {
+      "file": "tcga/case_lists/cases_sequenced.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/case_lists/cases_sequenced.txt",
+      "bytes": 6125,
+      "sha256": "21d539a32f2b38c82f472e5dfade1e4b4c23ce6fb6367852926f2523cc115f84",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "tcga/meta_study.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/meta_study.txt",
+      "bytes": 355,
+      "sha256": "edc39bc11d03b3e80a597e2fde18dada9d30992b95719b11d96ab282f73fd2cc",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "tcga/meta_mutations.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/meta_mutations.txt",
+      "bytes": 391,
+      "sha256": "3568c1e4891b75e46e3ad568579f49a38f355b2169983e0fbb82ce81a4679657",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "tcga/meta_rppa_zscores.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/meta_rppa_zscores.txt",
+      "bytes": 328,
+      "sha256": "25a79a0a1cf85aa668bbace1a3e5df8dab91d6e0de1cdf946a67abc4797f9ed4",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "tcga/LICENSE",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/58341090c8bf0368ebe03f7aa95ec5137a8def25/public/skcm_tcga/LICENSE",
+      "bytes": 444,
+      "sha256": "fb0e21eaa50022d18f49c508bd670f114efd6379eff33d9b8006278f5f567294",
+      "verified_provider_hash": null,
+      "provider_hash_algorithm": null
+    },
+    {
+      "file": "depmap24q4/Model.csv",
+      "url": "https://ndownloader.figshare.com/files/51065297",
+      "bytes": 645696,
+      "sha256": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+      "verified_provider_hash": "675210d17675f3517b0ce39a3c274f16",
+      "provider_hash_algorithm": "md5"
+    },
+    {
+      "file": "depmap24q4/OmicsDefaultModelProfiles.csv",
+      "url": "https://ndownloader.figshare.com/files/51065339",
+      "bytes": 90080,
+      "sha256": "096a96c39d88374cb7c37058816e6cde29d6617b820b8a14d33ae9dd821c6dc5",
+      "verified_provider_hash": "4d342a03701c0a4c0742fedb56c1de40",
+      "provider_hash_algorithm": "md5"
+    },
+    {
+      "file": "depmap24q4/OmicsProfiles.csv",
+      "url": "https://ndownloader.figshare.com/files/51065723",
+      "bytes": 254733,
+      "sha256": "0bb19ee57935d4b213d378a4db9caacaa1db7318a63ae81485d84f91c20a3bf2",
+      "verified_provider_hash": "7195088a5fc41eddb3f896c6e984a992",
+      "provider_hash_algorithm": "md5"
+    },
+    {
+      "file": "depmap24q4/OmicsSomaticMutations.csv",
+      "url": "https://ndownloader.figshare.com/files/51065732",
+      "bytes": 338945382,
+      "sha256": "92e86ab6a8457ef99908daf2a2c82d9529320e23cd6c6b7adc128adc1e0f41c8",
+      "verified_provider_hash": "7bdba347a1602fe96d5654a74d6e52f1",
+      "provider_hash_algorithm": "md5"
+    },
+    {
+      "file": "depmap24q4/OmicsSomaticMutationsMatrixHotspot.csv",
+      "url": "https://ndownloader.figshare.com/files/51065750",
+      "bytes": 4210723,
+      "sha256": "6444ce819a28d4228ff7b748e309611c5830c551620d8d2c7f86052e2675e3d8",
+      "verified_provider_hash": "a5aeb1deef897ead3c955c372148d840",
+      "provider_hash_algorithm": "md5"
+    },
+    {
+      "file": "depmap24q4/README.txt",
+      "url": "https://ndownloader.figshare.com/files/51065795",
+      "bytes": 43103,
+      "sha256": "f744a5cf5c112e01276e772679157aac8e85cdc4a8f6d3b86d808e3bfd332891",
+      "verified_provider_hash": "54628c15a10b9ff6536db245cfed5231",
+      "provider_hash_algorithm": "md5"
+    }
+  ],
+  "scope": "Local research audit only; no raw-data redistribution"
+}

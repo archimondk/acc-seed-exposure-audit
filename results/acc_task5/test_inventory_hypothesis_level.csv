@@ -1,0 +1,41 @@
+test,p,status,original_family,source,q_study_wide_bh,survives_q_lt_0_05
+L_d(weighted) vs C_ACC Spearman,2.37e-28,exploratory,none,manuscript,9.480000000000001e-27,True
+Cross-platform concordance CU-ACC1,0.001,original (reported as P < 0.001; bound used),none,manuscript,0.02,True
+Cross-platform concordance CU-ACC2,0.008,original,none,manuscript,0.05199480052,False
+Amendment 1 abemaciclib vs unexposed: ACC column_minmax,0.009345794392523364,result-known post hoc,none,amendment1_scale_free_effect.csv,0.05199480052,False
+Amendment 1 abemaciclib vs unexposed: Breast column_minmax,0.009345794392523364,result-known post hoc,none,amendment1_scale_free_effect.csv,0.05199480052,False
+Amendment 1 abemaciclib vs unexposed: Breast uniform_ratio_gene_rank,0.009345794392523364,result-known post hoc,none,amendment1_scale_free_effect.csv,0.05199480052,False
+Amendment 1 abemaciclib vs unexposed: Breast symmetric_gene_rank,0.009345794392523364,result-known post hoc,none,amendment1_scale_free_effect.csv,0.05199480052,False
+ACC CDK4/6 group vs degree-matched null: column_gene_rank,0.010398960104,original (primary) / post hoc (rank variants),4 variants (BH),normalization_sensitivity_summary.csv,0.05199480052,False
+Cross-platform concordance NCI-H295R,0.013,original,none,manuscript,0.05777777777777778,False
+Amendment 1 abemaciclib vs unexposed: Breast column_gene_rank,0.018691588785046728,result-known post hoc,none,amendment1_scale_free_effect.csv,0.07476635514018691,False
+ACC CDK4/6 group vs degree-matched null: symmetric_gene_rank,0.021397860214,original (primary) / post hoc (rank variants),4 variants (BH),normalization_sensitivity_summary.csv,0.07781040077818181,False
+"MIPE missingness by mechanism group, Fisher",0.0237,original,none,manuscript,0.079,False
+ACC CDK4/6 group vs degree-matched null: uniform_ratio_gene_rank,0.02599740026,original (primary) / post hoc (rank variants),4 variants (BH),normalization_sensitivity_summary.csv,0.0799920008,False
+"Broad cytotoxic rank shift, Mann-Whitney",0.034,original,none,manuscript,0.0879604178119846,False
+Amendment 1 abemaciclib vs unexposed: ACC column_gene_rank,0.037383177570093455,result-known post hoc,none,amendment1_scale_free_effect.csv,0.0879604178119846,False
+Amendment 1 abemaciclib vs unexposed: ACC uniform_ratio_gene_rank,0.037383177570093455,result-known post hoc,none,amendment1_scale_free_effect.csv,0.0879604178119846,False
+Amendment 1 abemaciclib vs unexposed: ACC symmetric_gene_rank,0.037383177570093455,result-known post hoc,none,amendment1_scale_free_effect.csv,0.0879604178119846,False
+ACC mechanism-class rank sum: ALK/MET,0.05757763204421642,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.12795029343159203,False
+"Broad cytotoxics in Top 20 before adjustment, hypergeometric",0.07,original,none,manuscript,0.1473684210526316,False
+ACC mechanism-class rank sum: CDK4/6,0.07635827504457375,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.1527165500891475,False
+ACC mechanism-class rank sum: HDAC,0.11133055114716198,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.21205819266126089,False
+"Broad cytotoxics in Top 20 after adjustment, hypergeometric",0.17,original,none,manuscript,0.30909090909090914,False
+S_B-neighbor LOMCO Spearman,0.266,original,none,manuscript,0.4541945805424,False
+ACC mechanism-class rank sum: Antimetabolite,0.28121899994319355,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.4541945805424,False
+ACC CDK4/6 group vs degree-matched null: column_minmax,0.283871612839,original (primary) / post hoc (rank variants),4 variants (BH),normalization_sensitivity_summary.csv,0.4541945805424,False
+ACC mechanism-class rank sum: Tubulin,0.38290617668152493,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.5890864256638845,False
+Breast CDK4/6 group vs null: column_minmax,0.453754624538,frozen-before-result,4 variants (BH),positive_control_variant_summary.csv,0.6572922401155924,False
+ACC mechanism-class rank sum: Topo/anthracycline,0.4601045680809147,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.6572922401155924,False
+ACC mechanism-class rank sum: MEK,0.4780980743950238,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.6594456198552052,False
+ACC mechanism-class rank sum: EGFR/HER,0.5252338338585519,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.7003117784780692,False
+Partial Spearman C_ACC vs matched-null z given L_count,0.667,exploratory,none,manuscript,0.8467903209675,False
+Breast CDK4/6 group vs null: symmetric_gene_rank,0.677432256774,frozen-before-result,4 variants (BH),positive_control_variant_summary.csv,0.8467903209675,False
+Breast CDK4/6 group vs null: column_gene_rank,0.702929707029,frozen-before-result,4 variants (BH),positive_control_variant_summary.csv,0.85203600852,False
+Melanoma BRAF/MEK group vs null (124): symmetric_gene_rank,0.7395260473952605,frozen-before-result (revision),4 variants (BH),melanoma decisions.json,0.8664968833938776,False
+Melanoma BRAF/MEK group vs null (124): column_gene_rank,0.7875212478752125,frozen-before-result (revision),4 variants (BH),melanoma decisions.json,0.8664968833938776,False
+Melanoma BRAF/MEK group vs null (124): uniform_ratio_gene_rank,0.7926207379262074,frozen-before-result (revision),4 variants (BH),melanoma decisions.json,0.8664968833938776,False
+ACC mechanism-class rank sum: Alkylator/platinum,0.8015096171393369,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.8664968833938776,False
+Breast CDK4/6 group vs null: uniform_ratio_gene_rank,0.848615138486,frozen-before-result,4 variants (BH),positive_control_variant_summary.csv,0.87788621220311,False
+ACC mechanism-class rank sum: Multikinase/VEGFR,0.8559390568980323,original,10 mechanism classes (BH),mechanism_enrichment_primary108.csv,0.87788621220311,False
+Melanoma BRAF/MEK group vs null (124): column_minmax,0.9653034696530347,frozen-before-result (revision),4 variants (BH),melanoma decisions.json,0.9653034696530348,False

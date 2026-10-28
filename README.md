@@ -1,5 +1,14 @@
 # Seed exposure and normalization sensitivity in network-propagation drug ranking by gene-set averaging: an adrenocortical carcinoma audit
 
+## Revision R1 (v1.1.0)
+
+This release adds the melanoma comparison and independent human evidence review.
+Start with [the R1 release guide](release/R1/README.md). Historical protocols and
+original labels remain unchanged. The original release DOI is not the R1 DOI;
+use the version DOI displayed on the published v1.1.0 release or its Zenodo record.
+
+
+
 Reproducible analysis package for a methodological audit of gene-set-averaged
 network-propagation drug ranking in adrenocortical carcinoma (ACC).
 

@@ -50,7 +50,7 @@ The Claude package contains four openly accessible full-text extracts obtained
 from PMC/Europe PMC and official PubMed metadata for other records. The source
 manifest is the controlling provenance record. The historical prompt is kept
 unchanged, but its “independent reviewer” wording is a model role instruction;
-no independent human rereview was performed. Non-open full texts must be
+no independent human rereview was performed in the original analysis. An independent human rereview was added during R1; see `independent_review/human_R1_20261026/README.md`. Non-open full texts must be
 obtained legally by each user and are not part of the release.
 
 ## Citation and modification notices
@@ -62,3 +62,19 @@ they were filtered and transformed by the authors and are not an official
 STRING product. Repository-level code and project-data licences are MIT and
 CC BY 4.0, respectively, within the boundaries recorded in `LICENSE`,
 `DATA_LICENSE.md` and `release/LICENSE_DECISION_RECORDED.md`.
+
+
+## R1 release boundary (prepared 28 October 2026)
+
+R1 adds author-generated analysis code, aggregate derived outputs, frozen
+protocols, source manifests, and human evidence-review labels. Raw MIPE,
+ACC_CellMinerCDB and TCGA/cBioPortal downloads are excluded. Provider-specific
+redistribution permissions for MIPE and ACC_CellMinerCDB were not retained or
+independently established. Public availability is not treated as a grant to
+relicense provider data. Original retrieval dates missing from retained records
+are explicitly reported as not recorded in S1 Table. Historical release files
+and hashes remain traceable; no new permission is asserted for their sources.
+
+Patient/sample listing tables and covariate extracts are also omitted from this
+R1 addition; regenerate them from the source manifests and analysis code.
+No publisher full-text PDF, TXT, XML or HTML is added to the public release.
