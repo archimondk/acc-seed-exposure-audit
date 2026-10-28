@@ -1,0 +1,15 @@
+gene,genomic_driver,recurrence,lineage_biomarker,core_pathway,prognostic_subtype,therapeutic_relevance,raw_weight,mutation_patients,mutation_fraction,rppa_feature,rppa_abs_median_difference,rppa_direction,rppa_q_bh_198,include_M0,include_M1,reasons,in_STRING_v12
+ARID2,1,0.54347826087,0,0,0,0,0.408695652174,10,0.108695652174,,0,,1,yes,yes,,PENDING_LOCAL_CHECK
+BRAF,1,1,0,0,0,0,0.5,92,1,,0,,1,no,yes,M0_forced_exclusion_known_target,PENDING_LOCAL_CHECK
+CDKN2A,1,0.760869565217,0,0,0,0,0.452173913043,14,0.152173913043,,0,,1,yes,yes,,PENDING_LOCAL_CHECK
+DDX3X,0,0,0,0,0,0,0,4,0.0434782608696,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+IDH1,0,0,0,0,0,0,0,2,0.0217391304348,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+MAP2K1,0,0,0,0,0,0,0,5,0.054347826087,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule;M0_forced_exclusion_known_target,PENDING_LOCAL_CHECK
+MAP2K2,0,0,0,0,0,0,0,0,0,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule;M0_forced_exclusion_known_target,PENDING_LOCAL_CHECK
+NF1,0,0,0,0,0,0,0,8,0.0869565217391,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+NRAS,0,0,0,0,0,0,0,2,0.0217391304348,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+PPP6C,0,0,0,0,0,0,0,3,0.0326086956522,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+PTEN,1,0.70652173913,0,0,0,0,0.441304347826,13,0.141304347826,,0,,1,yes,yes,,PENDING_LOCAL_CHECK
+RAC1,0,0,0,0,0,0,0,3,0.0326086956522,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+RB1,0,0,0,0,0,0,0,4,0.0434782608696,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+TP53,0,0,0,0,0,0,0,9,0.0978260869565,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK

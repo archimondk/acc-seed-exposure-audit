@@ -1,0 +1,18 @@
+gene,genomic_driver,recurrence,lineage_biomarker,core_pathway,prognostic_subtype,therapeutic_relevance,raw_weight,mutation_patients,mutation_fraction,rppa_feature,rppa_abs_median_difference,rppa_direction,rppa_q_bh_198,include_M0,include_M1,reasons,in_STRING_v12
+ARID2,1,0.518867924528,0,0,0,0,0.403773584906,11,0.103773584906,,0,,1,yes,yes,,PENDING_LOCAL_CHECK
+BRAF,1,1,0,0,0,0,0.5,106,1,,0,,1,no,yes,M0_forced_exclusion_known_target,PENDING_LOCAL_CHECK
+CDKN2A,1,0.707547169811,0,0,0,0,0.441509433962,15,0.141509433962,,0,,1,yes,yes,,PENDING_LOCAL_CHECK
+DDX3X,0,0,0,0,0,0,0,8,0.0754716981132,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+IDH1,0,0,0,0,0,0,0,3,0.0283018867925,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+MAP2K1,0,0,0,0,0,0,0,8,0.0754716981132,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule;M0_forced_exclusion_known_target,PENDING_LOCAL_CHECK
+MAP2K2,0,0,0,0,0,0,0,0,0,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule;M0_forced_exclusion_known_target,PENDING_LOCAL_CHECK
+MAPK1,0,0,0.2028875,0,0,0,0.02028875,0,0,MAPK1 MAPK3|MAPK_pT202_Y204,0.81155,down,5.94778841171e-05,yes,yes,,PENDING_LOCAL_CHECK
+MAPK3,0,0,0.2028875,0,0,0,0.02028875,0,0,MAPK1 MAPK3|MAPK_pT202_Y204,0.81155,down,5.94778841171e-05,yes,yes,,PENDING_LOCAL_CHECK
+NF1,0,0,0,0,0,0,0,9,0.0849056603774,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+NRAS,0,0,0,0,0,0,0,4,0.0377358490566,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+PDCD4,0,0,0.253075,0,0,0,0.0253075,0,0,PDCD4|PDCD4,0.50615,down,0.00643072611261,yes,yes,,PENDING_LOCAL_CHECK
+PPP6C,0,0,0,0,0,0,0,5,0.0471698113208,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+PTEN,1,0.754716981132,0,0,0,0,0.450943396226,16,0.150943396226,,0,,1,yes,yes,,PENDING_LOCAL_CHECK
+RAC1,0,0,0,0,0,0,0,5,0.0471698113208,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+RB1,0,0,0,0,0,0,0,4,0.0377358490566,,0,,1,no,no,did_not_meet_locked_mutation_or_rppa_rule,PENDING_LOCAL_CHECK
+TP53,1,0.61320754717,0,0,0,0,0.422641509434,13,0.122641509434,,0,,1,yes,yes,,PENDING_LOCAL_CHECK

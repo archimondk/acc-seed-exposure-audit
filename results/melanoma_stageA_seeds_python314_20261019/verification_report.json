@@ -1,0 +1,474 @@
+{
+  "verified_at_utc": "2026-10-18T23:14:56.316522+00:00",
+  "status": "PASS",
+  "reference_environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  },
+  "rerun_environment": {
+    "python": "3.14.3",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "manifest_field_checks": {
+    "analysis_version": true,
+    "protocol_id": true,
+    "stage": true,
+    "frozen_files_verified": true,
+    "amendments_verified": true,
+    "datahub_commit": true,
+    "study": true,
+    "inputs_sha256": true,
+    "code_sha256": true,
+    "primary_count_check": true,
+    "sensitivity_count_checks": true,
+    "status": true,
+    "branch_counts": true
+  },
+  "table_count": 37,
+  "byte_identical_table_count": 37,
+  "tables": {
+    "A1sens_strict_braf/cohort_sample_log.csv": {
+      "reference_sha256": "854fde8eb558bb0f7731db275c9e7b441d6fac2a3d7723ccd86c8b3d91d424f9",
+      "actual_sha256": "854fde8eb558bb0f7731db275c9e7b441d6fac2a3d7723ccd86c8b3d91d424f9",
+      "byte_identical": true,
+      "rows_excluding_header": 448,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "A1sens_strict_braf/cohort_selected_patients.csv": {
+      "reference_sha256": "3d62520e0cfa0ba27faced8816fb0d5b34fdd713a595d8fcceadde7073067423",
+      "actual_sha256": "3d62520e0cfa0ba27faced8816fb0d5b34fdd713a595d8fcceadde7073067423",
+      "byte_identical": true,
+      "rows_excluding_header": 228,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "A1sens_strict_braf/mutation_statistics.csv": {
+      "reference_sha256": "f8d83223fe65bed8c66987aaf5b8ebed0653f2b6ee39630ffed0f50ca604443f",
+      "actual_sha256": "f8d83223fe65bed8c66987aaf5b8ebed0653f2b6ee39630ffed0f50ca604443f",
+      "byte_identical": true,
+      "rows_excluding_header": 13,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "A1sens_strict_braf/rppa_feature_tests.csv": {
+      "reference_sha256": "910a3483ff110a397e89d9e4d75df5f3a09ee34ff641c1d34d7ba0892a3a5454",
+      "actual_sha256": "910a3483ff110a397e89d9e4d75df5f3a09ee34ff641c1d34d7ba0892a3a5454",
+      "byte_identical": true,
+      "rows_excluding_header": 198,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "A1sens_strict_braf/seed_candidates.csv": {
+      "reference_sha256": "09076d644b213f0299ed1270a6716197308d64e6f1cdd251ddb8eb4b3af6b8ab",
+      "actual_sha256": "09076d644b213f0299ed1270a6716197308d64e6f1cdd251ddb8eb4b3af6b8ab",
+      "byte_identical": true,
+      "rows_excluding_header": 15,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "A1sens_strict_braf/seeds_frozen.csv": {
+      "reference_sha256": "600a5456c9d739c36df1a3b9474cb0956f2a787fcf7249357beb51db7fc3a9c8",
+      "actual_sha256": "600a5456c9d739c36df1a3b9474cb0956f2a787fcf7249357beb51db7fc3a9c8",
+      "byte_identical": true,
+      "rows_excluding_header": 11,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "primary_metastasis/cohort_sample_log.csv": {
+      "reference_sha256": "cf00a0ac4fae81892c28d16e1f5aec21befad789f46239866fe3a3f20d5d4297",
+      "actual_sha256": "cf00a0ac4fae81892c28d16e1f5aec21befad789f46239866fe3a3f20d5d4297",
+      "byte_identical": true,
+      "rows_excluding_header": 448,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "primary_metastasis/cohort_selected_patients.csv": {
+      "reference_sha256": "417ede909fce395e22dc591a9d256b2acf09235180f109b467ab7e83fc7573f8",
+      "actual_sha256": "417ede909fce395e22dc591a9d256b2acf09235180f109b467ab7e83fc7573f8",
+      "byte_identical": true,
+      "rows_excluding_header": 231,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "primary_metastasis/mutation_statistics.csv": {
+      "reference_sha256": "9e94c45552e1186637003e5e61c9923a928f869f3bf48a314bdcacfa4fc3ae95",
+      "actual_sha256": "9e94c45552e1186637003e5e61c9923a928f869f3bf48a314bdcacfa4fc3ae95",
+      "byte_identical": true,
+      "rows_excluding_header": 13,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "primary_metastasis/rppa_feature_tests.csv": {
+      "reference_sha256": "dfc03aee8f8b0e8abf3851de621f2b7014e5c9139438f38a1c1f8dcb0956f089",
+      "actual_sha256": "dfc03aee8f8b0e8abf3851de621f2b7014e5c9139438f38a1c1f8dcb0956f089",
+      "byte_identical": true,
+      "rows_excluding_header": 198,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "primary_metastasis/seed_candidates.csv": {
+      "reference_sha256": "c125ff4821171b13363a65a13300c3579829b891a77c8444dcbb4a8a78a9f941",
+      "actual_sha256": "c125ff4821171b13363a65a13300c3579829b891a77c8444dcbb4a8a78a9f941",
+      "byte_identical": true,
+      "rows_excluding_header": 14,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "primary_metastasis/seeds_frozen.csv": {
+      "reference_sha256": "f48f836f2baf4aba6af1f767579ff9a5eea7c3746fa51933406c79214f6decb8",
+      "actual_sha256": "f48f836f2baf4aba6af1f767579ff9a5eea7c3746fa51933406c79214f6decb8",
+      "byte_identical": true,
+      "rows_excluding_header": 9,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S2_E_only/cohort_sample_log.csv": {
+      "reference_sha256": "cf00a0ac4fae81892c28d16e1f5aec21befad789f46239866fe3a3f20d5d4297",
+      "actual_sha256": "cf00a0ac4fae81892c28d16e1f5aec21befad789f46239866fe3a3f20d5d4297",
+      "byte_identical": true,
+      "rows_excluding_header": 448,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S2_E_only/cohort_selected_patients.csv": {
+      "reference_sha256": "f3b895adb6a3bcc0d7701faef62fedd9a2725d240ad616e7fcabd7e6a477074a",
+      "actual_sha256": "f3b895adb6a3bcc0d7701faef62fedd9a2725d240ad616e7fcabd7e6a477074a",
+      "byte_identical": true,
+      "rows_excluding_header": 217,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S2_E_only/mutation_statistics.csv": {
+      "reference_sha256": "6b5ea668dedb5e41db92f1a4733007133a318337c5727d0f9b00473ba17b096e",
+      "actual_sha256": "6b5ea668dedb5e41db92f1a4733007133a318337c5727d0f9b00473ba17b096e",
+      "byte_identical": true,
+      "rows_excluding_header": 13,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S2_E_only/rppa_feature_tests.csv": {
+      "reference_sha256": "2bbd058249c02861ce2a31caf8588eff0fb1a6ce6d538e4cdc57470d3280d725",
+      "actual_sha256": "2bbd058249c02861ce2a31caf8588eff0fb1a6ce6d538e4cdc57470d3280d725",
+      "byte_identical": true,
+      "rows_excluding_header": 198,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S2_E_only/seed_candidates.csv": {
+      "reference_sha256": "2a2b4f6934c87f64032ff64e765c8037114ed69e0592df6c9726ce61f91cabe4",
+      "actual_sha256": "2a2b4f6934c87f64032ff64e765c8037114ed69e0592df6c9726ce61f91cabe4",
+      "byte_identical": true,
+      "rows_excluding_header": 14,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S2_E_only/seeds_frozen.csv": {
+      "reference_sha256": "4e548d1d33faebe367f6494ca052b28216537c3311fd881dded96d494d7ae219",
+      "actual_sha256": "4e548d1d33faebe367f6494ca052b28216537c3311fd881dded96d494d7ae219",
+      "byte_identical": true,
+      "rows_excluding_header": 7,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S3_neoadjuvant_No/cohort_sample_log.csv": {
+      "reference_sha256": "74e8c4b845e73c085a139777edb526b495cb81030f7424c5d62a518f9b469fa8",
+      "actual_sha256": "74e8c4b845e73c085a139777edb526b495cb81030f7424c5d62a518f9b469fa8",
+      "byte_identical": true,
+      "rows_excluding_header": 448,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S3_neoadjuvant_No/cohort_selected_patients.csv": {
+      "reference_sha256": "5b68d161148e7bdadd234771ff07765f269e4e5fa5434dff7ac01eaa2b3564e1",
+      "actual_sha256": "5b68d161148e7bdadd234771ff07765f269e4e5fa5434dff7ac01eaa2b3564e1",
+      "byte_identical": true,
+      "rows_excluding_header": 221,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S3_neoadjuvant_No/mutation_statistics.csv": {
+      "reference_sha256": "26403a250dc65f5271cf39582207eb4f4bdd240372bb619c812822a38d0a426f",
+      "actual_sha256": "26403a250dc65f5271cf39582207eb4f4bdd240372bb619c812822a38d0a426f",
+      "byte_identical": true,
+      "rows_excluding_header": 13,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S3_neoadjuvant_No/rppa_feature_tests.csv": {
+      "reference_sha256": "46c38bfea603be69d96dd1e3dc38d86f1a12a3244d5d94361f3812a87871374f",
+      "actual_sha256": "46c38bfea603be69d96dd1e3dc38d86f1a12a3244d5d94361f3812a87871374f",
+      "byte_identical": true,
+      "rows_excluding_header": 198,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S3_neoadjuvant_No/seed_candidates.csv": {
+      "reference_sha256": "8efe73b3ec40a3733fede4d4ca958296d37b0f16588db78d02cdc08fb502310a",
+      "actual_sha256": "8efe73b3ec40a3733fede4d4ca958296d37b0f16588db78d02cdc08fb502310a",
+      "byte_identical": true,
+      "rows_excluding_header": 14,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S3_neoadjuvant_No/seeds_frozen.csv": {
+      "reference_sha256": "acfebc45ea950f559e17f784c862e2e3209bed2cadffe4a0e21445f52fb383a4",
+      "actual_sha256": "acfebc45ea950f559e17f784c862e2e3209bed2cadffe4a0e21445f52fb383a4",
+      "byte_identical": true,
+      "rows_excluding_header": 9,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S7_all_samples/cohort_sample_log.csv": {
+      "reference_sha256": "ce8db4389eb82957bf5413db139ac4e11ebca25635df3d1546f5943f9fe50071",
+      "actual_sha256": "ce8db4389eb82957bf5413db139ac4e11ebca25635df3d1546f5943f9fe50071",
+      "byte_identical": true,
+      "rows_excluding_header": 448,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S7_all_samples/cohort_selected_patients.csv": {
+      "reference_sha256": "0b9f0979b6ddf762e5d47f9a8219a178275aadec5bf220b51075b74e0e8d6549",
+      "actual_sha256": "0b9f0979b6ddf762e5d47f9a8219a178275aadec5bf220b51075b74e0e8d6549",
+      "byte_identical": true,
+      "rows_excluding_header": 294,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S7_all_samples/mutation_statistics.csv": {
+      "reference_sha256": "0334e9644bff1a4b802c37d2f35a438cc1722815ae5f033709996cce3ec35998",
+      "actual_sha256": "0334e9644bff1a4b802c37d2f35a438cc1722815ae5f033709996cce3ec35998",
+      "byte_identical": true,
+      "rows_excluding_header": 13,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S7_all_samples/rppa_feature_tests.csv": {
+      "reference_sha256": "193b0cb8b0cb5ecdc569720ec1ec84035e4c908d4f66258a684e555723c56093",
+      "actual_sha256": "193b0cb8b0cb5ecdc569720ec1ec84035e4c908d4f66258a684e555723c56093",
+      "byte_identical": true,
+      "rows_excluding_header": 198,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S7_all_samples/seed_candidates.csv": {
+      "reference_sha256": "b8b20ffe55b1ce581ecb20b88a3665a7fd81be32dc60c70100272daf0b32ec06",
+      "actual_sha256": "b8b20ffe55b1ce581ecb20b88a3665a7fd81be32dc60c70100272daf0b32ec06",
+      "byte_identical": true,
+      "rows_excluding_header": 14,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S7_all_samples/seeds_frozen.csv": {
+      "reference_sha256": "556babad96f876b0049ff89e55c926994a0b0965d9fad9df792062685f7de33c",
+      "actual_sha256": "556babad96f876b0049ff89e55c926994a0b0965d9fad9df792062685f7de33c",
+      "byte_identical": true,
+      "rows_excluding_header": 12,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S8_uniform_weights/seeds_frozen.csv": {
+      "reference_sha256": "47d55a902077f75ffd90f6e0ad24da72d77af2046a6bedfb21d2138d894b2904",
+      "actual_sha256": "47d55a902077f75ffd90f6e0ad24da72d77af2046a6bedfb21d2138d894b2904",
+      "byte_identical": true,
+      "rows_excluding_header": 4,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S9_multigene_split/cohort_sample_log.csv": {
+      "reference_sha256": "cf00a0ac4fae81892c28d16e1f5aec21befad789f46239866fe3a3f20d5d4297",
+      "actual_sha256": "cf00a0ac4fae81892c28d16e1f5aec21befad789f46239866fe3a3f20d5d4297",
+      "byte_identical": true,
+      "rows_excluding_header": 448,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S9_multigene_split/cohort_selected_patients.csv": {
+      "reference_sha256": "417ede909fce395e22dc591a9d256b2acf09235180f109b467ab7e83fc7573f8",
+      "actual_sha256": "417ede909fce395e22dc591a9d256b2acf09235180f109b467ab7e83fc7573f8",
+      "byte_identical": true,
+      "rows_excluding_header": 231,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S9_multigene_split/mutation_statistics.csv": {
+      "reference_sha256": "9e94c45552e1186637003e5e61c9923a928f869f3bf48a314bdcacfa4fc3ae95",
+      "actual_sha256": "9e94c45552e1186637003e5e61c9923a928f869f3bf48a314bdcacfa4fc3ae95",
+      "byte_identical": true,
+      "rows_excluding_header": 13,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S9_multigene_split/rppa_feature_tests.csv": {
+      "reference_sha256": "a27fcbaff6b2f6da1156029b08ef37d22e626f2c0992e51860fdcff8496ebb22",
+      "actual_sha256": "a27fcbaff6b2f6da1156029b08ef37d22e626f2c0992e51860fdcff8496ebb22",
+      "byte_identical": true,
+      "rows_excluding_header": 198,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S9_multigene_split/seed_candidates.csv": {
+      "reference_sha256": "3f86c5f8a76e5b9e0d26cc4478058ab33c5316e75ad8b72dadad8107959334fd",
+      "actual_sha256": "3f86c5f8a76e5b9e0d26cc4478058ab33c5316e75ad8b72dadad8107959334fd",
+      "byte_identical": true,
+      "rows_excluding_header": 17,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    },
+    "S9_multigene_split/seeds_frozen.csv": {
+      "reference_sha256": "e632cc33ab7bff121b1f3302f05f68b5e7b7a6233c84fb446340f2b689cbb7e2",
+      "actual_sha256": "e632cc33ab7bff121b1f3302f05f68b5e7b7a6233c84fb446340f2b689cbb7e2",
+      "byte_identical": true,
+      "rows_excluding_header": 15,
+      "same_shape_and_header": true,
+      "different_cells": [],
+      "table_values_identical": true
+    }
+  },
+  "string_source_matches_locked_manifest": true,
+  "mapping_gates": {
+    "A1sens_strict_braf/M0": {
+      "seeds": 5,
+      "mapped": 5,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "A1sens_strict_braf/M1": {
+      "seeds": 6,
+      "mapped": 6,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "primary_metastasis/M0": {
+      "seeds": 4,
+      "mapped": 4,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "primary_metastasis/M1": {
+      "seeds": 5,
+      "mapped": 5,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S2_E_only/M0": {
+      "seeds": 3,
+      "mapped": 3,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S2_E_only/M1": {
+      "seeds": 4,
+      "mapped": 4,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S3_neoadjuvant_No/M0": {
+      "seeds": 4,
+      "mapped": 4,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S3_neoadjuvant_No/M1": {
+      "seeds": 5,
+      "mapped": 5,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S7_all_samples/M0": {
+      "seeds": 5,
+      "mapped": 5,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S7_all_samples/M1": {
+      "seeds": 7,
+      "mapped": 7,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S8_uniform_weights/M0": {
+      "seeds": 4,
+      "mapped": 4,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S9_multigene_split/M0": {
+      "seeds": 7,
+      "mapped": 7,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    },
+    "S9_multigene_split/M1": {
+      "seeds": 8,
+      "mapped": 8,
+      "unmapped": [],
+      "meets_minimum_2": true,
+      "status": "PASS"
+    }
+  },
+  "mapping_gate_pass": true,
+  "pytest": {
+    "tests": 31,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "pytest_pass": true,
+  "reproduction_pass": true,
+  "stage_B_execution_authorized": false,
+  "protocol_directory": "D:\\03-SCI-ACC药物重定位\\manuscript_revision\\plos_one_R1_20261018\\04_melanoma_protocol\\stageA_v0.3",
+  "verification_script_sha256": "8eaa3fca7eeb610989b04ce10551486e9db2455b3c5ff3b3d64095924a532a64"
+}

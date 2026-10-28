@@ -1,0 +1,7 @@
+{
+  "benchmark_draws": 100,
+  "seconds": 5.412989377975464,
+  "projected_seconds_2_arms_10000": 1082.5978755950928,
+  "projected_with_30pct_margin": 1407.3772382736206,
+  "note": "benchmark arm_index 99; no scientific output"
+}

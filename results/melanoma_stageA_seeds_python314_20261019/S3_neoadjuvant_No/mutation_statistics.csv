@@ -1,0 +1,14 @@
+gene,mutated_patients,denominator,fraction,eligible,G,R
+ARID2,11,100,0.11,yes,1,0.55
+BRAF,100,100,1,yes,1,1
+CDKN2A,14,100,0.14,yes,1,0.7
+DDX3X,8,100,0.08,no,0,0
+IDH1,3,100,0.03,no,0,0
+MAP2K1,8,100,0.08,no,0,0
+NF1,7,100,0.07,no,0,0
+NRAS,3,100,0.03,no,0,0
+PPP6C,5,100,0.05,no,0,0
+PTEN,15,100,0.15,yes,1,0.75
+RAC1,5,100,0.05,no,0,0
+RB1,4,100,0.04,no,0,0
+TP53,12,100,0.12,yes,1,0.6
