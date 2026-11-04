@@ -81,6 +81,22 @@ def check_locked(human: list[dict[str, str]], template: list[dict[str, str]]) ->
     return problems
 
 
+def structure_issues(path: Path) -> list[dict[str, object]]:
+    """Rows whose field count differs from the header (unquoted commas). Fields before the
+    first free-text column (strict_exclusion_reason) are unaffected; later ones may be shifted."""
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.reader(handle))
+    header = rows[0]
+    first_free = header.index("strict_exclusion_reason")
+    out = []
+    for r in rows[1:]:
+        if len(r) != len(header):
+            out.append({"record_id": r[0], "fields": len(r), "expected": len(header),
+                        "categorical_fields_affected": False,
+                        "note": f"unquoted comma; columns from position {first_free + 1} onward may be shifted"})
+    return out
+
+
 def vocabulary_issues(human: list[dict[str, str]]) -> list[dict[str, str]]:
     issues = []
     for row in human:
@@ -131,6 +147,9 @@ def main(argv=None) -> int:
     if problems:
         raise RuntimeError("locked file does not match the template: " + "; ".join(problems))
     issues = vocabulary_issues(human)
+    structure = structure_issues(args.human)
+    first_free = list(template[0]).index("strict_exclusion_reason")
+    assert all(list(template[0]).index(f) < first_free for f in FIELDS), "categorical fields must precede free text"
 
     by_drug = {r["drug"]: r for r in read_csv(REPO / "data" / "evidence" / "evidence_labels_v2.csv")}
     primary = [by_drug[h["drug"]] for h in human]
@@ -148,6 +167,7 @@ def main(argv=None) -> int:
     strict_negative = sorted(h["drug"] for h in human if norm(h["strict_binary_label"]) == "negative")
     report = {
         "locked_file_sha256": digest, "rows": len(human), "vocabulary_or_consistency_issues": issues,
+        "csv_structure_issues": structure,
         "access": {lv: sum(norm(h.get("access_level")) == lv for h in human) for lv in ("full_text", "abstract_only", "title_only", "none")},
         "human_strict_positive": strict_positive, "human_strict_negative": strict_negative,
         "primary": s_primary, "final_adjudicated": s_final, "claude_model_audit": s_claude,
@@ -160,7 +180,9 @@ def main(argv=None) -> int:
         w.writeheader()
         w.writerows(d_primary + d_final + d_claude)
     lines = ["# Independent human classification of the 19 evidence records", "",
-             f"Locked file SHA-256: `{digest}`. Vocabulary/consistency issues: {len(issues)}.", "",
+             f"Locked file SHA-256: `{digest}`. Vocabulary/consistency issues: {len(issues)}. "
+             f"Rows with unquoted commas: {', '.join(x['record_id'] for x in structure) or 'none'} "
+             "(categorical fields unaffected; free-text columns after strict_exclusion_reason may be shifted).", "",
              "| Field | vs primary curator | vs final adjudicated | vs Claude (model audit) |", "|---|---|---|---|"]
     for f in FIELDS:
         cell = lambda s: f"{s[f]['agree']}/{s[f]['n']} ({s[f]['exact_95ci'][0]:.3f}–{s[f]['exact_95ci'][1]:.3f})"

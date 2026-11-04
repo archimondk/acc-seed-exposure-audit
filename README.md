@@ -1,4 +1,4 @@
-# Seed exposure and normalization sensitivity in network-propagation drug ranking by gene-set averaging: an adrenocortical carcinoma audit
+# Seed exposure and normalization sensitivity in network-propagation drug ranking by gene-set averaging: an adrenocortical carcinoma audit with breast-cancer and melanoma comparisons
 
 ## Revision R1 (v1.1.0)
 
@@ -38,8 +38,14 @@ analyses.
 Anthropic Claude performed a protocol-locked, blinded, **model-based** second
 classification of 19 literature-evidence records. The exact Claude
 model/version was not recorded and could not be recovered from the saved
-prompt, output or file metadata. No independent human rereview was performed,
-and this repository makes no human inter-rater reliability claim. The
+prompt, output or file metadata. No independent human rereview was performed
+in the original analysis. During the R1 revision, an independent human
+pharmacist who had not been involved in the original curation and had not read
+the manuscript classified the same 19 records blind to all earlier labels; the
+locked file, agreement report and adjudicated R1 labels are in
+[`independent_review/human_R1_20261026/`](independent_review/human_R1_20261026/README.md).
+Agreement is reported as raw agreement with exact binomial intervals; no kappa
+statistic is claimed. The
 continuous `S_external` scores were not independently rescored and are used
 only for supplementary reprioritization, not as an independent validation
 endpoint.
@@ -206,8 +212,13 @@ content or upstream materials identified in `DATA_SOURCES.md`.
 ## Citation and release status
 
 Citation metadata are provided in `CITATION.cff`. The current archival release
-is [`v1.0.3`](https://github.com/archimondk/acc-seed-exposure-audit/releases/tag/v1.0.3),
-and its Zenodo concept DOI is
+is [`v1.1.0`](https://github.com/archimondk/acc-seed-exposure-audit/releases/tag/v1.1.0)
+(Zenodo version DOI
+[`10.5281/zenodo.23732096`](https://doi.org/10.5281/zenodo.23732096)); the
+original analyses correspond to
+[`v1.0.3`](https://github.com/archimondk/acc-seed-exposure-audit/releases/tag/v1.0.3)
+([`10.5281/zenodo.21838730`](https://doi.org/10.5281/zenodo.21838730)). The
+Zenodo concept DOI covering all versions is
 [`10.5281/zenodo.21824511`](https://doi.org/10.5281/zenodo.21824511). MIT and
 CC BY 4.0 apply to author-owned code and author-generated data/documentation,
 respectively, with the third-party data restrictions described above.

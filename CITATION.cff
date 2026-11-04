@@ -14,7 +14,7 @@ license: MIT
 authors:
   - family-names: Zhang
     given-names: Han
-    affiliation: Chengdu First People's Hospital
+    affiliation: Chengdu Integrated TCM & Western Medicine Hospital
   - family-names: Xia
     given-names: Yuhang
     affiliation: >-
@@ -22,13 +22,13 @@ authors:
       University Hospital, Sichuan University
   - family-names: Mo
     given-names: Zhenhan
-    affiliation: Chengdu First People's Hospital
+    affiliation: Chengdu Integrated TCM & Western Medicine Hospital
   - family-names: Zhang
     given-names: Yujing
-    affiliation: Chengdu First People's Hospital
+    affiliation: Chengdu Integrated TCM & Western Medicine Hospital
   - family-names: Yang
     given-names: Haixia
-    affiliation: Chengdu First People's Hospital
+    affiliation: Chengdu Integrated TCM & Western Medicine Hospital
 abstract: >-
   Code, protocols, derived data and audit records for evaluating seed exposure,
   topology and normalization sensitivity in gene-set-averaged network-

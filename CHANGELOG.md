@@ -1,11 +1,25 @@
-# v1.1.0 — R1 revision, prepared 2026-10-28
+# Changelog
+
+## Unreleased — 2026-11-04
+
+- Metadata and documentation only; no code path, result or frozen file changed.
+- Updated the English name of affiliation 1 in `CITATION.cff` and
+  `.zenodo.json` to the institution's official form (Chengdu Integrated TCM &
+  Western Medicine Hospital), matching the revised manuscript.
+- README: full revised title; evidence-review provenance now distinguishes the
+  original model-based classification from the independent human rereview
+  added in R1; citation section points to v1.1.0 and its version DOI.
+- `analysis/human_rereview_comparison.py`: synchronized with the version that
+  generated the archived R1 agreement report (adds the CSV structure check that
+  reports the unquoted commas in rows B07 and B16). Agreement counts and the
+  disagreement table are unchanged.
+
+## 1.1.0 — 2026-10-28
 
 Adds melanoma audit implementation and aggregate outputs, S4–S6 branches,
 124-drug comparison, ACC diagnostics and independent human evidence review.
 Preserves original numerical results, labels and frozen protocol files.
 Clarifies public timestamp limits and third-party redistribution boundaries.
-
-# Changelog
 
 ## 1.0.3 — 2026-08-07
 
